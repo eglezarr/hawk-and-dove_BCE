@@ -3,3 +3,8 @@ pandas
 numpy
 pyyaml
 python-dotenv
+
+# Bloque 3 · app y procesado de vídeo
+streamlit>=1.45
+altair
+opencv-python-headless

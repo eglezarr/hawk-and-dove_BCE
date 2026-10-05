@@ -1,0 +1,13 @@
+variable,year,value,unit,source
+hicp,2026,2.1,pct,example
+hicp,2027,1.9,pct,example
+hicp,2028,2.0,pct,example
+hicp_ex_energy_food,2026,2.4,pct,example
+hicp_ex_energy_food,2027,2.0,pct,example
+hicp_ex_energy_food,2028,1.9,pct,example
+gdp,2026,1.0,pct,example
+gdp,2027,1.2,pct,example
+gdp,2028,1.4,pct,example
+unemployment,2026,6.3,pct,example
+unemployment,2027,6.2,pct,example
+unemployment,2028,6.0,pct,example
