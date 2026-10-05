@@ -5,11 +5,13 @@ igual desde notebooks, scripts o la app, sin depender de la carpeta desde la que
 se ejecuten.
 """
 from pathlib import Path
+from dotenv import load_dotenv
 
 import yaml
 
 # Raíz del repositorio: la carpeta que contiene src/
 ROOT = Path(__file__).resolve().parents[1]
+load_dotenv(ROOT / ".env")  # carga las claves de .env como variables de entorno (p. ej., HF_TOKEN)
 
 DATA_DIR = ROOT / "data"
 EVENTS_DIR = DATA_DIR / "events"    # una subcarpeta por rueda de prensa (AAAA-MM-DD)
