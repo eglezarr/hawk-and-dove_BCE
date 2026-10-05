@@ -1,0 +1,4 @@
+# Dependencias de los notebooks de benchmark (incluye las de la app)
+-r requirements.txt
+ipykernel
+matplotlib

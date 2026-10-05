@@ -1,0 +1,5 @@
+# Dependencias de la app (solo los modelos ganadores). Cada bloque añade las suyas.
+pandas
+numpy
+pyyaml
+python-dotenv

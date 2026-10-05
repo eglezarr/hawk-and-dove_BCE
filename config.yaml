@@ -1,0 +1,16 @@
+# Configuración común del proyecto. Las rutas se definen en src/config.py.
+
+reference_event: "2026-09-10"   # rueda de prensa sobre la que desarrollamos
+
+events_to_process: []           # las 6-10 ruedas de la demo (AAAA-MM-DD), se rellena en la integración
+
+models:                         # cada bloque anota aquí el ganador de cada etapa
+  asr: null
+  diarization: null
+  voice_emotion: null
+  tts: null
+  face: null
+  charts: null
+  stance: null
+  llm: null
+  embeddings: null

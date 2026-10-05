@@ -1,0 +1,17 @@
+# Entorno y cachés
+.venv/
+__pycache__/
+*.egg-info/
+.ipynb_checkpoints/
+.DS_Store
+
+# Secretos: las claves van en .env, nunca en git
+.env
+
+# Medios pesados: se descargan con scripts/
+data/raw/
+*.mp4
+*.wav
+*.mp3
+# Excepción: las píldoras de audio de las ruedas procesadas (necesarias para la demo)
+!data/events/**/*.mp3
