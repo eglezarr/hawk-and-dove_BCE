@@ -1,0 +1,33 @@
+{
+  "event_date": "2026-09-10",
+  "stance": {
+    "score": 0.32,
+    "label": "slightly hawkish",
+    "score_statement": 0.10,
+    "score_qa": 0.38,
+    "percentile_vs_history": 78
+  },
+  "voice": {
+    "arousal_mean": 0.61,
+    "arousal_z_vs_history": 0.8
+  },
+  "face": {
+    "valence_mean": -0.05,
+    "label": "neutral"
+  },
+  "key_moments": [
+    {"start": 1421.0, "end": 1432.0, "reason": "[example] Hawkish sentence with high vocal arousal"},
+    {"start": 1865.0, "end": 1874.0, "reason": "[example] Remark on financial stability"}
+  ],
+  "briefing": "[Example briefing] Main message on inflation [23:41]. Nuance on growth [23:52]. Signal on financial stability [31:05].",
+  "briefing_tts": "[Example briefing] Main message on inflation. Nuance on growth. Signal on financial stability.",
+  "citations": [
+    {"label": "23:41", "start": 1421.0, "end": 1432.0},
+    {"label": "23:52", "start": 1432.0, "end": 1440.5},
+    {"label": "31:05", "start": 1865.0, "end": 1874.0}
+  ],
+  "generated_with": {
+    "stance_model": "provisional",
+    "llm": "provisional"
+  }
+}

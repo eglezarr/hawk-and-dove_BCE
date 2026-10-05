@@ -1,0 +1,7 @@
+start,end,speaker,section,text,label,p_hawkish,p_neutral,p_dovish,score,relevant
+62.0,71.5,presidenta,statement,"[example] Statement sentence on the policy rate decision.",neutral,0.20,0.70,0.10,0.10,True
+1421.0,1432.0,presidenta,qa,"[example] Answer sentence on inflation risks.",hawkish,0.81,0.15,0.04,0.77,True
+1432.0,1440.5,presidenta,qa,"[example] Answer sentence on growth.",neutral,0.12,0.80,0.08,0.04,True
+1447.0,1455.0,presidenta,qa,"[example] Answer sentence on the labour market.",dovish,0.06,0.30,0.64,-0.58,True
+1455.0,1458.0,presidenta,qa,"[example] Thank you for your question.",neutral,0.05,0.90,0.05,0.00,False
+1865.0,1874.0,vicepresidente,qa,"[example] Answer sentence on financial stability.",neutral,0.15,0.75,0.10,0.05,True
