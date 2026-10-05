@@ -78,7 +78,7 @@ def timeline(event: str, sentences: pd.DataFrame | None) -> None:
 
     face = data.load_csv(event, "face.csv")
     if face is not None:
-        face = face[face["face_detected"].astype(bool)].copy()
+        face = face[face["face_detected"].astype(bool) & (face["person"] == "presidenta")].copy()
         face["valence_smooth"] = face["valence"].rolling(5, min_periods=1, center=True).mean()
         charts.append(alt.Chart(face).mark_line(color="#d35400").encode(
             x=x, y=alt.Y("valence_smooth:Q", title="face valence", scale=alt.Scale(domain=[-1, 1]))) + cursor)

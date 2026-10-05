@@ -8,6 +8,8 @@ python-dotenv
 streamlit>=1.45
 altair
 opencv-python-headless
+hsemotion-onnx
+onnxruntime
 
 # Descarga de vídeos (scripts/download_videos.py)
 yt-dlp

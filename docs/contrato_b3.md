@@ -4,13 +4,13 @@ Ficheros que el bloque 3 entrega a los demás bloques. Los ficheros de ejemplo t
 
 ## `data/events/<fecha>/face.csv`
 
-Una fila por segundo de vídeo. El vídeo se convierte en fotogramas (1 por segundo) y cada fotograma se analiza como una imagen; solo se analiza la expresión cuando hay una cara del panel en primer plano.
+Una fila por segundo de vídeo. El vídeo se convierte en fotogramas (1 por segundo) y cada fotograma se analiza como una imagen; solo se analiza la expresión cuando hay una cara en primer plano. Se genera con `python -m src.vision.face <fecha> --backend <modelo>`.
 
 | Columna | Tipo | Descripción |
 |---|---|---|
 | `start`, `end` | float | Segundos desde el inicio del vídeo (`end = start + 1`) |
 | `face_detected` | bool | `True` si hay una cara del panel en primer plano; si es `False`, el resto de columnas va vacío |
-| `person` | str | `presidenta` / `vicepresidente`; vacío si no se identifica |
+| `person` | str | `presidenta` si la cara coincide con sus fotos de referencia (`data/references/presidenta/`), `otro` si no (p. ej., el gobernador anfitrión que abre la rueda) |
 | `shot_type` | str | `closeup` (primer plano) / `wide` (plano general o sin cara) / `other` |
 | `valence` | float | En [−1, 1]; negativo = expresión desagradable o tensa, positivo = agradable |
 | `arousal` | float | En [−1, 1]; negativo = calmada, positivo = activada |
@@ -19,10 +19,12 @@ Una fila por segundo de vídeo. El vídeo se convierte en fotogramas (1 por segu
 | `au12_lip_corner_puller` | float | Intensidad en [0, 1] de la sonrisa |
 | `au24_lip_pressor` | float | Intensidad en [0, 1] de los labios apretados (tensión) |
 
+Las columnas `au*` van vacías si el modelo elegido no estima Action Units (HSEmotion no lo hace; py-feat sí).
+
 Notas para quien cruce este fichero:
 
 - Una banquera central sale «neutral» casi todo el tiempo, así que las probabilidades y los Action Units son más útiles que la emoción ganadora. Lo más informativo es la **desviación respecto a su propia media** en las ruedas procesadas.
-- Para agregar en la ventana de una frase (`signals.csv` del bloque 2), basta con la media de las filas con `face_detected = True` que solapan con la frase; si no hay ninguna, el valor queda vacío.
+- Para agregar en la ventana de una frase (`signals.csv` del bloque 2), basta con la media de las filas con `face_detected = True` y `person = presidenta` que solapan con la frase; si no hay ninguna, el valor queda vacío. Ojo: durante las preguntas la realización enfoca a los periodistas, que salen como `otro` y no deben contar.
 
 ## `data/events/<fecha>/projections.csv`
 

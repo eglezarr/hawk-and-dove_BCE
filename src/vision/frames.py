@@ -11,8 +11,9 @@ import numpy as np
 def iter_frames(video_path: str, fps: float = 1.0) -> Iterator[tuple[float, np.ndarray]]:
     """Recorre el vídeo y devuelve (segundo, fotograma RGB) cada 1/fps segundos.
 
-    Salta directamente a cada instante en lugar de decodificar todo el vídeo, así
-    que una rueda de una hora a 1 fps son unas 3.600 lecturas.
+    Lee el vídeo de forma secuencial: grab() avanza sin decodificar la imagen y solo
+    se decodifica el fotograma que toca. Es mucho más rápido que saltar con
+    CAP_PROP_POS_MSEC, que obliga a volver al fotograma clave anterior en cada salto.
     """
     import cv2  # import diferido: solo hace falta al procesar vídeo, no en la app
 
@@ -20,16 +21,16 @@ def iter_frames(video_path: str, fps: float = 1.0) -> Iterator[tuple[float, np.n
     if not cap.isOpened():
         raise FileNotFoundError(f"No se puede abrir el vídeo: {video_path}")
     try:
-        n_frames = cap.get(cv2.CAP_PROP_FRAME_COUNT)
         video_fps = cap.get(cv2.CAP_PROP_FPS) or 25.0
-        duration = n_frames / video_fps
-        t = 0.0
-        while t < duration:
-            cap.set(cv2.CAP_PROP_POS_MSEC, t * 1000)
-            ok, frame = cap.read()
-            if not ok:
-                break
-            yield t, cv2.cvtColor(frame, cv2.COLOR_BGR2RGB)
-            t += 1.0 / fps
+        step = 1.0 / fps
+        next_t, i = 0.0, 0
+        while cap.grab():
+            t = i / video_fps
+            if t + 1e-6 >= next_t:
+                ok, frame = cap.retrieve()
+                if ok:
+                    yield round(next_t, 3), cv2.cvtColor(frame, cv2.COLOR_BGR2RGB)
+                next_t += step
+            i += 1
     finally:
         cap.release()
