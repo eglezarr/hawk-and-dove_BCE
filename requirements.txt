@@ -3,3 +3,7 @@ pandas
 numpy
 pyyaml
 python-dotenv
+requests
+beautifulsoup4
+pysbd
+pyarrow
