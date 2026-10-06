@@ -2,3 +2,12 @@
 -r requirements.txt
 ipykernel
 matplotlib
+datasets
+openpyxl
+torch
+transformers
+sentence-transformers
+scikit-learn
+sentencepiece
+protobuf
+mlx-lm; sys_platform == "darwin"

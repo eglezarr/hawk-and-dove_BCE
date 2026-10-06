@@ -11,6 +11,6 @@ models:                         # cada bloque anota aquí el ganador de cada eta
   tts: null
   face: null
   charts: null
-  stance: null
+  stance: mlx-community/Qwen3-8B-4bit
   llm: null
   embeddings: null
