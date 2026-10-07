@@ -1,0 +1,101 @@
+{
+  "event_date": "2026-02-05",
+  "stance": {
+    "score": 0.032,
+    "label": "neutral",
+    "score_statement": 0.062,
+    "score_qa": 0.001,
+    "percentile_vs_history": 42,
+    "percentile_statement": 54,
+    "percentile_qa": 26,
+    "history_size": 50,
+    "decision": "mantenimiento",
+    "previous_date": "2025-12-18",
+    "previous_percentile": 59
+  },
+  "voice": null,
+  "face": null,
+  "key_moments": [
+    {
+      "start": null,
+      "end": null,
+      "sentence_id": 35,
+      "speaker": "presidenta",
+      "text": "Negotiated wage growth and forward-looking indicators, such as the ECB’s wage tracker and surveys on wage expectations, point to a continued moderation in labour costs.",
+      "score": 0.993,
+      "reason": "Hawkish signal in the statement"
+    },
+    {
+      "start": null,
+      "end": null,
+      "sentence_id": 46,
+      "speaker": "presidenta",
+      "text": "Inflation could turn out to be lower if tariffs reduce demand for euro area exports by more than expected and if countries with overcapacity increase further their exports to the euro area.",
+      "score": -0.99,
+      "reason": "Dovish signal in the statement"
+    },
+    {
+      "start": null,
+      "end": null,
+      "sentence_id": 49,
+      "speaker": "presidenta",
+      "text": "By contrast, inflation could turn out to be higher if there were a persistent upward shift in energy prices, or if more fragmented global supply chains pushed up import prices, curtailed the supply of critical raw materials and added to capacity constraints in the euro area economy.",
+      "score": 1.0,
+      "reason": "Hawkish signal in the statement"
+    },
+    {
+      "start": null,
+      "end": null,
+      "sentence_id": 137,
+      "speaker": "presidenta",
+      "text": "But it is also a fact that inflation is moving gradually down to our target, and we see it at target in the medium term.",
+      "score": -0.808,
+      "reason": "Dovish signal in the Q&A"
+    }
+  ],
+  "briefing": "The ECB kept its key interest rates unchanged. The Hawk & Dove stance index rates the press conference as neutral: it ranks at the 42nd percentile of the 50 press conferences held since December 2019, down from the 59th percentile at the previous meeting on 18 December 2025. The monetary policy statement ranks at the 54th percentile and the answers in the Q&A at the 26th.\n\nThe ECB expects inflation to stabilise at its two per cent target in the medium term [1]. The economy remains resilient in a challenging global environment, driven by low unemployment, solid private sector balance sheets, and supportive effects of past interest rate cuts [1]. The ECB is determined to ensure that inflation stabilises at its two per cent target in the medium term, following a data-dependent and meeting-by-meeting approach to determining the appropriate monetary policy stance [2].\n\nThe ECB highlighted the risks of a renewed increase in uncertainty, a deterioration in global financial market sentiment, further frictions in international trade, and geopolitical tensions, particularly Russia's unjustified war against Ukraine [3]. The ECB also highlighted the risks of inflation turning out to be lower if tariffs reduce demand for euro area exports by more than expected, or if a stronger euro brings inflation down beyond current expectations [4].",
+  "briefing_tts": "The ECB kept its key interest rates unchanged. The Hawk & Dove stance index rates the press conference as neutral: it ranks at the 42nd percentile of the 50 press conferences held since December 2019, down from the 59th percentile at the previous meeting on 18 December 2025. The monetary policy statement ranks at the 54th percentile and the answers in the Q and A at the 26th.\n\nThe ECB expects inflation to stabilise at its two per cent target in the medium term. The economy remains resilient in a challenging global environment, driven by low unemployment, solid private sector balance sheets, and supportive effects of past interest rate cuts. The ECB is determined to ensure that inflation stabilises at its two per cent target in the medium term, following a data-dependent and meeting-by-meeting approach to determining the appropriate monetary policy stance.\n\nThe ECB highlighted the risks of a renewed increase in uncertainty, a deterioration in global financial market sentiment, further frictions in international trade, and geopolitical tensions, particularly Russia's unjustified war against Ukraine. The ECB also highlighted the risks of inflation turning out to be lower if tariffs reduce demand for euro area exports by more than expected, or if a stronger euro brings inflation down beyond current expectations.",
+  "citations": [
+    {
+      "date": "2026-02-05",
+      "source": "ECB press conference, 5 February 2026. Monetary policy statement",
+      "start": null,
+      "end": null,
+      "snippet": "The Governing Council today decided to keep the three key ECB interest rates unchanged. Our updated assessment reconfirms that inflation should stabilise at our two per cent target in the medium term. The economy remains resilient in a challenging global environment. Low unemployment, solid private sector balance sheets, the gradual rollout of public spending on defence and infrastructure and the…",
+      "url": "https://www.ecb.europa.eu/press/press_conference/monetary-policy-statement/2026/html/ecb.is260205~50858cb986.en.html",
+      "sentence_id": 5
+    },
+    {
+      "date": "2026-02-05",
+      "source": "ECB press conference, 5 February 2026. Monetary policy statement",
+      "start": null,
+      "end": null,
+      "snippet": "We are determined to ensure that inflation stabilises at our two per cent target in the medium term. We will follow a data-dependent and meeting-by-meeting approach to determining the appropriate monetary policy stance. In particular, our interest rate decisions will be based on our assessment of the inflation outlook and the risks surrounding it, in light of the incoming economic and financial…",
+      "url": "https://www.ecb.europa.eu/press/press_conference/monetary-policy-statement/2026/html/ecb.is260205~50858cb986.en.html",
+      "sentence_id": 10
+    },
+    {
+      "date": "2026-02-05",
+      "source": "ECB press conference, 5 February 2026. Monetary policy statement (Risk assessment)",
+      "start": null,
+      "end": null,
+      "snippet": "The euro area continues to face a volatile global policy environment. A renewed increase in uncertainty could weigh on demand. A deterioration in global financial market sentiment could also dampen demand. Further frictions in international trade could disrupt supply chains, reduce exports and weaken consumption and investment. Geopolitical tensions, in particular Russia’s unjustified war against…",
+      "url": "https://www.ecb.europa.eu/press/press_conference/monetary-policy-statement/2026/html/ecb.is260205~50858cb986.en.html",
+      "sentence_id": 38
+    },
+    {
+      "date": "2026-02-05",
+      "source": "ECB press conference, 5 February 2026. Monetary policy statement (Risk assessment)",
+      "start": null,
+      "end": null,
+      "snippet": "The outlook for inflation continues to be more uncertain than usual on account of the volatile global policy environment. Inflation could turn out to be lower if tariffs reduce demand for euro area exports by more than expected and if countries with overcapacity increase further their exports to the euro area. Moreover, a stronger euro could bring inflation down beyond current expectations. More…",
+      "url": "https://www.ecb.europa.eu/press/press_conference/monetary-policy-statement/2026/html/ecb.is260205~50858cb986.en.html",
+      "sentence_id": 45
+    }
+  ],
+  "disclaimer": "For information purposes only. This is not investment advice.",
+  "generated_with": {
+    "stance_model": "mlx-community/Qwen3-8B-4bit",
+    "llm": "mlx-community/Meta-Llama-3.1-8B-Instruct-4bit"
+  }
+}
