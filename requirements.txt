@@ -25,7 +25,7 @@ ffmpeg-python
 # --- Bloque 3: app y procesado de vídeo ---
 streamlit>=1.45
 altair
-opencv-python-headless
+opencv-python  # versión completa: la exige hsemotion-onnx; no añadir también la headless, se pisan
 hsemotion-onnx
 onnxruntime
 
