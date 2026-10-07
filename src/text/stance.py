@@ -28,3 +28,31 @@ def etiquetar(probs: pd.DataFrame) -> pd.DataFrame:
     salida["score"] = probs["p_hawkish"] - probs["p_dovish"]
     salida["relevant"] = cuatro.idxmax(axis=1) != "p_irrelevant"
     return salida
+
+
+def puntuacion_rueda(frases: pd.DataFrame) -> dict:
+    """Puntuación de una rueda de prensa a partir de la postura de sus frases.
+
+    - Cada frase pesa su probabilidad de ser relevante (1 − p_irrelevant): un saludo pesa
+      casi 0 y una frase con postura clara, casi 1. Así, los errores de la detección de
+      relevancia se atenúan en lugar de convertirse en exclusiones. En los modelos sin la
+      clase "irrelevant", todas las frases pesan 1.
+    - score_statement y score_qa: media ponderada de la declaración y de las respuestas.
+    - score: 50 % declaración y 50 % respuestas, para que la puntuación no dependa de cuánto
+      dure el turno de preguntas y sea comparable entre ruedas.
+    """
+    peso = 1.0 - frases["p_irrelevant"].fillna(0.0)
+
+    def media_ponderada(mascara: pd.Series) -> float:
+        w = peso[mascara]
+        return float((w * frases.loc[mascara, "score"]).sum() / w.sum()) if w.sum() > 0 else float("nan")
+
+    score_statement = media_ponderada(frases["section"] == "statement")
+    score_qa = media_ponderada(frases["section"] == "qa")
+    partes = [s for s in (score_statement, score_qa) if s == s]   # descarta NaN si falta una parte
+    return {
+        "score": sum(partes) / len(partes) if partes else float("nan"),
+        "score_statement": score_statement,
+        "score_qa": score_qa,
+        "n_sentences": len(frases),
+    }

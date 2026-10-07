@@ -15,7 +15,7 @@ Una fila por frase del panel (presidenta y vicepresidente). No incluye las pregu
 | `label` | str | `hawkish` / `neutral` / `dovish` |
 | `p_hawkish`, `p_neutral`, `p_dovish` | float | Probabilidades del clasificador (suman 1) |
 | `score` | float | `p_hawkish − p_dovish`, en [−1, 1]; positivo = hawkish |
-| `relevant` | bool | `False` si la frase no trata de política monetaria (saludos, fórmulas); no cuenta en las puntuaciones |
+| `relevant` | bool | `False` si la clase más probable es "irrelevant" (saludos, fórmulas); sirve para mostrarla atenuada. En las puntuaciones, cada frase pesa su probabilidad de ser relevante |
 
 ## `data/events/<fecha>/signals.csv`
 
@@ -33,7 +33,7 @@ Las mismas filas que `stance.csv`, con las señales de voz y cara agregadas en l
 Resumen del evento e informe:
 
 - `event_date`: fecha de la rueda de prensa.
-- `stance`: `score` (media de las frases relevantes), `label`, `score_statement`, `score_qa` y `percentile_vs_history`.
+- `stance`: `score`, `label`, `score_statement`, `score_qa` y `percentile_vs_history`. `score_statement` y `score_qa` son la media de la puntuación de las frases de cada parte, ponderada por la probabilidad de que cada frase sea relevante; `score` pondera al 50 % ambas partes, para que no dependa de la duración del turno de preguntas.
 - `voice`: `arousal_mean` y `arousal_z_vs_history` (desviación respecto a la media histórica de la presidenta).
 - `face`: `valence_mean` y `label`.
 - `key_moments`: lista de `{start, end, reason}`.
@@ -44,13 +44,15 @@ Resumen del evento e informe:
 
 ## `data/history/stance_by_conference.csv`
 
-Una fila por rueda de prensa de la era Lagarde, calculada solo con texto. Alimenta la pestaña Histórico.
+Una fila por rueda de prensa de la era Lagarde, calculada solo con texto. Alimenta la pestaña Histórico. La postura frase a frase de todo el histórico está en `data/history/stance_sentences.parquet`.
 
 | Columna | Tipo | Descripción |
 |---|---|---|
 | `date` | str | `AAAA-MM-DD` |
 | `score`, `score_statement`, `score_qa` | float | Igual que en `summary.json` |
-| `n_sentences` | int | Frases relevantes clasificadas |
+| `n_sentences` | int | Frases del panel clasificadas |
+| `decision` | str | Decisión de tipos de la rueda: `subida` / `bajada` / `mantenimiento` |
+| `percentile` | int | Porcentaje de ruedas del histórico con una puntuación igual o inferior |
 | `url` | str | Enlace a la transcripción oficial |
 
 ## Función `responder` (`src/text/rag.py`)
