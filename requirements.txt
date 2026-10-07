@@ -10,3 +10,12 @@ pyarrow
 rank-bm25
 sentence-transformers
 mlx-lm; sys_platform == "darwin"
+
+# --- Bloque 1: Audio ---
+torch
+torchaudio
+transformers
+pyannote.audio
+kokoro>=0.8
+soundfile
+ffmpeg-python

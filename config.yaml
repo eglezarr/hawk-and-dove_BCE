@@ -5,10 +5,10 @@ reference_event: "2026-09-10"   # rueda de prensa sobre la que desarrollamos
 events_to_process: []           # las 6-10 ruedas de la demo (AAAA-MM-DD), se rellena en la integración
 
 models:                         # cada bloque anota aquí el ganador de cada etapa
-  asr: null
-  diarization: null
-  voice_emotion: null
-  tts: null
+  asr: openai/whisper-large-v3-turbo
+  diarization: pyannote/speaker-diarization-3.1
+  voice_emotion: audeering/wav2vec2-large-robust-12-ft-emotion-msp-dim
+  tts: hexgrad/Kokoro-82M
   face: null
   charts: null
   stance: mlx-community/Qwen3-8B-4bit

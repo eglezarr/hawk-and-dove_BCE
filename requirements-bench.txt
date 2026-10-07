@@ -11,3 +11,7 @@ scikit-learn
 sentencepiece
 protobuf
 mlx-lm; sys_platform == "darwin"
+
+# --- Bloque 1: benchmarks ---
+jiwer
+yt-dlp
