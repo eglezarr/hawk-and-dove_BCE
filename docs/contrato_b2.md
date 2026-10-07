@@ -2,7 +2,7 @@
 
 Ficheros y funciones que el bloque 2 entrega a los demás bloques. Cualquier cambio de formato se avisa antes de hacerlo.
 
-**Estado:** `stance.csv` y `summary.json` son reales (versión solo texto) para las seis ruedas de 2026, de febrero a septiembre. Hasta que las frases se alineen con el vídeo (bloque 1), `start` y `end` están vacíos. `voice` y `face` valen `null` hasta la fase 5. `signals.csv` sigue siendo el ejemplo con valores ficticios.
+**Estado:** `stance.csv` y `summary.json` son reales (versión solo texto) para las seis ruedas de 2026, de febrero a septiembre. La fase 5 (`scripts/fusion_eventos.py`) rellena `start` y `end`, genera `signals.csv` y añade a `summary.json` la voz, la cara y los tiempos de citas y momentos clave en cuanto una rueda tiene `transcript.csv` (bloque 1); hasta entonces, `start` y `end` están vacíos, `voice` y `face` valen `null` y `signals.csv` es el ejemplo con valores ficticios.
 
 ## `data/events/<fecha>/stance.csv`
 
@@ -27,9 +27,10 @@ Las mismas filas que `stance.csv`, con las señales de voz y cara agregadas en l
 
 | Columna | Tipo | Descripción |
 |---|---|---|
-| `start` … `score` | | Igual que en `stance.csv` |
-| `voice_arousal`, `voice_valence` | float | Tono de voz en la ventana de la frase (bloque 1), media ponderada por solapamiento; vacío si no hay dato |
-| `face_valence`, `face_arousal` | float | Expresión facial en la ventana de la frase (bloque 3); vacío si no se detecta cara |
+| `start` … `weight` | | Igual que en `stance.csv` |
+| `voice_arousal`, `voice_valence` | float | Tono de voz en la ventana de la frase (bloque 1), media ponderada por los segundos de solapamiento; vacío si no hay dato |
+| `face_valence`, `face_arousal` | float | Expresión facial de la presidenta en la ventana de la frase (bloque 3), solo con fotogramas en los que sale en primer plano; vacío si no aparece |
+| `voice_arousal_z`, `face_valence_z` | float | Desviación respecto a la media del hablante en la rueda, en desviaciones típicas: lo informativo es el cambio, no el nivel |
 | `key_moment` | bool | `True` si la frase es uno de los momentos clave del informe |
 
 ## `data/events/<fecha>/summary.json`
@@ -42,9 +43,9 @@ Resumen del evento e informe:
   - `percentile_vs_history`, `percentile_statement`, `percentile_qa`: porcentaje de ruedas con una puntuación igual o inferior, calculado solo con las ruedas hasta la fecha del evento (`history_size` ruedas), sin información posterior.
   - `label`: tono relativo al histórico según el quintil de `percentile_vs_history`: `dovish` (≤ 20), `slightly dovish` (≤ 40), `neutral` (≤ 60), `slightly hawkish` (≤ 80) y `hawkish`.
   - `decision`: `subida` / `bajada` / `mantenimiento`. `previous_date` y `previous_percentile`: rueda anterior y su percentil.
-- `voice`: `arousal_mean` y `arousal_z_vs_history` (desviación respecto a la media histórica de la presidenta). `null` hasta la fase 5.
-- `face`: `valence_mean` y `label`. `null` hasta la fase 5.
-- `key_moments`: lista de `{start, end, sentence_id, speaker, text, score, reason}`: las dos frases relevantes más hawkish y las dos más dovish que no repiten literalmente la rueda anterior, en orden de aparición.
+- `voice`: `arousal_mean` (tono de voz medio de la presidenta) y `arousal_z_vs_history` (desviación frente a las demás ruedas procesadas; `null` con menos de tres). `null` si no hay `voice.csv`.
+- `face`: `valence_mean`, `arousal_mean`, `frames` (fotogramas con la presidenta en primer plano), `valence_z_vs_history` y `label` (`more positive than usual` / `usual` / `more tense than usual`, frente a las demás ruedas procesadas; `null` con menos de tres). `null` si no hay `face.csv`.
+- `key_moments`: lista de `{start, end, sentence_id, speaker, text, score, reason, signal}`, en orden de aparición. `signal = "stance"`: las dos frases relevantes más hawkish y las dos más dovish que no repiten literalmente la rueda anterior. Con voz o cara, hasta dos más: `signal = "voice"` (la voz más activada) y `signal = "face"` (la expresión facial más alejada de su media), si superan 1,5 desviaciones típicas.
 - `briefing`: informe en inglés en tres párrafos. El primero lo genera el código (decisión de tipos, tono y percentiles); los otros dos son cinco frases del LLM (mensajes clave y riesgos), cada una con marcadores `[n]` que remiten a `citations[n-1]`, igual que en el chat.
 - `briefing_tts`: el mismo texto sin marcadores y con las abreviaturas desarrolladas, para la voz sintética del bloque 1.
 - `citations`: lista de `{date, source, start, end, snippet, url, sentence_id}`: el formato de las citas del chat más la primera frase del fragmento citado. Cuando las frases tengan segundos, la app puede mostrar cada cita como `[mm:ss]` y saltar a ese punto del vídeo.
@@ -86,5 +87,7 @@ Una fila por rueda de prensa de la era Lagarde, calculada solo con texto. Alimen
 
 ## Lo que el bloque 2 necesita de los demás
 
-- **Bloque 1:** `transcript.csv` a nivel de frase (o segmento corto), con `speaker` y `section`; `voice.csv` con `start` y `end`.
-- **Bloque 3:** `face.csv` con `start` y `end`; `projections.csv`.
+- **Bloque 1:**
+  - `transcript.csv`: una fila por segmento (como los de Whisper) o, mejor aún, por palabra, con columnas `start`, `end` (segundos desde el inicio del vídeo) y `text` (o `word`). Basta con eso: el bloque 2 empareja este texto con la transcripción oficial para dar tiempo a cada frase. Con tiempos por palabra la alineación es más precisa.
+  - `voice.csv`: una fila por ventana de audio con `start`, `end`, `arousal` y `valence` (y `speaker` si se conoce).
+- **Bloque 3:** `face.csv` según `docs/contrato_b3.md`; `projections.csv`.
