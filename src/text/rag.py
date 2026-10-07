@@ -13,7 +13,7 @@ from pathlib import Path
 import numpy as np
 import pandas as pd
 
-from src.config import HISTORY_DIR, load_config
+from src.config import EVENTS_DIR, HISTORY_DIR, load_config
 from src.text.models import llm
 from src.text.models.retrieval_backends import crear_recuperador
 from src.text.models.stance_backends import mlx_disponible
@@ -146,10 +146,28 @@ def _mensaje(pregunta: str, recuperados: pd.DataFrame) -> str:
     return f"Excerpts:\n\n{extractos}\n\nQuestion: {pregunta}"
 
 
+@lru_cache(maxsize=None)
+def _tiempos_de_frases(fecha: str) -> dict:
+    """{sentence_id: (start, end)} de una rueda procesada con vídeo; vacío si no tiene tiempos."""
+    ruta = EVENTS_DIR / fecha / "stance.csv"
+    if not ruta.exists():
+        return {}
+    frases = pd.read_csv(ruta).dropna(subset=["start", "end"])
+    return {int(f.sentence_id): (round(float(f.start), 1), round(float(f.end), 1)) for f in frases.itertuples()}
+
+
 def cita(fragmento) -> dict:
-    """Cita en el formato del contrato. start y end se rellenan solo en las ruedas con vídeo."""
+    """Cita en el formato del contrato.
+
+    start y end (segundos del vídeo) solo existen en las ruedas cuyas frases se han situado en
+    el vídeo (fase 5); en el resto valen None y la cita enlaza a la transcripción oficial.
+    """
     texto = fragmento.text if len(fragmento.text) <= 400 else fragmento.text[:400].rsplit(" ", 1)[0] + "…"
-    return {"date": fragmento.date, "source": fragmento.header, "start": None, "end": None,
+    inicio, fin = None, None
+    frase = getattr(fragmento, "sentence_id", None)   # los índices anteriores a la fase 6 no lo tienen
+    if frase is not None and pd.notna(frase):
+        inicio, fin = _tiempos_de_frases(fragmento.date).get(int(frase), (None, None))
+    return {"date": fragmento.date, "source": fragmento.header, "start": inicio, "end": fin,
             "snippet": texto, "url": fragmento.url}
 
 
