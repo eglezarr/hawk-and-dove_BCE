@@ -16,32 +16,24 @@ from typing import Union
 import pandas as pd
 
 
-def diarizar(audio_path: Union[str, Path], modelo_id: str | None = None) -> pd.DataFrame:
-    """Ejecuta la diarización sobre un fichero de audio.
+def diarizar(self, audio_path: Union[str, Path]) -> list[dict]:
+    import torchaudio
+    
+    # Cargar audio con torchaudio (evita torchcodec)
+    waveform, sample_rate = torchaudio.load(str(audio_path))
+    audio_input = {"waveform": waveform, "sample_rate": sample_rate}
+    
+    diarization = self.pipeline(audio_input)
 
-    Parámetros
-    ----------
-    audio_path : ruta al fichero de audio.
-    modelo_id  : identificador del modelo de diarización.
-                 Si es None, usa el que indique config.yaml.
+    turnos = []
+    for turn, _, speaker in diarization.itertracks(yield_label=True):
+        turnos.append({
+            "start": round(turn.start, 2),
+            "end": round(turn.end, 2),
+            "speaker_id": speaker,
+        })
 
-    Devuelve
-    --------
-    DataFrame con columnas: start, end, speaker_id.
-    Cada fila es un turno de palabra con un identificador genérico
-    (SPEAKER_00, SPEAKER_01, …). La asignación a nombres reales
-    (presidenta, vicepresidente) se hace en asignar_hablantes().
-    """
-    from src.audio.models.diarization_backends import crear_backend_diarization
-    from src.config import load_config
-
-    if modelo_id is None:
-        modelo_id = load_config()["models"].get("diarization")
-
-    backend = crear_backend_diarization(modelo_id)
-    turnos = backend.diarizar(audio_path)  # list[dict] con start, end, speaker_id
-
-    return pd.DataFrame(turnos, columns=["start", "end", "speaker_id"])
+    return turnos
 
 
 def asignar_hablantes(

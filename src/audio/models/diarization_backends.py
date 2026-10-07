@@ -69,7 +69,7 @@ class PyannoteBackend(BackendDiarization):
                 "con acceso al modelo. Configúralo en .env"
             )
 
-        self.pipeline = Pipeline.from_pretrained(modelo_id, use_auth_token=hf_token)
+        self.pipeline = Pipeline.from_pretrained(modelo_id, token=hf_token)
 
         device = dispositivo()
         if device != "cpu":

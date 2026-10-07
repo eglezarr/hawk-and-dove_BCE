@@ -15,3 +15,4 @@ data/raw/
 *.mp3
 # Excepción: las píldoras de audio de las ruedas procesadas (necesarias para la demo)
 !data/events/**/*.mp3
+"Claude outputs/env" 
