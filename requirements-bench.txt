@@ -2,13 +2,25 @@
 -r requirements.txt
 ipykernel
 matplotlib
-psutil
 
-# Bloque 3 · candidato SigLIP zero-shot (benchmarks/b3_01_expresion_facial.ipynb)
-# En CPU basta con: pip install torch --index-url https://download.pytorch.org/whl/cpu
+# --- Bloque 2 ---
+datasets
+openpyxl
 torch
 transformers
+sentence-transformers
+scikit-learn
 sentencepiece
+protobuf
+mlx-lm; sys_platform == "darwin"
 
-# Bloque 3 · candidato py-feat (emociones + Action Units)
+# --- Bloque 1: benchmarks ---
+jiwer
+yt-dlp
+
+# --- Bloque 3 ---
+psutil
+# SigLIP zero-shot (torch, transformers y sentencepiece ya están arriba).
+# En CPU basta con: pip install torch --index-url https://download.pytorch.org/whl/cpu
+# py-feat: emociones + Action Units
 py-feat

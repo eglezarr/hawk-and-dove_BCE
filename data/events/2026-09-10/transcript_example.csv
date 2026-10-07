@@ -1,0 +1,11 @@
+start,end,speaker,section,text
+62.0,71.5,presidenta,statement,"Good afternoon. The Vice-President and I welcome you to our press conference."
+71.5,84.2,presidenta,statement,"The Governing Council today decided to keep the three key ECB interest rates unchanged."
+84.2,98.1,presidenta,statement,"Inflation has continued to decline, but domestic price pressures remain high."
+98.1,112.0,presidenta,statement,"We will continue to follow a data-dependent approach in determining the appropriate level and duration of restriction."
+350.0,365.0,vicepresidente,statement,"Let me add a few words on the economic outlook."
+1420.0,1425.0,periodista,qa,"My question is about the inflation outlook."
+1425.0,1440.5,presidenta,qa,"Thank you for your question. We see inflation gradually returning to our two per cent target."
+1440.5,1455.0,presidenta,qa,"However, there are upside risks from energy prices and wage growth."
+1860.0,1865.0,periodista,qa,"A question on financial stability."
+1865.0,1874.0,vicepresidente,qa,"Financial conditions remain broadly stable, though we monitor vulnerabilities closely."

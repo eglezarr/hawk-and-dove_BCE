@@ -1,0 +1,110 @@
+{
+  "event_date": "2026-03-19",
+  "stance": {
+    "score": 0.132,
+    "label": "slightly hawkish",
+    "score_statement": 0.209,
+    "score_qa": 0.055,
+    "percentile_vs_history": 67,
+    "percentile_statement": 71,
+    "percentile_qa": 47,
+    "history_size": 51,
+    "decision": "mantenimiento",
+    "previous_date": "2026-02-05",
+    "previous_percentile": 42
+  },
+  "voice": null,
+  "face": null,
+  "key_moments": [
+    {
+      "start": null,
+      "end": null,
+      "sentence_id": 4,
+      "speaker": "presidenta",
+      "text": "It will have a material impact on near-term inflation through higher energy prices.",
+      "score": 1.0,
+      "reason": "Hawkish signal in the statement"
+    },
+    {
+      "start": null,
+      "end": null,
+      "sentence_id": 15,
+      "speaker": "presidenta",
+      "text": "This is also higher than the path in the December projections, mainly owing to higher energy prices feeding into inflation excluding energy and food.",
+      "score": 1.0,
+      "reason": "Hawkish signal in the statement"
+    },
+    {
+      "start": null,
+      "end": null,
+      "sentence_id": 59,
+      "speaker": "presidenta",
+      "text": "The risks to the growth outlook are tilted to the downside, especially in the near term.",
+      "score": -1.0,
+      "reason": "Dovish signal in the statement"
+    },
+    {
+      "start": null,
+      "end": null,
+      "sentence_id": 75,
+      "speaker": "presidenta",
+      "text": "More volatile and risk-averse financial markets could weigh on demand and thereby lower inflation as well.",
+      "score": -0.996,
+      "reason": "Dovish signal in the statement"
+    }
+  ],
+  "briefing": "The ECB kept its key interest rates unchanged. The Hawk & Dove stance index rates the press conference as slightly hawkish: it ranks at the 67th percentile of the 51 press conferences held since December 2019, up from the 42nd percentile at the previous meeting on 5 February 2026. The monetary policy statement ranks at the 71st percentile and the answers in the Q&A at the 47th.\n\nThe ECB expects inflation to average 2.6 per cent in 2026, 2.0 per cent in 2027, and 2.1 per cent in 2028 [1]. The economy grew by 0.2 per cent in the fourth quarter of 2025, driven by stronger domestic demand, with households increasing their spending as real incomes rose and unemployment remained close to its historical low [2]. The risks to the growth outlook are tilted to the downside, especially in the near term, due to the war in the Middle East and a prolonged war could increase energy prices further and for longer than currently expected [3].\n\nThe risks to the inflation outlook are tilted to the upside, especially in the near term, due to a prolonged war in the Middle East, which could lead to a larger and longer-lasting upward shift in energy prices than currently expected [4]. The ECB is concerned about the opacity, lack of transparency, and leverage of private credit and private equity instruments, and is keen to see the work produced by the European Commission on reviewing EU merger rules [5].",
+  "briefing_tts": "The ECB kept its key interest rates unchanged. The Hawk & Dove stance index rates the press conference as slightly hawkish: it ranks at the 67th percentile of the 51 press conferences held since December 2019, up from the 42nd percentile at the previous meeting on 5 February 2026. The monetary policy statement ranks at the 71st percentile and the answers in the Q and A at the 47th.\n\nThe ECB expects inflation to average 2.6 per cent in 2026, 2.0 per cent in 2027, and 2.1 per cent in 2028. The economy grew by 0.2 per cent in the fourth quarter of 2025, driven by stronger domestic demand, with households increasing their spending as real incomes rose and unemployment remained close to its historical low. The risks to the growth outlook are tilted to the downside, especially in the near term, due to the war in the Middle East and a prolonged war could increase energy prices further and for longer than currently expected.\n\nThe risks to the inflation outlook are tilted to the upside, especially in the near term, due to a prolonged war in the Middle East, which could lead to a larger and longer-lasting upward shift in energy prices than currently expected. The ECB is concerned about the opacity, lack of transparency, and leverage of private credit and private equity instruments, and is keen to see the work produced by the European Commission on reviewing EU merger rules.",
+  "citations": [
+    {
+      "date": "2026-03-19",
+      "source": "ECB press conference, 19 March 2026. Monetary policy statement",
+      "start": null,
+      "end": null,
+      "snippet": "The new ECB staff projections exceptionally incorporate information up to 11 March, a later cut-off date than usual. In the baseline, headline inflation is seen to average 2.6 per cent in 2026, 2.0 per cent in 2027 and 2.1 per cent in 2028. Inflation has been revised up compared with the December projections, especially for 2026. This is because energy prices will be higher owing to the war in…",
+      "url": "https://www.ecb.europa.eu/press/press_conference/monetary-policy-statement/2026/html/ecb.is260319~93b1cbad97.en.html",
+      "sentence_id": 10
+    },
+    {
+      "date": "2026-03-19",
+      "source": "ECB press conference, 19 March 2026. Monetary policy statement (Economic activity)",
+      "start": null,
+      "end": null,
+      "snippet": "The economy grew by 0.2 per cent in the fourth quarter of 2025, driven by stronger domestic demand. Households increased their spending as real incomes rose and unemployment remained close to its historical low. Construction and housing renovation strengthened, and firms invested more, particularly in areas such as research and development, software and databases. Growth was no longer weighed…",
+      "url": "https://www.ecb.europa.eu/press/press_conference/monetary-policy-statement/2026/html/ecb.is260319~93b1cbad97.en.html",
+      "sentence_id": 28
+    },
+    {
+      "date": "2026-03-19",
+      "source": "ECB press conference, 19 March 2026. Monetary policy statement (Risk assessment)",
+      "start": null,
+      "end": null,
+      "snippet": "The risks to the growth outlook are tilted to the downside, especially in the near term. The war in the Middle East is a downside risk to the euro area economy, adding to the volatile global policy environment. A prolonged war could increase energy prices further and for longer than currently expected, and also weigh on confidence. These factors would erode incomes and make firms and households…",
+      "url": "https://www.ecb.europa.eu/press/press_conference/monetary-policy-statement/2026/html/ecb.is260319~93b1cbad97.en.html",
+      "sentence_id": 59
+    },
+    {
+      "date": "2026-03-19",
+      "source": "ECB press conference, 19 March 2026. Monetary policy statement (Risk assessment)",
+      "start": null,
+      "end": null,
+      "snippet": "The risks to the inflation outlook are tilted to the upside, especially in the near term. A prolonged war in the Middle East could lead to a larger and longer-lasting upward shift in energy prices than currently expected, raising euro area inflation further. This could be reinforced and become more persistent if inflation expectations and wage growth were to rise in response, if the energy price…",
+      "url": "https://www.ecb.europa.eu/press/press_conference/monetary-policy-statement/2026/html/ecb.is260319~93b1cbad97.en.html",
+      "sentence_id": 69
+    },
+    {
+      "date": "2026-03-19",
+      "source": "ECB press conference, 19 March 2026. Answer by the Vice-President",
+      "start": null,
+      "end": null,
+      "snippet": "And even lately you have seen that some of them have started to incorporate what they call continuity funds, continuation funds. It’s an indication that there were some problems in terms of the liquidity and the valuation of these assets. There is another issue that we have paid a lot of attention to and that is quite opaque and for which there is no transparency, and that is the leverage of…",
+      "url": "https://www.ecb.europa.eu/press/press_conference/monetary-policy-statement/2026/html/ecb.is260319~93b1cbad97.en.html",
+      "sentence_id": 196
+    }
+  ],
+  "disclaimer": "For information purposes only. This is not investment advice.",
+  "generated_with": {
+    "stance_model": "mlx-community/Qwen3-8B-4bit",
+    "llm": "mlx-community/Meta-Llama-3.1-8B-Instruct-4bit"
+  }
+}

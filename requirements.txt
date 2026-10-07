@@ -4,7 +4,25 @@ numpy
 pyyaml
 python-dotenv
 
-# Bloque 3 · app y procesado de vídeo
+# --- Bloque 2: Texto ---
+requests
+beautifulsoup4
+pysbd
+pyarrow
+rank-bm25
+sentence-transformers
+mlx-lm; sys_platform == "darwin"
+
+# --- Bloque 1: Audio ---
+torch
+torchaudio
+transformers
+pyannote.audio
+kokoro>=0.8
+soundfile
+ffmpeg-python
+
+# --- Bloque 3: app y procesado de vídeo ---
 streamlit>=1.45
 altair
 opencv-python-headless
