@@ -12,5 +12,6 @@ models:                         # cada bloque anota aquí el ganador de cada eta
   face: null
   charts: null
   stance: mlx-community/Qwen3-8B-4bit
-  llm: null
-  embeddings: null
+  llm: mlx-community/Qwen3-8B-4bit
+  report_llm: mlx-community/Meta-Llama-3.1-8B-Instruct-4bit
+  embeddings: BAAI/bge-m3

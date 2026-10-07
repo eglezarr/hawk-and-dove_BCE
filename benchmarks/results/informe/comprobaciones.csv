@@ -1,0 +1,13 @@
+modelo,fecha,palabras,frases,frases_con_cita,citas,cifras_sin_respaldo,detalle_cifras,recomendaciones,segundos
+mlx-community/Qwen3-8B-4bit,2026-02-05,175,5,5,5,0,,0,44.3
+mlx-community/Qwen3-8B-4bit,2026-03-19,166,5,5,5,0,,0,42.7
+mlx-community/Qwen3-8B-4bit,2026-04-30,148,5,5,5,0,,0,53.0
+mlx-community/Qwen3-8B-4bit,2026-06-11,188,5,5,4,0,,0,57.9
+mlx-community/Qwen3-8B-4bit,2026-07-23,153,5,5,5,0,,0,53.5
+mlx-community/Qwen3-8B-4bit,2026-09-10,169,5,5,4,0,,0,66.4
+mlx-community/Meta-Llama-3.1-8B-Instruct-4bit,2026-02-05,213,5,5,4,0,,0,52.6
+mlx-community/Meta-Llama-3.1-8B-Instruct-4bit,2026-03-19,245,5,5,5,0,,0,58.2
+mlx-community/Meta-Llama-3.1-8B-Instruct-4bit,2026-04-30,222,5,5,5,0,,0,70.8
+mlx-community/Meta-Llama-3.1-8B-Instruct-4bit,2026-06-11,197,5,5,5,0,,0,66.7
+mlx-community/Meta-Llama-3.1-8B-Instruct-4bit,2026-07-23,200,5,5,5,0,,0,60.2
+mlx-community/Meta-Llama-3.1-8B-Instruct-4bit,2026-09-10,189,5,5,4,0,,0,70.9

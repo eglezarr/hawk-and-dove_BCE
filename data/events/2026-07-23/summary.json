@@ -1,0 +1,110 @@
+{
+  "event_date": "2026-07-23",
+  "stance": {
+    "score": 0.096,
+    "label": "neutral",
+    "score_statement": 0.13,
+    "score_qa": 0.062,
+    "percentile_vs_history": 56,
+    "percentile_statement": 63,
+    "percentile_qa": 46,
+    "history_size": 54,
+    "decision": "mantenimiento",
+    "previous_date": "2026-06-11",
+    "previous_percentile": 77
+  },
+  "voice": null,
+  "face": null,
+  "key_moments": [
+    {
+      "start": null,
+      "end": null,
+      "sentence_id": 37,
+      "speaker": "presidenta",
+      "text": "While energy price inflation declined in June, its rise since the start of the conflict – and its impact on food, goods and services price inflation – is likely to keep inflation well above target into the first half of 2027.",
+      "score": 1.0,
+      "reason": "Hawkish signal in the statement"
+    },
+    {
+      "start": null,
+      "end": null,
+      "sentence_id": 41,
+      "speaker": "presidenta",
+      "text": "The risks to the growth outlook are to the downside.",
+      "score": -1.0,
+      "reason": "Dovish signal in the statement"
+    },
+    {
+      "start": null,
+      "end": null,
+      "sentence_id": 57,
+      "speaker": "presidenta",
+      "text": "Overall financial conditions have become slightly tighter since our previous meeting, consistent with the increase in the key ECB interest rates.",
+      "score": 1.0,
+      "reason": "Hawkish signal in the statement"
+    },
+    {
+      "start": null,
+      "end": null,
+      "sentence_id": 181,
+      "speaker": "presidenta",
+      "text": "Remember how fast energy prices went down after the announcement of the Memorandum of Understanding.",
+      "score": -0.988,
+      "reason": "Dovish signal in the Q&A"
+    }
+  ],
+  "briefing": "The ECB kept its key interest rates unchanged. The Hawk & Dove stance index rates the press conference as neutral: it ranks at the 56th percentile of the 54 press conferences held since December 2019, down from the 77th percentile at the previous meeting on 11 June 2026. The monetary policy statement ranks at the 63rd percentile and the answers in the Q&A at the 46th.\n\nThe ECB expects economic growth to remain modest in the near term, weighed down by the energy shock and related uncertainties [1]. The ECB's wage tracker and surveys on wage expectations continue to indicate moderate wage growth over the coming quarters [2]. The risks to the growth outlook are to the downside, with renewed disruption of energy supplies, a worsening of global financial market sentiment, or a tighter supply of credit potentially dampening demand [3].\n\nThe risks to the inflation outlook are to the upside, with the energy shock potentially intensifying further and its effects on other prices and wages being stronger than currently expected [4]. The ECB will balance the agility of the Central Bank with avoiding sudden shifts in direction, taking into account the uncertainty and volatility of the current situation [5].",
+  "briefing_tts": "The ECB kept its key interest rates unchanged. The Hawk & Dove stance index rates the press conference as neutral: it ranks at the 56th percentile of the 54 press conferences held since December 2019, down from the 77th percentile at the previous meeting on 11 June 2026. The monetary policy statement ranks at the 63rd percentile and the answers in the Q and A at the 46th.\n\nThe ECB expects economic growth to remain modest in the near term, weighed down by the energy shock and related uncertainties. The ECB's wage tracker and surveys on wage expectations continue to indicate moderate wage growth over the coming quarters. The risks to the growth outlook are to the downside, with renewed disruption of energy supplies, a worsening of global financial market sentiment, or a tighter supply of credit potentially dampening demand.\n\nThe risks to the inflation outlook are to the upside, with the energy shock potentially intensifying further and its effects on other prices and wages being stronger than currently expected. The ECB will balance the agility of the Central Bank with avoiding sudden shifts in direction, taking into account the uncertainty and volatility of the current situation.",
+  "citations": [
+    {
+      "date": "2026-07-23",
+      "source": "ECB press conference, 23 July 2026. Monetary policy statement (Economic activity)",
+      "start": null,
+      "end": null,
+      "snippet": "Forward-looking indicators suggest that economic growth will remain modest in the near term, weighed down by the energy shock and related uncertainties. Yet the fundamental drivers of medium-term growth remain intact. Private consumption, investment in new digital technologies, government spending on defence and infrastructure, and some recovery in exports should all contribute to overall growth…",
+      "url": "https://www.ecb.europa.eu/press/press_conference/monetary-policy-statement/2026/html/ecb.is260723~b6fadd48f4.en.html",
+      "sentence_id": 18
+    },
+    {
+      "date": "2026-07-23",
+      "source": "ECB press conference, 23 July 2026. Monetary policy statement (Inflation)",
+      "start": null,
+      "end": null,
+      "snippet": "The energy shock continues to feed into higher prices. It is becoming more expensive for firms to source inputs and they therefore expect to put up their selling prices. While developments in underlying inflation have remained contained, the full effects of the energy shock have yet to play out. The ECB’s wage tracker and surveys on wage expectations continue to indicate moderate wage growth over…",
+      "url": "https://www.ecb.europa.eu/press/press_conference/monetary-policy-statement/2026/html/ecb.is260723~b6fadd48f4.en.html",
+      "sentence_id": 30
+    },
+    {
+      "date": "2026-07-23",
+      "source": "ECB press conference, 23 July 2026. Monetary policy statement (Risk assessment)",
+      "start": null,
+      "end": null,
+      "snippet": "The risks to the growth outlook are to the downside. While the Memorandum of Understanding agreed between the United States and Iran in June constituted a first attempt to resolve the conflict, recent weeks have brought renewed setbacks and the geopolitical situation remains fragile. Renewed disruption of energy supplies could increase energy prices further and for longer than currently expected.…",
+      "url": "https://www.ecb.europa.eu/press/press_conference/monetary-policy-statement/2026/html/ecb.is260723~b6fadd48f4.en.html",
+      "sentence_id": 41
+    },
+    {
+      "date": "2026-07-23",
+      "source": "ECB press conference, 23 July 2026. Monetary policy statement (Risk assessment)",
+      "start": null,
+      "end": null,
+      "snippet": "The risks to the inflation outlook are to the upside. The energy shock could intensify further and its effects on other prices and wages could be stronger than currently expected. The longer energy prices stay high, the more likely they are to drive up broader inflation through indirect and second-round effects. Ongoing trade tensions could give rise to more fragmented global supply chains,…",
+      "url": "https://www.ecb.europa.eu/press/press_conference/monetary-policy-statement/2026/html/ecb.is260723~b6fadd48f4.en.html",
+      "sentence_id": 50
+    },
+    {
+      "date": "2026-07-23",
+      "source": "ECB press conference, 23 July 2026. Answer by the President",
+      "start": null,
+      "end": null,
+      "snippet": "I'm not sure exactly what you meant about our agility, but what I can assure you is that staff at the ECB is working flat out to absorb all the data, almost as they come, and to make sure that while sticking to principles of cut-off dates of the reaction function that we apply, they are still capable of absorbing all developments. And that's really a factor of the agility that we try to…",
+      "url": "https://www.ecb.europa.eu/press/press_conference/monetary-policy-statement/2026/html/ecb.is260723~b6fadd48f4.en.html",
+      "sentence_id": 188
+    }
+  ],
+  "disclaimer": "For information purposes only. This is not investment advice.",
+  "generated_with": {
+    "stance_model": "mlx-community/Qwen3-8B-4bit",
+    "llm": "mlx-community/Meta-Llama-3.1-8B-Instruct-4bit"
+  }
+}

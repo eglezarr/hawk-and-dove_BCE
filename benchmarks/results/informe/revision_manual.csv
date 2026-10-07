@@ -1,0 +1,12 @@
+modelo,fecha,frase,tipo,detalle
+mlx-community/Qwen3-8B-4bit,2026-02-05,1,cita,"'underlying inflation indicators remaining consistent': el fragmento citado habla de las expectativas de inflación a largo plazo, no de indicadores de inflación subyacente."
+mlx-community/Qwen3-8B-4bit,2026-03-19,4,cita,'and weaker growth': el fragmento citado solo trata los riesgos para la inflación.
+mlx-community/Qwen3-8B-4bit,2026-04-30,1,cita,Atribuye una previsión ('expects inflation to remain above 2% in the near term') a un fragmento que solo describe la inflación de abril; la previsión está en otro párrafo.
+mlx-community/Qwen3-8B-4bit,2026-04-30,2,cita,"'anticipates slower economic growth': el fragmento citado dice que las perspectivas son muy inciertas, no que el crecimiento se frene (eso está en otro párrafo)."
+mlx-community/Qwen3-8B-4bit,2026-04-30,5,mensaje,Presenta la volatilidad de los mercados financieros como riesgo al alza para la inflación; la declaración dice que la reduciría.
+mlx-community/Qwen3-8B-4bit,2026-06-11,4,cita,Atribuye los efectos indirectos sobre la inflación a un fragmento sobre los riesgos para el crecimiento.
+mlx-community/Qwen3-8B-4bit,2026-09-10,2,mensaje,'upward revisions for subsequent years': la revisión al alza del crecimiento es para 2026 y 2027; 2028 no cambia.
+mlx-community/Qwen3-8B-4bit,2026-09-10,4,cita,"Presenta como 'key upward risks' un fragmento que describe el escenario central, no los riesgos."
+mlx-community/Meta-Llama-3.1-8B-Instruct-4bit,2026-03-19,5,cita,"Une la respuesta del vicepresidente sobre crédito privado (citada) con otra de la presidenta sobre fusiones, que no está en el fragmento."
+mlx-community/Meta-Llama-3.1-8B-Instruct-4bit,2026-04-30,1,mensaje,'expects the euro area economy to show some momentum': la declaración dice que la economía mostraba impulso antes de la guerra y que las encuestas apuntan a un crecimiento más lento.
+mlx-community/Meta-Llama-3.1-8B-Instruct-4bit,2026-07-23,5,mensaje,Atribuye al BCE la formulación de la pregunta de un periodista ('balance the agility... with avoiding sudden shifts in direction').

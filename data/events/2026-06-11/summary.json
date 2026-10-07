@@ -1,0 +1,110 @@
+{
+  "event_date": "2026-06-11",
+  "stance": {
+    "score": 0.19,
+    "label": "slightly hawkish",
+    "score_statement": 0.154,
+    "score_qa": 0.225,
+    "percentile_vs_history": 77,
+    "percentile_statement": 66,
+    "percentile_qa": 92,
+    "history_size": 53,
+    "decision": "subida",
+    "previous_date": "2026-04-30",
+    "previous_percentile": 69
+  },
+  "voice": null,
+  "face": null,
+  "key_moments": [
+    {
+      "start": null,
+      "end": null,
+      "sentence_id": 2,
+      "speaker": "presidenta",
+      "text": "In line with this commitment, we today decided to raise the three key ECB interest rates by 25 basis points.",
+      "score": 1.0,
+      "reason": "Hawkish signal in the statement"
+    },
+    {
+      "start": null,
+      "end": null,
+      "sentence_id": 6,
+      "speaker": "presidenta",
+      "text": "Compared with March, staff have revised up their baseline projection for inflation in 2026 and 2027 owing to a higher path for energy prices, which, to some extent, is expected to feed into food, goods and services inflation.",
+      "score": 1.0,
+      "reason": "Hawkish signal in the statement"
+    },
+    {
+      "start": null,
+      "end": null,
+      "sentence_id": 44,
+      "speaker": "presidenta",
+      "text": "Domestic cost pressures eased in the first quarter, supported by slower growth in wages and profits.",
+      "score": -0.999,
+      "reason": "Dovish signal in the statement"
+    },
+    {
+      "start": null,
+      "end": null,
+      "sentence_id": 174,
+      "speaker": "presidenta",
+      "text": "And even in the milder scenario, the 25-basis-point cut is completely warranted and justified.",
+      "score": -1.0,
+      "reason": "Dovish signal in the Q&A"
+    }
+  ],
+  "briefing": "The ECB raised its key interest rates by 25 basis points. The Hawk & Dove stance index rates the press conference as slightly hawkish: it ranks at the 77th percentile of the 53 press conferences held since December 2019, up from the 69th percentile at the previous meeting on 30 April 2026. The monetary policy statement ranks at the 66th percentile and the answers in the Q&A at the 92nd.\n\nThe ECB expects headline inflation to average 3.0 per cent in 2026, 2.3 per cent in 2027 and 2.0 per cent in 2028 [1]. The outlook remains uncertain, with upside risks for inflation and downside risks for economic growth [2]. The ECB highlighted that the risks to the growth outlook are to the downside, mainly owing to the war in the Middle East, which has added to the volatile global policy environment [3].\n\nThe risks to the inflation outlook are to the upside, and if energy prices were to rise by more and for longer than currently expected, euro area inflation would increase further [4]. The ECB will closely monitor the situation and follow a data-dependent and meeting-by-meeting approach to determining the appropriate monetary policy stance [5].",
+  "briefing_tts": "The ECB raised its key interest rates by 25 basis points. The Hawk & Dove stance index rates the press conference as slightly hawkish: it ranks at the 77th percentile of the 53 press conferences held since December 2019, up from the 69th percentile at the previous meeting on 30 April 2026. The monetary policy statement ranks at the 66th percentile and the answers in the Q and A at the 92nd.\n\nThe ECB expects headline inflation to average 3.0 per cent in 2026, 2.3 per cent in 2027 and 2.0 per cent in 2028. The outlook remains uncertain, with upside risks for inflation and downside risks for economic growth. The ECB highlighted that the risks to the growth outlook are to the downside, mainly owing to the war in the Middle East, which has added to the volatile global policy environment.\n\nThe risks to the inflation outlook are to the upside, and if energy prices were to rise by more and for longer than currently expected, euro area inflation would increase further. The ECB will closely monitor the situation and follow a data-dependent and meeting-by-meeting approach to determining the appropriate monetary policy stance.",
+  "citations": [
+    {
+      "date": "2026-06-11",
+      "source": "ECB press conference, 11 June 2026. Monetary policy statement",
+      "start": null,
+      "end": null,
+      "snippet": "In the baseline of the new Eurosystem staff projections, headline inflation is expected to average 3.0 per cent in 2026, 2.3 per cent in 2027 and 2.0 per cent in 2028. For inflation excluding energy and food, the baseline foresees an average of 2.5 per cent in 2026 and 2027 and 2.2 per cent in 2028. Compared with March, staff have revised up their baseline projection for inflation in 2026 and…",
+      "url": "https://www.ecb.europa.eu/press/press_conference/monetary-policy-statement/2026/html/ecb.is260611~372040d313.en.html",
+      "sentence_id": 4
+    },
+    {
+      "date": "2026-06-11",
+      "source": "ECB press conference, 11 June 2026. Monetary policy statement",
+      "start": null,
+      "end": null,
+      "snippet": "The outlook remains uncertain, with upside risks for inflation and downside risks for economic growth. The full implications of the war for medium-term inflation and growth will depend on the intensity and duration of the energy price shock, as well as the scale of its indirect and second-round effects. This uncertainty is also reflected in the broad range of outcomes for inflation and growth in…",
+      "url": "https://www.ecb.europa.eu/press/press_conference/monetary-policy-statement/2026/html/ecb.is260611~372040d313.en.html",
+      "sentence_id": 9
+    },
+    {
+      "date": "2026-06-11",
+      "source": "ECB press conference, 11 June 2026. Monetary policy statement (Risk assessment)",
+      "start": null,
+      "end": null,
+      "snippet": "The risks to the growth outlook are to the downside, mainly owing to the war in the Middle East, which has added to the volatile global policy environment. Prolonged disruption of energy supplies could increase energy prices further and for longer than currently expected. These factors would erode real incomes even more and make firms and households more reluctant to invest and spend. The drag on…",
+      "url": "https://www.ecb.europa.eu/press/press_conference/monetary-policy-statement/2026/html/ecb.is260611~372040d313.en.html",
+      "sentence_id": 56
+    },
+    {
+      "date": "2026-06-11",
+      "source": "ECB press conference, 11 June 2026. Monetary policy statement (Risk assessment)",
+      "start": null,
+      "end": null,
+      "snippet": "The risks to the inflation outlook are to the upside. If energy prices were to rise by more and for longer than currently expected, euro area inflation would increase further. This could be reinforced and become more persistent if higher energy prices were to spill over by more than expected to other prices and to wages, if longer-term inflation expectations were to rise in response, or if global…",
+      "url": "https://www.ecb.europa.eu/press/press_conference/monetary-policy-statement/2026/html/ecb.is260611~372040d313.en.html",
+      "sentence_id": 66
+    },
+    {
+      "date": "2026-06-11",
+      "source": "ECB press conference, 11 June 2026. Monetary policy statement",
+      "start": null,
+      "end": null,
+      "snippet": "With today’s decision, we remain well positioned to navigate the uncertainty caused by the war. We will closely monitor the situation and follow a data-dependent and meeting-by-meeting approach to determining the appropriate monetary policy stance. In particular, our interest rate decisions will be based on our assessment of the inflation outlook and the risks surrounding it, in light of the…",
+      "url": "https://www.ecb.europa.eu/press/press_conference/monetary-policy-statement/2026/html/ecb.is260611~372040d313.en.html",
+      "sentence_id": 13
+    }
+  ],
+  "disclaimer": "For information purposes only. This is not investment advice.",
+  "generated_with": {
+    "stance_model": "mlx-community/Qwen3-8B-4bit",
+    "llm": "mlx-community/Meta-Llama-3.1-8B-Instruct-4bit"
+  }
+}

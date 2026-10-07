@@ -1,0 +1,662 @@
+[
+  {
+    "modelo": "mlx-community/Qwen3-8B-4bit",
+    "fecha": "2026-02-05",
+    "briefing": "The ECB kept its key interest rates unchanged. The Hawk & Dove stance index rates the press conference as neutral: it ranks at the 42nd percentile of the 50 press conferences held since December 2019, down from the 59th percentile at the previous meeting on 18 December 2025. The monetary policy statement ranks at the 54th percentile and the answers in the Q&A at the 26th.\n\nThe ECB expects inflation to stabilise at two per cent in the medium term, with underlying inflation indicators remaining consistent [1]. The economy remains resilient, supported by low unemployment and solid private sector balance sheets, though growth faces uncertainties from global trade and geopolitical tensions [2]. The ECB will maintain a data-dependent approach to monetary policy, focusing on inflation outlook and risks without pre-committing to a rate path [3].\n\nThe main risks include a deterioration in global financial markets and further frictions in international trade disrupting supply chains [4]. The ECB also highlights the potential for higher inflation due to persistent energy price increases or fragmented supply chains [5].",
+    "briefing_tts": "The ECB kept its key interest rates unchanged. The Hawk & Dove stance index rates the press conference as neutral: it ranks at the 42nd percentile of the 50 press conferences held since December 2019, down from the 59th percentile at the previous meeting on 18 December 2025. The monetary policy statement ranks at the 54th percentile and the answers in the Q and A at the 26th.\n\nThe ECB expects inflation to stabilise at two per cent in the medium term, with underlying inflation indicators remaining consistent. The economy remains resilient, supported by low unemployment and solid private sector balance sheets, though growth faces uncertainties from global trade and geopolitical tensions. The ECB will maintain a data-dependent approach to monetary policy, focusing on inflation outlook and risks without pre-committing to a rate path.\n\nThe main risks include a deterioration in global financial markets and further frictions in international trade disrupting supply chains. The ECB also highlights the potential for higher inflation due to persistent energy price increases or fragmented supply chains.",
+    "citations": [
+      {
+        "date": "2026-02-05",
+        "source": "ECB press conference, 5 February 2026. Monetary policy statement (Inflation)",
+        "start": null,
+        "end": null,
+        "snippet": "Most measures of longer-term inflation expectations continue to stand at around 2 per cent, supporting the stabilisation of inflation around our target.",
+        "url": "https://www.ecb.europa.eu/press/press_conference/monetary-policy-statement/2026/html/ecb.is260205~50858cb986.en.html",
+        "sentence_id": 37
+      },
+      {
+        "date": "2026-02-05",
+        "source": "ECB press conference, 5 February 2026. Monetary policy statement",
+        "start": null,
+        "end": null,
+        "snippet": "The Governing Council today decided to keep the three key ECB interest rates unchanged. Our updated assessment reconfirms that inflation should stabilise at our two per cent target in the medium term. The economy remains resilient in a challenging global environment. Low unemployment, solid private sector balance sheets, the gradual rollout of public spending on defence and infrastructure and the…",
+        "url": "https://www.ecb.europa.eu/press/press_conference/monetary-policy-statement/2026/html/ecb.is260205~50858cb986.en.html",
+        "sentence_id": 5
+      },
+      {
+        "date": "2026-02-05",
+        "source": "ECB press conference, 5 February 2026. Monetary policy statement",
+        "start": null,
+        "end": null,
+        "snippet": "We are determined to ensure that inflation stabilises at our two per cent target in the medium term. We will follow a data-dependent and meeting-by-meeting approach to determining the appropriate monetary policy stance. In particular, our interest rate decisions will be based on our assessment of the inflation outlook and the risks surrounding it, in light of the incoming economic and financial…",
+        "url": "https://www.ecb.europa.eu/press/press_conference/monetary-policy-statement/2026/html/ecb.is260205~50858cb986.en.html",
+        "sentence_id": 10
+      },
+      {
+        "date": "2026-02-05",
+        "source": "ECB press conference, 5 February 2026. Monetary policy statement (Risk assessment)",
+        "start": null,
+        "end": null,
+        "snippet": "The euro area continues to face a volatile global policy environment. A renewed increase in uncertainty could weigh on demand. A deterioration in global financial market sentiment could also dampen demand. Further frictions in international trade could disrupt supply chains, reduce exports and weaken consumption and investment. Geopolitical tensions, in particular Russia’s unjustified war against…",
+        "url": "https://www.ecb.europa.eu/press/press_conference/monetary-policy-statement/2026/html/ecb.is260205~50858cb986.en.html",
+        "sentence_id": 38
+      },
+      {
+        "date": "2026-02-05",
+        "source": "ECB press conference, 5 February 2026. Monetary policy statement (Risk assessment)",
+        "start": null,
+        "end": null,
+        "snippet": "By contrast, inflation could turn out to be higher if there were a persistent upward shift in energy prices, or if more fragmented global supply chains pushed up import prices, curtailed the supply of critical raw materials and added to capacity constraints in the euro area economy. If wage growth moderated more slowly, services inflation might come down later than expected. The planned boost in…",
+        "url": "https://www.ecb.europa.eu/press/press_conference/monetary-policy-statement/2026/html/ecb.is260205~50858cb986.en.html",
+        "sentence_id": 49
+      }
+    ],
+    "respuesta_llm": "The ECB expects inflation to stabilise at two per cent in the medium term, with underlying inflation indicators remaining consistent [13]. The economy remains resilient, supported by low unemployment and solid private sector balance sheets, though growth faces uncertainties from global trade and geopolitical tensions [4]. The ECB will maintain a data-dependent approach to monetary policy, focusing on inflation outlook and risks without pre-committing to a rate path [5]. The main risks include a deterioration in global financial markets and further frictions in international trade disrupting supply chains [14]. The ECB also highlights the potential for higher inflation due to persistent energy price increases or fragmented supply chains [16].",
+    "texto_llm": "The ECB expects inflation to stabilise at two per cent in the medium term, with underlying inflation indicators remaining consistent [1]. The economy remains resilient, supported by low unemployment and solid private sector balance sheets, though growth faces uncertainties from global trade and geopolitical tensions [2]. The ECB will maintain a data-dependent approach to monetary policy, focusing on inflation outlook and risks without pre-committing to a rate path [3].\n\nThe main risks include a deterioration in global financial markets and further frictions in international trade disrupting supply chains [4]. The ECB also highlights the potential for higher inflation due to persistent energy price increases or fragmented supply chains [5].",
+    "n_frases": 5,
+    "frases_con_cita": 5,
+    "seconds": 44.28103312500025
+  },
+  {
+    "modelo": "mlx-community/Qwen3-8B-4bit",
+    "fecha": "2026-03-19",
+    "briefing": "The ECB kept its key interest rates unchanged. The Hawk & Dove stance index rates the press conference as slightly hawkish: it ranks at the 67th percentile of the 51 press conferences held since December 2019, up from the 42nd percentile at the previous meeting on 5 February 2026. The monetary policy statement ranks at the 71st percentile and the answers in the Q&A at the 47th.\n\nThe ECB expects inflation to average 2.6% in 2026, driven by higher energy prices due to the Middle East war [1]. The ECB anticipates economic growth to average 0.9% in 2026, with risks from the war affecting global markets and confidence [2]. The ECB remains committed to a data-dependent approach to ensure inflation stabilises at 2% in the medium term [3].\n\nThe ECB highlights the risk of prolonged energy shocks leading to higher inflation and weaker growth [4]. The ECB warns of downside risks from a prolonged Middle East war, including increased energy prices and reduced consumer spending [5].",
+    "briefing_tts": "The ECB kept its key interest rates unchanged. The Hawk & Dove stance index rates the press conference as slightly hawkish: it ranks at the 67th percentile of the 51 press conferences held since December 2019, up from the 42nd percentile at the previous meeting on 5 February 2026. The monetary policy statement ranks at the 71st percentile and the answers in the Q and A at the 47th.\n\nThe ECB expects inflation to average 2.6 per cent in 2026, driven by higher energy prices due to the Middle East war. The ECB anticipates economic growth to average 0.9 per cent in 2026, with risks from the war affecting global markets and confidence. The ECB remains committed to a data-dependent approach to ensure inflation stabilises at 2 per cent in the medium term.\n\nThe ECB highlights the risk of prolonged energy shocks leading to higher inflation and weaker growth. The ECB warns of downside risks from a prolonged Middle East war, including increased energy prices and reduced consumer spending.",
+    "citations": [
+      {
+        "date": "2026-03-19",
+        "source": "ECB press conference, 19 March 2026. Monetary policy statement",
+        "start": null,
+        "end": null,
+        "snippet": "The new ECB staff projections exceptionally incorporate information up to 11 March, a later cut-off date than usual. In the baseline, headline inflation is seen to average 2.6 per cent in 2026, 2.0 per cent in 2027 and 2.1 per cent in 2028. Inflation has been revised up compared with the December projections, especially for 2026. This is because energy prices will be higher owing to the war in…",
+        "url": "https://www.ecb.europa.eu/press/press_conference/monetary-policy-statement/2026/html/ecb.is260319~93b1cbad97.en.html",
+        "sentence_id": 10
+      },
+      {
+        "date": "2026-03-19",
+        "source": "ECB press conference, 19 March 2026. Monetary policy statement",
+        "start": null,
+        "end": null,
+        "snippet": "This is also higher than the path in the December projections, mainly owing to higher energy prices feeding into inflation excluding energy and food. Staff expect economic growth to average 0.9 per cent in 2026, 1.3 per cent in 2027 and 1.4 per cent in 2028. This implies a downward revision, especially for 2026, reflecting the global effects of the war on commodity markets, real incomes and…",
+        "url": "https://www.ecb.europa.eu/press/press_conference/monetary-policy-statement/2026/html/ecb.is260319~93b1cbad97.en.html",
+        "sentence_id": 15
+      },
+      {
+        "date": "2026-03-19",
+        "source": "ECB press conference, 19 March 2026. Monetary policy statement",
+        "start": null,
+        "end": null,
+        "snippet": "We will follow a data-dependent and meeting-by-meeting approach to determining the appropriate monetary policy stance. In particular, our interest rate decisions will be based on our assessment of the inflation outlook and the risks surrounding it, in light of the incoming economic and financial data, as well as the dynamics of underlying inflation and the strength of monetary policy…",
+        "url": "https://www.ecb.europa.eu/press/press_conference/monetary-policy-statement/2026/html/ecb.is260319~93b1cbad97.en.html",
+        "sentence_id": 23
+      },
+      {
+        "date": "2026-03-19",
+        "source": "ECB press conference, 19 March 2026. Monetary policy statement (Risk assessment)",
+        "start": null,
+        "end": null,
+        "snippet": "The risks to the inflation outlook are tilted to the upside, especially in the near term. A prolonged war in the Middle East could lead to a larger and longer-lasting upward shift in energy prices than currently expected, raising euro area inflation further. This could be reinforced and become more persistent if inflation expectations and wage growth were to rise in response, if the energy price…",
+        "url": "https://www.ecb.europa.eu/press/press_conference/monetary-policy-statement/2026/html/ecb.is260319~93b1cbad97.en.html",
+        "sentence_id": 69
+      },
+      {
+        "date": "2026-03-19",
+        "source": "ECB press conference, 19 March 2026. Monetary policy statement (Risk assessment)",
+        "start": null,
+        "end": null,
+        "snippet": "The risks to the growth outlook are tilted to the downside, especially in the near term. The war in the Middle East is a downside risk to the euro area economy, adding to the volatile global policy environment. A prolonged war could increase energy prices further and for longer than currently expected, and also weigh on confidence. These factors would erode incomes and make firms and households…",
+        "url": "https://www.ecb.europa.eu/press/press_conference/monetary-policy-statement/2026/html/ecb.is260319~93b1cbad97.en.html",
+        "sentence_id": 59
+      }
+    ],
+    "respuesta_llm": "The ECB expects inflation to average 2.6% in 2026, driven by higher energy prices due to the Middle East war [4].  \nThe ECB anticipates economic growth to average 0.9% in 2026, with risks from the war affecting global markets and confidence [5].  \nThe ECB remains committed to a data-dependent approach to ensure inflation stabilises at 2% in the medium term [7].  \nThe ECB highlights the risk of prolonged energy shocks leading to higher inflation and weaker growth [19].  \nThe ECB warns of downside risks from a prolonged Middle East war, including increased energy prices and reduced consumer spending [17].",
+    "texto_llm": "The ECB expects inflation to average 2.6% in 2026, driven by higher energy prices due to the Middle East war [1]. The ECB anticipates economic growth to average 0.9% in 2026, with risks from the war affecting global markets and confidence [2]. The ECB remains committed to a data-dependent approach to ensure inflation stabilises at 2% in the medium term [3].\n\nThe ECB highlights the risk of prolonged energy shocks leading to higher inflation and weaker growth [4]. The ECB warns of downside risks from a prolonged Middle East war, including increased energy prices and reduced consumer spending [5].",
+    "n_frases": 5,
+    "frases_con_cita": 5,
+    "seconds": 42.66907275000267
+  },
+  {
+    "modelo": "mlx-community/Qwen3-8B-4bit",
+    "fecha": "2026-04-30",
+    "briefing": "The ECB kept its key interest rates unchanged. The Hawk & Dove stance index rates the press conference as slightly hawkish: it ranks at the 69th percentile of the 52 press conferences held since December 2019, up from the 67th percentile at the previous meeting on 19 March 2026. The monetary policy statement ranks at the 67th percentile and the answers in the Q&A at the 67th.\n\nThe ECB expects inflation to remain above 2% in the near term due to sustained high energy prices [1]. The ECB anticipates slower economic growth amid heightened uncertainty from the Middle East conflict [2]. Monetary policy will remain data-dependent, with decisions based on inflation risks and economic developments [3].\n\nThe ECB highlights prolonged energy price shocks as a key downside risk to growth [4]. The ECB identifies global financial market volatility and supply chain disruptions as significant upside inflation risks [5].",
+    "briefing_tts": "The ECB kept its key interest rates unchanged. The Hawk & Dove stance index rates the press conference as slightly hawkish: it ranks at the 69th percentile of the 52 press conferences held since December 2019, up from the 67th percentile at the previous meeting on 19 March 2026. The monetary policy statement ranks at the 67th percentile and the answers in the Q and A at the 67th.\n\nThe ECB expects inflation to remain above 2 per cent in the near term due to sustained high energy prices. The ECB anticipates slower economic growth amid heightened uncertainty from the Middle East conflict. Monetary policy will remain data-dependent, with decisions based on inflation risks and economic developments.\n\nThe ECB highlights prolonged energy price shocks as a key downside risk to growth. The ECB identifies global financial market volatility and supply chain disruptions as significant upside inflation risks.",
+    "citations": [
+      {
+        "date": "2026-04-30",
+        "source": "ECB press conference, 30 April 2026. Monetary policy statement (Inflation)",
+        "start": null,
+        "end": null,
+        "snippet": "Inflation rose to 3.0 per cent in April, from 2.6 per cent in March and 1.9 per cent in February. The rise has been driven by surging energy prices caused by the war in the Middle East. Energy price inflation jumped to 10.9 per cent in April, after 5.1 per cent in March. Food price inflation edged up to 2.5 per cent in April. Inflation excluding energy and food decreased to 2.2 per cent, from 2.3…",
+        "url": "https://www.ecb.europa.eu/press/press_conference/monetary-policy-statement/2026/html/ecb.is260430~f99cb123a8.en.html",
+        "sentence_id": 33
+      },
+      {
+        "date": "2026-04-30",
+        "source": "ECB press conference, 30 April 2026. Monetary policy statement (Economic activity)",
+        "start": null,
+        "end": null,
+        "snippet": "The euro area economy was showing some momentum when the current turbulence started. Real GDP grew by 0.1 per cent in the first quarter of 2026, according to Eurostat’s preliminary flash estimate. Domestic demand remains the main driver of growth, supported by a resilient labour market. However, the economic outlook is highly uncertain and will depend on how long the war in the Middle East lasts…",
+        "url": "https://www.ecb.europa.eu/press/press_conference/monetary-policy-statement/2026/html/ecb.is260430~f99cb123a8.en.html",
+        "sentence_id": 15
+      },
+      {
+        "date": "2026-04-30",
+        "source": "ECB press conference, 30 April 2026. Monetary policy statement",
+        "start": null,
+        "end": null,
+        "snippet": "We will closely monitor the situation and follow a data-dependent and meeting-by-meeting approach to determining the appropriate monetary policy stance. In particular, our interest rate decisions will be based on our assessment of the inflation outlook and the risks surrounding it, in light of the incoming economic and financial data, as well as the dynamics of underlying inflation and the…",
+        "url": "https://www.ecb.europa.eu/press/press_conference/monetary-policy-statement/2026/html/ecb.is260430~f99cb123a8.en.html",
+        "sentence_id": 10
+      },
+      {
+        "date": "2026-04-30",
+        "source": "ECB press conference, 30 April 2026. Monetary policy statement (Risk assessment)",
+        "start": null,
+        "end": null,
+        "snippet": "The risks to the growth outlook are to the downside. The war in the Middle East remains a downside risk to the euro area economy, adding to the volatile global policy environment. Prolonged disruption of the supply of energy could increase energy prices further and for longer than currently expected. These factors would erode incomes and make firms and households more reluctant to invest and…",
+        "url": "https://www.ecb.europa.eu/press/press_conference/monetary-policy-statement/2026/html/ecb.is260430~f99cb123a8.en.html",
+        "sentence_id": 47
+      },
+      {
+        "date": "2026-04-30",
+        "source": "ECB press conference, 30 April 2026. Monetary policy statement (Risk assessment)",
+        "start": null,
+        "end": null,
+        "snippet": "The risks to the inflation outlook are to the upside. If energy prices were to rise by more and for longer than currently expected, euro area inflation would increase further. This could be reinforced and become more persistent if higher energy prices were to spill over by more than expected to other prices and to wages, if longer-term inflation expectations were to rise in response, or if global…",
+        "url": "https://www.ecb.europa.eu/press/press_conference/monetary-policy-statement/2026/html/ecb.is260430~f99cb123a8.en.html",
+        "sentence_id": 58
+      }
+    ],
+    "respuesta_llm": "The ECB expects inflation to remain above 2% in the near term due to sustained high energy prices [12].  \nThe ECB anticipates slower economic growth amid heightened uncertainty from the Middle East conflict [8].  \nMonetary policy will remain data-dependent, with decisions based on inflation risks and economic developments [5].  \nThe ECB highlights prolonged energy price shocks as a key downside risk to growth [15].  \nThe ECB identifies global financial market volatility and supply chain disruptions as significant upside inflation risks [17].",
+    "texto_llm": "The ECB expects inflation to remain above 2% in the near term due to sustained high energy prices [1]. The ECB anticipates slower economic growth amid heightened uncertainty from the Middle East conflict [2]. Monetary policy will remain data-dependent, with decisions based on inflation risks and economic developments [3].\n\nThe ECB highlights prolonged energy price shocks as a key downside risk to growth [4]. The ECB identifies global financial market volatility and supply chain disruptions as significant upside inflation risks [5].",
+    "n_frases": 5,
+    "frases_con_cita": 5,
+    "seconds": 53.037968167001964
+  },
+  {
+    "modelo": "mlx-community/Qwen3-8B-4bit",
+    "fecha": "2026-06-11",
+    "briefing": "The ECB raised its key interest rates by 25 basis points. The Hawk & Dove stance index rates the press conference as slightly hawkish: it ranks at the 77th percentile of the 53 press conferences held since December 2019, up from the 69th percentile at the previous meeting on 30 April 2026. The monetary policy statement ranks at the 66th percentile and the answers in the Q&A at the 92nd.\n\nThe ECB expects headline inflation to average 3.0 per cent in 2026, declining to 2.0 per cent by 2028, with energy prices remaining a key driver [1]. The ECB forecasts economic growth at 0.8 per cent in 2026, 1.2 per cent in 2027, and 1.5 per cent in 2028, reflecting a downward revision due to the war's impact [1]. The ECB maintains a data-dependent approach, emphasizing the need to monitor inflation risks and economic growth uncertainties closely [2].\n\nThe ECB highlights the risk of prolonged energy price shocks exacerbating inflation through indirect effects and supply chain disruptions [3]. The ECB warns of upside inflation risks from energy price increases and potential spillovers into wages and other prices [4].",
+    "briefing_tts": "The ECB raised its key interest rates by 25 basis points. The Hawk & Dove stance index rates the press conference as slightly hawkish: it ranks at the 77th percentile of the 53 press conferences held since December 2019, up from the 69th percentile at the previous meeting on 30 April 2026. The monetary policy statement ranks at the 66th percentile and the answers in the Q and A at the 92nd.\n\nThe ECB expects headline inflation to average 3.0 per cent in 2026, declining to 2.0 per cent by 2028, with energy prices remaining a key driver. The ECB forecasts economic growth at 0.8 per cent in 2026, 1.2 per cent in 2027, and 1.5 per cent in 2028, reflecting a downward revision due to the war's impact. The ECB maintains a data-dependent approach, emphasizing the need to monitor inflation risks and economic growth uncertainties closely.\n\nThe ECB highlights the risk of prolonged energy price shocks exacerbating inflation through indirect effects and supply chain disruptions. The ECB warns of upside inflation risks from energy price increases and potential spillovers into wages and other prices.",
+    "citations": [
+      {
+        "date": "2026-06-11",
+        "source": "ECB press conference, 11 June 2026. Monetary policy statement",
+        "start": null,
+        "end": null,
+        "snippet": "In the baseline of the new Eurosystem staff projections, headline inflation is expected to average 3.0 per cent in 2026, 2.3 per cent in 2027 and 2.0 per cent in 2028. For inflation excluding energy and food, the baseline foresees an average of 2.5 per cent in 2026 and 2027 and 2.2 per cent in 2028. Compared with March, staff have revised up their baseline projection for inflation in 2026 and…",
+        "url": "https://www.ecb.europa.eu/press/press_conference/monetary-policy-statement/2026/html/ecb.is260611~372040d313.en.html",
+        "sentence_id": 4
+      },
+      {
+        "date": "2026-06-11",
+        "source": "ECB press conference, 11 June 2026. Monetary policy statement",
+        "start": null,
+        "end": null,
+        "snippet": "With today’s decision, we remain well positioned to navigate the uncertainty caused by the war. We will closely monitor the situation and follow a data-dependent and meeting-by-meeting approach to determining the appropriate monetary policy stance. In particular, our interest rate decisions will be based on our assessment of the inflation outlook and the risks surrounding it, in light of the…",
+        "url": "https://www.ecb.europa.eu/press/press_conference/monetary-policy-statement/2026/html/ecb.is260611~372040d313.en.html",
+        "sentence_id": 13
+      },
+      {
+        "date": "2026-06-11",
+        "source": "ECB press conference, 11 June 2026. Monetary policy statement (Risk assessment)",
+        "start": null,
+        "end": null,
+        "snippet": "The risks to the growth outlook are to the downside, mainly owing to the war in the Middle East, which has added to the volatile global policy environment. Prolonged disruption of energy supplies could increase energy prices further and for longer than currently expected. These factors would erode real incomes even more and make firms and households more reluctant to invest and spend. The drag on…",
+        "url": "https://www.ecb.europa.eu/press/press_conference/monetary-policy-statement/2026/html/ecb.is260611~372040d313.en.html",
+        "sentence_id": 56
+      },
+      {
+        "date": "2026-06-11",
+        "source": "ECB press conference, 11 June 2026. Monetary policy statement (Inflation)",
+        "start": null,
+        "end": null,
+        "snippet": "The increase in energy prices will lift inflation further over the summer and keep it well above target into the first half of 2027. It will also have an impact on food, goods and services inflation. Inflation should then return to target in the second half of 2027, supported by falling energy prices and slower increases in other prices. However, the war in the Middle East remains a major source…",
+        "url": "https://www.ecb.europa.eu/press/press_conference/monetary-policy-statement/2026/html/ecb.is260611~372040d313.en.html",
+        "sentence_id": 50
+      }
+    ],
+    "respuesta_llm": "The ECB expects headline inflation to average 3.0 per cent in 2026, declining to 2.0 per cent by 2028, with energy prices remaining a key driver [3].  \nThe ECB forecasts economic growth at 0.8 per cent in 2026, 1.2 per cent in 2027, and 1.5 per cent in 2028, reflecting a downward revision due to the war's impact [3].  \nThe ECB maintains a data-dependent approach, emphasizing the need to monitor inflation risks and economic growth uncertainties closely [5].  \nThe ECB highlights the risk of prolonged energy price shocks exacerbating inflation through indirect effects and supply chain disruptions [16].  \nThe ECB warns of upside inflation risks from energy price increases and potential spillovers into wages and other prices [15].",
+    "texto_llm": "The ECB expects headline inflation to average 3.0 per cent in 2026, declining to 2.0 per cent by 2028, with energy prices remaining a key driver [1]. The ECB forecasts economic growth at 0.8 per cent in 2026, 1.2 per cent in 2027, and 1.5 per cent in 2028, reflecting a downward revision due to the war's impact [1]. The ECB maintains a data-dependent approach, emphasizing the need to monitor inflation risks and economic growth uncertainties closely [2].\n\nThe ECB highlights the risk of prolonged energy price shocks exacerbating inflation through indirect effects and supply chain disruptions [3]. The ECB warns of upside inflation risks from energy price increases and potential spillovers into wages and other prices [4].",
+    "n_frases": 5,
+    "frases_con_cita": 5,
+    "seconds": 57.92383170800167
+  },
+  {
+    "modelo": "mlx-community/Qwen3-8B-4bit",
+    "fecha": "2026-07-23",
+    "briefing": "The ECB kept its key interest rates unchanged. The Hawk & Dove stance index rates the press conference as neutral: it ranks at the 56th percentile of the 54 press conferences held since December 2019, down from the 77th percentile at the previous meeting on 11 June 2026. The monetary policy statement ranks at the 63rd percentile and the answers in the Q&A at the 46th.\n\nThe ECB expects inflation to remain above target into early 2027 due to ongoing energy price impacts [1]. The ECB anticipates modest economic growth in the near term, constrained by the energy shock and geopolitical uncertainties [2]. The ECB will maintain a data-dependent approach to monetary policy, focusing on inflation risks and underlying inflation dynamics [3].\n\nThe ECB highlighted the risk of renewed energy supply disruptions escalating prices further [4]. The ECB also noted the potential for climate-related events to increase food prices beyond current expectations [5].",
+    "briefing_tts": "The ECB kept its key interest rates unchanged. The Hawk & Dove stance index rates the press conference as neutral: it ranks at the 56th percentile of the 54 press conferences held since December 2019, down from the 77th percentile at the previous meeting on 11 June 2026. The monetary policy statement ranks at the 63rd percentile and the answers in the Q and A at the 46th.\n\nThe ECB expects inflation to remain above target into early 2027 due to ongoing energy price impacts. The ECB anticipates modest economic growth in the near term, constrained by the energy shock and geopolitical uncertainties. The ECB will maintain a data-dependent approach to monetary policy, focusing on inflation risks and underlying inflation dynamics.\n\nThe ECB highlighted the risk of renewed energy supply disruptions escalating prices further. The ECB also noted the potential for climate-related events to increase food prices beyond current expectations.",
+    "citations": [
+      {
+        "date": "2026-07-23",
+        "source": "ECB press conference, 23 July 2026. Monetary policy statement (Inflation)",
+        "start": null,
+        "end": null,
+        "snippet": "While energy price inflation declined in June, its rise since the start of the conflict – and its impact on food, goods and services price inflation – is likely to keep inflation well above target into the first half of 2027. Inflation should then decline, as energy prices are expected to fall and other prices should rise more slowly. However, the conflict remains a major source of uncertainty.…",
+        "url": "https://www.ecb.europa.eu/press/press_conference/monetary-policy-statement/2026/html/ecb.is260723~b6fadd48f4.en.html",
+        "sentence_id": 37
+      },
+      {
+        "date": "2026-07-23",
+        "source": "ECB press conference, 23 July 2026. Monetary policy statement (Economic activity)",
+        "start": null,
+        "end": null,
+        "snippet": "Forward-looking indicators suggest that economic growth will remain modest in the near term, weighed down by the energy shock and related uncertainties. Yet the fundamental drivers of medium-term growth remain intact. Private consumption, investment in new digital technologies, government spending on defence and infrastructure, and some recovery in exports should all contribute to overall growth…",
+        "url": "https://www.ecb.europa.eu/press/press_conference/monetary-policy-statement/2026/html/ecb.is260723~b6fadd48f4.en.html",
+        "sentence_id": 18
+      },
+      {
+        "date": "2026-07-23",
+        "source": "ECB press conference, 23 July 2026. Monetary policy statement",
+        "start": null,
+        "end": null,
+        "snippet": "With today’s decision, we remain well positioned to navigate the uncertainty caused by the conflict. We will follow a data-dependent and meeting-by-meeting approach to determining the appropriate monetary policy stance. In particular, our interest rate decisions will be based on our assessment of the inflation outlook and the risks surrounding it, in light of the incoming economic and financial…",
+        "url": "https://www.ecb.europa.eu/press/press_conference/monetary-policy-statement/2026/html/ecb.is260723~b6fadd48f4.en.html",
+        "sentence_id": 6
+      },
+      {
+        "date": "2026-07-23",
+        "source": "ECB press conference, 23 July 2026. Monetary policy statement (Risk assessment)",
+        "start": null,
+        "end": null,
+        "snippet": "The risks to the growth outlook are to the downside. While the Memorandum of Understanding agreed between the United States and Iran in June constituted a first attempt to resolve the conflict, recent weeks have brought renewed setbacks and the geopolitical situation remains fragile. Renewed disruption of energy supplies could increase energy prices further and for longer than currently expected.…",
+        "url": "https://www.ecb.europa.eu/press/press_conference/monetary-policy-statement/2026/html/ecb.is260723~b6fadd48f4.en.html",
+        "sentence_id": 41
+      },
+      {
+        "date": "2026-07-23",
+        "source": "ECB press conference, 23 July 2026. Monetary policy statement (Risk assessment)",
+        "start": null,
+        "end": null,
+        "snippet": "Extreme weather events – as illustrated by the ongoing heatwaves – and the unfolding climate and nature crises more broadly, could drive up food prices by more than expected. By contrast, inflation could turn out to be lower if the conflict in the Middle East was resolved sustainably or if indirect or second-round effects proved less pronounced than anticipated. More volatile and risk-averse…",
+        "url": "https://www.ecb.europa.eu/press/press_conference/monetary-policy-statement/2026/html/ecb.is260723~b6fadd48f4.en.html",
+        "sentence_id": 54
+      }
+    ],
+    "respuesta_llm": "The ECB expects inflation to remain above target into early 2027 due to ongoing energy price impacts [11].  \nThe ECB anticipates modest economic growth in the near term, constrained by the energy shock and geopolitical uncertainties [7].  \nThe ECB will maintain a data-dependent approach to monetary policy, focusing on inflation risks and underlying inflation dynamics [3].  \nThe ECB highlighted the risk of renewed energy supply disruptions escalating prices further [12].  \nThe ECB also noted the potential for climate-related events to increase food prices beyond current expectations [15].",
+    "texto_llm": "The ECB expects inflation to remain above target into early 2027 due to ongoing energy price impacts [1]. The ECB anticipates modest economic growth in the near term, constrained by the energy shock and geopolitical uncertainties [2]. The ECB will maintain a data-dependent approach to monetary policy, focusing on inflation risks and underlying inflation dynamics [3].\n\nThe ECB highlighted the risk of renewed energy supply disruptions escalating prices further [4]. The ECB also noted the potential for climate-related events to increase food prices beyond current expectations [5].",
+    "n_frases": 5,
+    "frases_con_cita": 5,
+    "seconds": 53.483823415997904
+  },
+  {
+    "modelo": "mlx-community/Qwen3-8B-4bit",
+    "fecha": "2026-09-10",
+    "briefing": "The ECB raised its key interest rates by 25 basis points. The Hawk & Dove stance index rates the press conference as slightly hawkish: it ranks at the 69th percentile of the 55 press conferences held since December 2019, up from the 56th percentile at the previous meeting on 23 July 2026. The monetary policy statement ranks at the 69th percentile and the answers in the Q&A at the 64th.\n\nThe ECB expects inflation to remain above target through 2027, with headline inflation averaging 3.0% in 2026 and gradually declining thereafter [1]. The ECB anticipates economic growth to be resilient, with a baseline projection of 0.9% for 2026 and upward revisions for subsequent years [1]. The ECB maintains a data-dependent approach, emphasizing the need to monitor inflation risks and economic developments closely [2].\n\nThe ECB highlights the Middle East conflict and energy price volatility as key upward risks to inflation [3]. The ECB identifies geopolitical tensions and global financial market instability as significant downside risks to economic growth [4].",
+    "briefing_tts": "The ECB raised its key interest rates by 25 basis points. The Hawk & Dove stance index rates the press conference as slightly hawkish: it ranks at the 69th percentile of the 55 press conferences held since December 2019, up from the 56th percentile at the previous meeting on 23 July 2026. The monetary policy statement ranks at the 69th percentile and the answers in the Q and A at the 64th.\n\nThe ECB expects inflation to remain above target through 2027, with headline inflation averaging 3.0 per cent in 2026 and gradually declining thereafter. The ECB anticipates economic growth to be resilient, with a baseline projection of 0.9 per cent for 2026 and upward revisions for subsequent years. The ECB maintains a data-dependent approach, emphasizing the need to monitor inflation risks and economic developments closely.\n\nThe ECB highlights the Middle East conflict and energy price volatility as key upward risks to inflation. The ECB identifies geopolitical tensions and global financial market instability as significant downside risks to economic growth.",
+    "citations": [
+      {
+        "date": "2026-09-10",
+        "source": "ECB press conference, 10 September 2026. Monetary policy statement",
+        "start": null,
+        "end": null,
+        "snippet": "The baseline of the new ECB staff projections sees headline inflation averaging 3.0 per cent in 2026, 2.5 per cent in 2027 and 2.1 per cent in 2028. For inflation excluding energy and food, the baseline foresees 2.5 per cent in 2026, 2.6 per cent in 2027 and 2.3 per cent in 2028. Compared with June, the baseline projection for inflation in 2026 is unchanged, while it has been revised up for 2027…",
+        "url": "https://www.ecb.europa.eu/press/press_conference/monetary-policy-statement/2026/html/ecb.is260910~6a45359cfc.en.html",
+        "sentence_id": 5
+      },
+      {
+        "date": "2026-09-10",
+        "source": "ECB press conference, 10 September 2026. Monetary policy statement",
+        "start": null,
+        "end": null,
+        "snippet": "With today’s decision, we remain well positioned to navigate the uncertainty caused by the conflict. We will follow a data-dependent and meeting-by-meeting approach to determining the appropriate monetary policy stance. In particular, our interest rate decisions will be based on our assessment of the inflation outlook and the risks surrounding it, in light of the incoming economic and financial…",
+        "url": "https://www.ecb.europa.eu/press/press_conference/monetary-policy-statement/2026/html/ecb.is260910~6a45359cfc.en.html",
+        "sentence_id": 12
+      },
+      {
+        "date": "2026-09-10",
+        "source": "ECB press conference, 10 September 2026. Monetary policy statement (Inflation)",
+        "start": null,
+        "end": null,
+        "snippet": "The conflict in the Middle East and recent developments in Russia’s unjustified war against Ukraine have pushed the path of energy prices up further. This is likely to keep headline inflation well above target into the first half of 2027. Thereafter, energy inflation should decline and turn negative up to mid-2028, bringing headline inflation down. Higher energy prices are expected to feed…",
+        "url": "https://www.ecb.europa.eu/press/press_conference/monetary-policy-statement/2026/html/ecb.is260910~6a45359cfc.en.html",
+        "sentence_id": 46
+      },
+      {
+        "date": "2026-09-10",
+        "source": "ECB press conference, 10 September 2026. Monetary policy statement (Risk assessment)",
+        "start": null,
+        "end": null,
+        "snippet": "The risks to the growth outlook are to the downside. This is due, in particular, to the Middle East conflict and developments in Russia’s unjustified war against Ukraine. Renewed disruption of energy supplies could cause energy prices to rise further and for longer than currently expected. This would weigh on real incomes, spending and investment. A worsening of global financial market sentiment…",
+        "url": "https://www.ecb.europa.eu/press/press_conference/monetary-policy-statement/2026/html/ecb.is260910~6a45359cfc.en.html",
+        "sentence_id": 53
+      }
+    ],
+    "respuesta_llm": "The ECB expects inflation to remain above target through 2027, with headline inflation averaging 3.0% in 2026 and gradually declining thereafter [3].  \nThe ECB anticipates economic growth to be resilient, with a baseline projection of 0.9% for 2026 and upward revisions for subsequent years [3].  \nThe ECB maintains a data-dependent approach, emphasizing the need to monitor inflation risks and economic developments closely [5].  \nThe ECB highlights the Middle East conflict and energy price volatility as key upward risks to inflation [14].  \nThe ECB identifies geopolitical tensions and global financial market instability as significant downside risks to economic growth [16].",
+    "texto_llm": "The ECB expects inflation to remain above target through 2027, with headline inflation averaging 3.0% in 2026 and gradually declining thereafter [1]. The ECB anticipates economic growth to be resilient, with a baseline projection of 0.9% for 2026 and upward revisions for subsequent years [1]. The ECB maintains a data-dependent approach, emphasizing the need to monitor inflation risks and economic developments closely [2].\n\nThe ECB highlights the Middle East conflict and energy price volatility as key upward risks to inflation [3]. The ECB identifies geopolitical tensions and global financial market instability as significant downside risks to economic growth [4].",
+    "n_frases": 5,
+    "frases_con_cita": 5,
+    "seconds": 66.41775133299961
+  },
+  {
+    "modelo": "mlx-community/Meta-Llama-3.1-8B-Instruct-4bit",
+    "fecha": "2026-02-05",
+    "briefing": "The ECB kept its key interest rates unchanged. The Hawk & Dove stance index rates the press conference as neutral: it ranks at the 42nd percentile of the 50 press conferences held since December 2019, down from the 59th percentile at the previous meeting on 18 December 2025. The monetary policy statement ranks at the 54th percentile and the answers in the Q&A at the 26th.\n\nThe ECB expects inflation to stabilise at its two per cent target in the medium term [1]. The economy remains resilient in a challenging global environment, driven by low unemployment, solid private sector balance sheets, and supportive effects of past interest rate cuts [1]. The ECB is determined to ensure that inflation stabilises at its two per cent target in the medium term, following a data-dependent and meeting-by-meeting approach to determining the appropriate monetary policy stance [2].\n\nThe ECB highlighted the risks of a renewed increase in uncertainty, a deterioration in global financial market sentiment, further frictions in international trade, and geopolitical tensions, particularly Russia's unjustified war against Ukraine [3]. The ECB also highlighted the risks of inflation turning out to be lower if tariffs reduce demand for euro area exports by more than expected, or if a stronger euro brings inflation down beyond current expectations [4].",
+    "briefing_tts": "The ECB kept its key interest rates unchanged. The Hawk & Dove stance index rates the press conference as neutral: it ranks at the 42nd percentile of the 50 press conferences held since December 2019, down from the 59th percentile at the previous meeting on 18 December 2025. The monetary policy statement ranks at the 54th percentile and the answers in the Q and A at the 26th.\n\nThe ECB expects inflation to stabilise at its two per cent target in the medium term. The economy remains resilient in a challenging global environment, driven by low unemployment, solid private sector balance sheets, and supportive effects of past interest rate cuts. The ECB is determined to ensure that inflation stabilises at its two per cent target in the medium term, following a data-dependent and meeting-by-meeting approach to determining the appropriate monetary policy stance.\n\nThe ECB highlighted the risks of a renewed increase in uncertainty, a deterioration in global financial market sentiment, further frictions in international trade, and geopolitical tensions, particularly Russia's unjustified war against Ukraine. The ECB also highlighted the risks of inflation turning out to be lower if tariffs reduce demand for euro area exports by more than expected, or if a stronger euro brings inflation down beyond current expectations.",
+    "citations": [
+      {
+        "date": "2026-02-05",
+        "source": "ECB press conference, 5 February 2026. Monetary policy statement",
+        "start": null,
+        "end": null,
+        "snippet": "The Governing Council today decided to keep the three key ECB interest rates unchanged. Our updated assessment reconfirms that inflation should stabilise at our two per cent target in the medium term. The economy remains resilient in a challenging global environment. Low unemployment, solid private sector balance sheets, the gradual rollout of public spending on defence and infrastructure and the…",
+        "url": "https://www.ecb.europa.eu/press/press_conference/monetary-policy-statement/2026/html/ecb.is260205~50858cb986.en.html",
+        "sentence_id": 5
+      },
+      {
+        "date": "2026-02-05",
+        "source": "ECB press conference, 5 February 2026. Monetary policy statement",
+        "start": null,
+        "end": null,
+        "snippet": "We are determined to ensure that inflation stabilises at our two per cent target in the medium term. We will follow a data-dependent and meeting-by-meeting approach to determining the appropriate monetary policy stance. In particular, our interest rate decisions will be based on our assessment of the inflation outlook and the risks surrounding it, in light of the incoming economic and financial…",
+        "url": "https://www.ecb.europa.eu/press/press_conference/monetary-policy-statement/2026/html/ecb.is260205~50858cb986.en.html",
+        "sentence_id": 10
+      },
+      {
+        "date": "2026-02-05",
+        "source": "ECB press conference, 5 February 2026. Monetary policy statement (Risk assessment)",
+        "start": null,
+        "end": null,
+        "snippet": "The euro area continues to face a volatile global policy environment. A renewed increase in uncertainty could weigh on demand. A deterioration in global financial market sentiment could also dampen demand. Further frictions in international trade could disrupt supply chains, reduce exports and weaken consumption and investment. Geopolitical tensions, in particular Russia’s unjustified war against…",
+        "url": "https://www.ecb.europa.eu/press/press_conference/monetary-policy-statement/2026/html/ecb.is260205~50858cb986.en.html",
+        "sentence_id": 38
+      },
+      {
+        "date": "2026-02-05",
+        "source": "ECB press conference, 5 February 2026. Monetary policy statement (Risk assessment)",
+        "start": null,
+        "end": null,
+        "snippet": "The outlook for inflation continues to be more uncertain than usual on account of the volatile global policy environment. Inflation could turn out to be lower if tariffs reduce demand for euro area exports by more than expected and if countries with overcapacity increase further their exports to the euro area. Moreover, a stronger euro could bring inflation down beyond current expectations. More…",
+        "url": "https://www.ecb.europa.eu/press/press_conference/monetary-policy-statement/2026/html/ecb.is260205~50858cb986.en.html",
+        "sentence_id": 45
+      }
+    ],
+    "respuesta_llm": "The ECB expects inflation to stabilise at its two per cent target in the medium term [4].\n\nThe economy remains resilient in a challenging global environment, driven by low unemployment, solid private sector balance sheets, and supportive effects of past interest rate cuts [4].\n\nThe ECB is determined to ensure that inflation stabilises at its two per cent target in the medium term, following a data-dependent and meeting-by-meeting approach to determining the appropriate monetary policy stance [5].\n\nThe ECB highlighted the risks of a renewed increase in uncertainty, a deterioration in global financial market sentiment, further frictions in international trade, and geopolitical tensions, particularly Russia's unjustified war against Ukraine [14].\n\nThe ECB also highlighted the risks of inflation turning out to be lower if tariffs reduce demand for euro area exports by more than expected, or if a stronger euro brings inflation down beyond current expectations [15].",
+    "texto_llm": "The ECB expects inflation to stabilise at its two per cent target in the medium term [1]. The economy remains resilient in a challenging global environment, driven by low unemployment, solid private sector balance sheets, and supportive effects of past interest rate cuts [1]. The ECB is determined to ensure that inflation stabilises at its two per cent target in the medium term, following a data-dependent and meeting-by-meeting approach to determining the appropriate monetary policy stance [2].\n\nThe ECB highlighted the risks of a renewed increase in uncertainty, a deterioration in global financial market sentiment, further frictions in international trade, and geopolitical tensions, particularly Russia's unjustified war against Ukraine [3]. The ECB also highlighted the risks of inflation turning out to be lower if tariffs reduce demand for euro area exports by more than expected, or if a stronger euro brings inflation down beyond current expectations [4].",
+    "n_frases": 5,
+    "frases_con_cita": 5,
+    "seconds": 52.554395583996666
+  },
+  {
+    "modelo": "mlx-community/Meta-Llama-3.1-8B-Instruct-4bit",
+    "fecha": "2026-03-19",
+    "briefing": "The ECB kept its key interest rates unchanged. The Hawk & Dove stance index rates the press conference as slightly hawkish: it ranks at the 67th percentile of the 51 press conferences held since December 2019, up from the 42nd percentile at the previous meeting on 5 February 2026. The monetary policy statement ranks at the 71st percentile and the answers in the Q&A at the 47th.\n\nThe ECB expects inflation to average 2.6 per cent in 2026, 2.0 per cent in 2027, and 2.1 per cent in 2028 [1]. The economy grew by 0.2 per cent in the fourth quarter of 2025, driven by stronger domestic demand, with households increasing their spending as real incomes rose and unemployment remained close to its historical low [2]. The risks to the growth outlook are tilted to the downside, especially in the near term, due to the war in the Middle East and a prolonged war could increase energy prices further and for longer than currently expected [3].\n\nThe risks to the inflation outlook are tilted to the upside, especially in the near term, due to a prolonged war in the Middle East, which could lead to a larger and longer-lasting upward shift in energy prices than currently expected [4]. The ECB is concerned about the opacity, lack of transparency, and leverage of private credit and private equity instruments, and is keen to see the work produced by the European Commission on reviewing EU merger rules [5].",
+    "briefing_tts": "The ECB kept its key interest rates unchanged. The Hawk & Dove stance index rates the press conference as slightly hawkish: it ranks at the 67th percentile of the 51 press conferences held since December 2019, up from the 42nd percentile at the previous meeting on 5 February 2026. The monetary policy statement ranks at the 71st percentile and the answers in the Q and A at the 47th.\n\nThe ECB expects inflation to average 2.6 per cent in 2026, 2.0 per cent in 2027, and 2.1 per cent in 2028. The economy grew by 0.2 per cent in the fourth quarter of 2025, driven by stronger domestic demand, with households increasing their spending as real incomes rose and unemployment remained close to its historical low. The risks to the growth outlook are tilted to the downside, especially in the near term, due to the war in the Middle East and a prolonged war could increase energy prices further and for longer than currently expected.\n\nThe risks to the inflation outlook are tilted to the upside, especially in the near term, due to a prolonged war in the Middle East, which could lead to a larger and longer-lasting upward shift in energy prices than currently expected. The ECB is concerned about the opacity, lack of transparency, and leverage of private credit and private equity instruments, and is keen to see the work produced by the European Commission on reviewing EU merger rules.",
+    "citations": [
+      {
+        "date": "2026-03-19",
+        "source": "ECB press conference, 19 March 2026. Monetary policy statement",
+        "start": null,
+        "end": null,
+        "snippet": "The new ECB staff projections exceptionally incorporate information up to 11 March, a later cut-off date than usual. In the baseline, headline inflation is seen to average 2.6 per cent in 2026, 2.0 per cent in 2027 and 2.1 per cent in 2028. Inflation has been revised up compared with the December projections, especially for 2026. This is because energy prices will be higher owing to the war in…",
+        "url": "https://www.ecb.europa.eu/press/press_conference/monetary-policy-statement/2026/html/ecb.is260319~93b1cbad97.en.html",
+        "sentence_id": 10
+      },
+      {
+        "date": "2026-03-19",
+        "source": "ECB press conference, 19 March 2026. Monetary policy statement (Economic activity)",
+        "start": null,
+        "end": null,
+        "snippet": "The economy grew by 0.2 per cent in the fourth quarter of 2025, driven by stronger domestic demand. Households increased their spending as real incomes rose and unemployment remained close to its historical low. Construction and housing renovation strengthened, and firms invested more, particularly in areas such as research and development, software and databases. Growth was no longer weighed…",
+        "url": "https://www.ecb.europa.eu/press/press_conference/monetary-policy-statement/2026/html/ecb.is260319~93b1cbad97.en.html",
+        "sentence_id": 28
+      },
+      {
+        "date": "2026-03-19",
+        "source": "ECB press conference, 19 March 2026. Monetary policy statement (Risk assessment)",
+        "start": null,
+        "end": null,
+        "snippet": "The risks to the growth outlook are tilted to the downside, especially in the near term. The war in the Middle East is a downside risk to the euro area economy, adding to the volatile global policy environment. A prolonged war could increase energy prices further and for longer than currently expected, and also weigh on confidence. These factors would erode incomes and make firms and households…",
+        "url": "https://www.ecb.europa.eu/press/press_conference/monetary-policy-statement/2026/html/ecb.is260319~93b1cbad97.en.html",
+        "sentence_id": 59
+      },
+      {
+        "date": "2026-03-19",
+        "source": "ECB press conference, 19 March 2026. Monetary policy statement (Risk assessment)",
+        "start": null,
+        "end": null,
+        "snippet": "The risks to the inflation outlook are tilted to the upside, especially in the near term. A prolonged war in the Middle East could lead to a larger and longer-lasting upward shift in energy prices than currently expected, raising euro area inflation further. This could be reinforced and become more persistent if inflation expectations and wage growth were to rise in response, if the energy price…",
+        "url": "https://www.ecb.europa.eu/press/press_conference/monetary-policy-statement/2026/html/ecb.is260319~93b1cbad97.en.html",
+        "sentence_id": 69
+      },
+      {
+        "date": "2026-03-19",
+        "source": "ECB press conference, 19 March 2026. Answer by the Vice-President",
+        "start": null,
+        "end": null,
+        "snippet": "And even lately you have seen that some of them have started to incorporate what they call continuity funds, continuation funds. It’s an indication that there were some problems in terms of the liquidity and the valuation of these assets. There is another issue that we have paid a lot of attention to and that is quite opaque and for which there is no transparency, and that is the leverage of…",
+        "url": "https://www.ecb.europa.eu/press/press_conference/monetary-policy-statement/2026/html/ecb.is260319~93b1cbad97.en.html",
+        "sentence_id": 196
+      }
+    ],
+    "respuesta_llm": "The ECB expects inflation to average 2.6 per cent in 2026, 2.0 per cent in 2027, and 2.1 per cent in 2028 [4].\n\nThe economy grew by 0.2 per cent in the fourth quarter of 2025, driven by stronger domestic demand, with households increasing their spending as real incomes rose and unemployment remained close to its historical low [10].\n\nThe risks to the growth outlook are tilted to the downside, especially in the near term, due to the war in the Middle East and a prolonged war could increase energy prices further and for longer than currently expected [17].\n\nThe risks to the inflation outlook are tilted to the upside, especially in the near term, due to a prolonged war in the Middle East, which could lead to a larger and longer-lasting upward shift in energy prices than currently expected [19].\n\nThe ECB is concerned about the opacity, lack of transparency, and leverage of private credit and private equity instruments, and is keen to see the work produced by the European Commission on reviewing EU merger rules [40].",
+    "texto_llm": "The ECB expects inflation to average 2.6 per cent in 2026, 2.0 per cent in 2027, and 2.1 per cent in 2028 [1]. The economy grew by 0.2 per cent in the fourth quarter of 2025, driven by stronger domestic demand, with households increasing their spending as real incomes rose and unemployment remained close to its historical low [2]. The risks to the growth outlook are tilted to the downside, especially in the near term, due to the war in the Middle East and a prolonged war could increase energy prices further and for longer than currently expected [3].\n\nThe risks to the inflation outlook are tilted to the upside, especially in the near term, due to a prolonged war in the Middle East, which could lead to a larger and longer-lasting upward shift in energy prices than currently expected [4]. The ECB is concerned about the opacity, lack of transparency, and leverage of private credit and private equity instruments, and is keen to see the work produced by the European Commission on reviewing EU merger rules [5].",
+    "n_frases": 5,
+    "frases_con_cita": 5,
+    "seconds": 58.16560887500236
+  },
+  {
+    "modelo": "mlx-community/Meta-Llama-3.1-8B-Instruct-4bit",
+    "fecha": "2026-04-30",
+    "briefing": "The ECB kept its key interest rates unchanged. The Hawk & Dove stance index rates the press conference as slightly hawkish: it ranks at the 69th percentile of the 52 press conferences held since December 2019, up from the 67th percentile at the previous meeting on 19 March 2026. The monetary policy statement ranks at the 67th percentile and the answers in the Q&A at the 67th.\n\nThe ECB expects the euro area economy to show some momentum, but the economic outlook is highly uncertain and will depend on how long the war in the Middle East lasts [1]. The war in the Middle East has caused significant volatility in global financial markets, and overall financial conditions remain tighter than before the war [2]. The ECB highlights the urgent need to strengthen the euro area economy while maintaining sound public finances, and fiscal responses to the energy price shock should be temporary, targeted, and tailored [3].\n\nThe risks to the growth outlook are to the downside, and the war in the Middle East remains a downside risk to the euro area economy, adding to the volatile global policy environment [4]. The risks to the inflation outlook are to the upside, and if energy prices were to rise by more and for longer than currently expected, euro area inflation would increase further [5].",
+    "briefing_tts": "The ECB kept its key interest rates unchanged. The Hawk & Dove stance index rates the press conference as slightly hawkish: it ranks at the 69th percentile of the 52 press conferences held since December 2019, up from the 67th percentile at the previous meeting on 19 March 2026. The monetary policy statement ranks at the 67th percentile and the answers in the Q and A at the 67th.\n\nThe ECB expects the euro area economy to show some momentum, but the economic outlook is highly uncertain and will depend on how long the war in the Middle East lasts. The war in the Middle East has caused significant volatility in global financial markets, and overall financial conditions remain tighter than before the war. The ECB highlights the urgent need to strengthen the euro area economy while maintaining sound public finances, and fiscal responses to the energy price shock should be temporary, targeted, and tailored.\n\nThe risks to the growth outlook are to the downside, and the war in the Middle East remains a downside risk to the euro area economy, adding to the volatile global policy environment. The risks to the inflation outlook are to the upside, and if energy prices were to rise by more and for longer than currently expected, euro area inflation would increase further.",
+    "citations": [
+      {
+        "date": "2026-04-30",
+        "source": "ECB press conference, 30 April 2026. Monetary policy statement (Economic activity)",
+        "start": null,
+        "end": null,
+        "snippet": "The euro area economy was showing some momentum when the current turbulence started. Real GDP grew by 0.1 per cent in the first quarter of 2026, according to Eurostat’s preliminary flash estimate. Domestic demand remains the main driver of growth, supported by a resilient labour market. However, the economic outlook is highly uncertain and will depend on how long the war in the Middle East lasts…",
+        "url": "https://www.ecb.europa.eu/press/press_conference/monetary-policy-statement/2026/html/ecb.is260430~f99cb123a8.en.html",
+        "sentence_id": 15
+      },
+      {
+        "date": "2026-04-30",
+        "source": "ECB press conference, 30 April 2026. Monetary policy statement (Financial and monetary conditions)",
+        "start": null,
+        "end": null,
+        "snippet": "The war in the Middle East has caused significant volatility in global financial markets. Overall financial conditions remain tighter than before the war.",
+        "url": "https://www.ecb.europa.eu/press/press_conference/monetary-policy-statement/2026/html/ecb.is260430~f99cb123a8.en.html",
+        "sentence_id": 64
+      },
+      {
+        "date": "2026-04-30",
+        "source": "ECB press conference, 30 April 2026. Monetary policy statement (Economic activity)",
+        "start": null,
+        "end": null,
+        "snippet": "The Governing Council highlights the urgent need to strengthen the euro area economy while maintaining sound public finances. Fiscal responses to the energy price shock should be temporary, targeted and tailored. Reforms to enhance the euro area’s growth potential and accelerate the energy transition to reduce reliance on fossil fuels are more vital than ever. Completing the savings and…",
+        "url": "https://www.ecb.europa.eu/press/press_conference/monetary-policy-statement/2026/html/ecb.is260430~f99cb123a8.en.html",
+        "sentence_id": 26
+      },
+      {
+        "date": "2026-04-30",
+        "source": "ECB press conference, 30 April 2026. Monetary policy statement (Risk assessment)",
+        "start": null,
+        "end": null,
+        "snippet": "The risks to the growth outlook are to the downside. The war in the Middle East remains a downside risk to the euro area economy, adding to the volatile global policy environment. Prolonged disruption of the supply of energy could increase energy prices further and for longer than currently expected. These factors would erode incomes and make firms and households more reluctant to invest and…",
+        "url": "https://www.ecb.europa.eu/press/press_conference/monetary-policy-statement/2026/html/ecb.is260430~f99cb123a8.en.html",
+        "sentence_id": 47
+      },
+      {
+        "date": "2026-04-30",
+        "source": "ECB press conference, 30 April 2026. Monetary policy statement (Risk assessment)",
+        "start": null,
+        "end": null,
+        "snippet": "The risks to the inflation outlook are to the upside. If energy prices were to rise by more and for longer than currently expected, euro area inflation would increase further. This could be reinforced and become more persistent if higher energy prices were to spill over by more than expected to other prices and to wages, if longer-term inflation expectations were to rise in response, or if global…",
+        "url": "https://www.ecb.europa.eu/press/press_conference/monetary-policy-statement/2026/html/ecb.is260430~f99cb123a8.en.html",
+        "sentence_id": 58
+      }
+    ],
+    "respuesta_llm": "The ECB expects the euro area economy to show some momentum, but the economic outlook is highly uncertain and will depend on how long the war in the Middle East lasts [8]. The war in the Middle East has caused significant volatility in global financial markets, and overall financial conditions remain tighter than before the war [19]. The ECB highlights the urgent need to strengthen the euro area economy while maintaining sound public finances, and fiscal responses to the energy price shock should be temporary, targeted, and tailored [11]. The risks to the growth outlook are to the downside, and the war in the Middle East remains a downside risk to the euro area economy, adding to the volatile global policy environment [15]. The risks to the inflation outlook are to the upside, and if energy prices were to rise by more and for longer than currently expected, euro area inflation would increase further [17].",
+    "texto_llm": "The ECB expects the euro area economy to show some momentum, but the economic outlook is highly uncertain and will depend on how long the war in the Middle East lasts [1]. The war in the Middle East has caused significant volatility in global financial markets, and overall financial conditions remain tighter than before the war [2]. The ECB highlights the urgent need to strengthen the euro area economy while maintaining sound public finances, and fiscal responses to the energy price shock should be temporary, targeted, and tailored [3].\n\nThe risks to the growth outlook are to the downside, and the war in the Middle East remains a downside risk to the euro area economy, adding to the volatile global policy environment [4]. The risks to the inflation outlook are to the upside, and if energy prices were to rise by more and for longer than currently expected, euro area inflation would increase further [5].",
+    "n_frases": 5,
+    "frases_con_cita": 5,
+    "seconds": 70.82336295799905
+  },
+  {
+    "modelo": "mlx-community/Meta-Llama-3.1-8B-Instruct-4bit",
+    "fecha": "2026-06-11",
+    "briefing": "The ECB raised its key interest rates by 25 basis points. The Hawk & Dove stance index rates the press conference as slightly hawkish: it ranks at the 77th percentile of the 53 press conferences held since December 2019, up from the 69th percentile at the previous meeting on 30 April 2026. The monetary policy statement ranks at the 66th percentile and the answers in the Q&A at the 92nd.\n\nThe ECB expects headline inflation to average 3.0 per cent in 2026, 2.3 per cent in 2027 and 2.0 per cent in 2028 [1]. The outlook remains uncertain, with upside risks for inflation and downside risks for economic growth [2]. The ECB highlighted that the risks to the growth outlook are to the downside, mainly owing to the war in the Middle East, which has added to the volatile global policy environment [3].\n\nThe risks to the inflation outlook are to the upside, and if energy prices were to rise by more and for longer than currently expected, euro area inflation would increase further [4]. The ECB will closely monitor the situation and follow a data-dependent and meeting-by-meeting approach to determining the appropriate monetary policy stance [5].",
+    "briefing_tts": "The ECB raised its key interest rates by 25 basis points. The Hawk & Dove stance index rates the press conference as slightly hawkish: it ranks at the 77th percentile of the 53 press conferences held since December 2019, up from the 69th percentile at the previous meeting on 30 April 2026. The monetary policy statement ranks at the 66th percentile and the answers in the Q and A at the 92nd.\n\nThe ECB expects headline inflation to average 3.0 per cent in 2026, 2.3 per cent in 2027 and 2.0 per cent in 2028. The outlook remains uncertain, with upside risks for inflation and downside risks for economic growth. The ECB highlighted that the risks to the growth outlook are to the downside, mainly owing to the war in the Middle East, which has added to the volatile global policy environment.\n\nThe risks to the inflation outlook are to the upside, and if energy prices were to rise by more and for longer than currently expected, euro area inflation would increase further. The ECB will closely monitor the situation and follow a data-dependent and meeting-by-meeting approach to determining the appropriate monetary policy stance.",
+    "citations": [
+      {
+        "date": "2026-06-11",
+        "source": "ECB press conference, 11 June 2026. Monetary policy statement",
+        "start": null,
+        "end": null,
+        "snippet": "In the baseline of the new Eurosystem staff projections, headline inflation is expected to average 3.0 per cent in 2026, 2.3 per cent in 2027 and 2.0 per cent in 2028. For inflation excluding energy and food, the baseline foresees an average of 2.5 per cent in 2026 and 2027 and 2.2 per cent in 2028. Compared with March, staff have revised up their baseline projection for inflation in 2026 and…",
+        "url": "https://www.ecb.europa.eu/press/press_conference/monetary-policy-statement/2026/html/ecb.is260611~372040d313.en.html",
+        "sentence_id": 4
+      },
+      {
+        "date": "2026-06-11",
+        "source": "ECB press conference, 11 June 2026. Monetary policy statement",
+        "start": null,
+        "end": null,
+        "snippet": "The outlook remains uncertain, with upside risks for inflation and downside risks for economic growth. The full implications of the war for medium-term inflation and growth will depend on the intensity and duration of the energy price shock, as well as the scale of its indirect and second-round effects. This uncertainty is also reflected in the broad range of outcomes for inflation and growth in…",
+        "url": "https://www.ecb.europa.eu/press/press_conference/monetary-policy-statement/2026/html/ecb.is260611~372040d313.en.html",
+        "sentence_id": 9
+      },
+      {
+        "date": "2026-06-11",
+        "source": "ECB press conference, 11 June 2026. Monetary policy statement (Risk assessment)",
+        "start": null,
+        "end": null,
+        "snippet": "The risks to the growth outlook are to the downside, mainly owing to the war in the Middle East, which has added to the volatile global policy environment. Prolonged disruption of energy supplies could increase energy prices further and for longer than currently expected. These factors would erode real incomes even more and make firms and households more reluctant to invest and spend. The drag on…",
+        "url": "https://www.ecb.europa.eu/press/press_conference/monetary-policy-statement/2026/html/ecb.is260611~372040d313.en.html",
+        "sentence_id": 56
+      },
+      {
+        "date": "2026-06-11",
+        "source": "ECB press conference, 11 June 2026. Monetary policy statement (Risk assessment)",
+        "start": null,
+        "end": null,
+        "snippet": "The risks to the inflation outlook are to the upside. If energy prices were to rise by more and for longer than currently expected, euro area inflation would increase further. This could be reinforced and become more persistent if higher energy prices were to spill over by more than expected to other prices and to wages, if longer-term inflation expectations were to rise in response, or if global…",
+        "url": "https://www.ecb.europa.eu/press/press_conference/monetary-policy-statement/2026/html/ecb.is260611~372040d313.en.html",
+        "sentence_id": 66
+      },
+      {
+        "date": "2026-06-11",
+        "source": "ECB press conference, 11 June 2026. Monetary policy statement",
+        "start": null,
+        "end": null,
+        "snippet": "With today’s decision, we remain well positioned to navigate the uncertainty caused by the war. We will closely monitor the situation and follow a data-dependent and meeting-by-meeting approach to determining the appropriate monetary policy stance. In particular, our interest rate decisions will be based on our assessment of the inflation outlook and the risks surrounding it, in light of the…",
+        "url": "https://www.ecb.europa.eu/press/press_conference/monetary-policy-statement/2026/html/ecb.is260611~372040d313.en.html",
+        "sentence_id": 13
+      }
+    ],
+    "respuesta_llm": "The ECB expects headline inflation to average 3.0 per cent in 2026, 2.3 per cent in 2027 and 2.0 per cent in 2028 [3].\n\nThe outlook remains uncertain, with upside risks for inflation and downside risks for economic growth [4].\n\nThe ECB highlighted that the risks to the growth outlook are to the downside, mainly owing to the war in the Middle East, which has added to the volatile global policy environment [16].\n\nThe risks to the inflation outlook are to the upside, and if energy prices were to rise by more and for longer than currently expected, euro area inflation would increase further [18].\n\nThe ECB will closely monitor the situation and follow a data-dependent and meeting-by-meeting approach to determining the appropriate monetary policy stance [5].",
+    "texto_llm": "The ECB expects headline inflation to average 3.0 per cent in 2026, 2.3 per cent in 2027 and 2.0 per cent in 2028 [1]. The outlook remains uncertain, with upside risks for inflation and downside risks for economic growth [2]. The ECB highlighted that the risks to the growth outlook are to the downside, mainly owing to the war in the Middle East, which has added to the volatile global policy environment [3].\n\nThe risks to the inflation outlook are to the upside, and if energy prices were to rise by more and for longer than currently expected, euro area inflation would increase further [4]. The ECB will closely monitor the situation and follow a data-dependent and meeting-by-meeting approach to determining the appropriate monetary policy stance [5].",
+    "n_frases": 5,
+    "frases_con_cita": 5,
+    "seconds": 66.72091633400123
+  },
+  {
+    "modelo": "mlx-community/Meta-Llama-3.1-8B-Instruct-4bit",
+    "fecha": "2026-07-23",
+    "briefing": "The ECB kept its key interest rates unchanged. The Hawk & Dove stance index rates the press conference as neutral: it ranks at the 56th percentile of the 54 press conferences held since December 2019, down from the 77th percentile at the previous meeting on 11 June 2026. The monetary policy statement ranks at the 63rd percentile and the answers in the Q&A at the 46th.\n\nThe ECB expects economic growth to remain modest in the near term, weighed down by the energy shock and related uncertainties [1]. The ECB's wage tracker and surveys on wage expectations continue to indicate moderate wage growth over the coming quarters [2]. The risks to the growth outlook are to the downside, with renewed disruption of energy supplies, a worsening of global financial market sentiment, or a tighter supply of credit potentially dampening demand [3].\n\nThe risks to the inflation outlook are to the upside, with the energy shock potentially intensifying further and its effects on other prices and wages being stronger than currently expected [4]. The ECB will balance the agility of the Central Bank with avoiding sudden shifts in direction, taking into account the uncertainty and volatility of the current situation [5].",
+    "briefing_tts": "The ECB kept its key interest rates unchanged. The Hawk & Dove stance index rates the press conference as neutral: it ranks at the 56th percentile of the 54 press conferences held since December 2019, down from the 77th percentile at the previous meeting on 11 June 2026. The monetary policy statement ranks at the 63rd percentile and the answers in the Q and A at the 46th.\n\nThe ECB expects economic growth to remain modest in the near term, weighed down by the energy shock and related uncertainties. The ECB's wage tracker and surveys on wage expectations continue to indicate moderate wage growth over the coming quarters. The risks to the growth outlook are to the downside, with renewed disruption of energy supplies, a worsening of global financial market sentiment, or a tighter supply of credit potentially dampening demand.\n\nThe risks to the inflation outlook are to the upside, with the energy shock potentially intensifying further and its effects on other prices and wages being stronger than currently expected. The ECB will balance the agility of the Central Bank with avoiding sudden shifts in direction, taking into account the uncertainty and volatility of the current situation.",
+    "citations": [
+      {
+        "date": "2026-07-23",
+        "source": "ECB press conference, 23 July 2026. Monetary policy statement (Economic activity)",
+        "start": null,
+        "end": null,
+        "snippet": "Forward-looking indicators suggest that economic growth will remain modest in the near term, weighed down by the energy shock and related uncertainties. Yet the fundamental drivers of medium-term growth remain intact. Private consumption, investment in new digital technologies, government spending on defence and infrastructure, and some recovery in exports should all contribute to overall growth…",
+        "url": "https://www.ecb.europa.eu/press/press_conference/monetary-policy-statement/2026/html/ecb.is260723~b6fadd48f4.en.html",
+        "sentence_id": 18
+      },
+      {
+        "date": "2026-07-23",
+        "source": "ECB press conference, 23 July 2026. Monetary policy statement (Inflation)",
+        "start": null,
+        "end": null,
+        "snippet": "The energy shock continues to feed into higher prices. It is becoming more expensive for firms to source inputs and they therefore expect to put up their selling prices. While developments in underlying inflation have remained contained, the full effects of the energy shock have yet to play out. The ECB’s wage tracker and surveys on wage expectations continue to indicate moderate wage growth over…",
+        "url": "https://www.ecb.europa.eu/press/press_conference/monetary-policy-statement/2026/html/ecb.is260723~b6fadd48f4.en.html",
+        "sentence_id": 30
+      },
+      {
+        "date": "2026-07-23",
+        "source": "ECB press conference, 23 July 2026. Monetary policy statement (Risk assessment)",
+        "start": null,
+        "end": null,
+        "snippet": "The risks to the growth outlook are to the downside. While the Memorandum of Understanding agreed between the United States and Iran in June constituted a first attempt to resolve the conflict, recent weeks have brought renewed setbacks and the geopolitical situation remains fragile. Renewed disruption of energy supplies could increase energy prices further and for longer than currently expected.…",
+        "url": "https://www.ecb.europa.eu/press/press_conference/monetary-policy-statement/2026/html/ecb.is260723~b6fadd48f4.en.html",
+        "sentence_id": 41
+      },
+      {
+        "date": "2026-07-23",
+        "source": "ECB press conference, 23 July 2026. Monetary policy statement (Risk assessment)",
+        "start": null,
+        "end": null,
+        "snippet": "The risks to the inflation outlook are to the upside. The energy shock could intensify further and its effects on other prices and wages could be stronger than currently expected. The longer energy prices stay high, the more likely they are to drive up broader inflation through indirect and second-round effects. Ongoing trade tensions could give rise to more fragmented global supply chains,…",
+        "url": "https://www.ecb.europa.eu/press/press_conference/monetary-policy-statement/2026/html/ecb.is260723~b6fadd48f4.en.html",
+        "sentence_id": 50
+      },
+      {
+        "date": "2026-07-23",
+        "source": "ECB press conference, 23 July 2026. Answer by the President",
+        "start": null,
+        "end": null,
+        "snippet": "I'm not sure exactly what you meant about our agility, but what I can assure you is that staff at the ECB is working flat out to absorb all the data, almost as they come, and to make sure that while sticking to principles of cut-off dates of the reaction function that we apply, they are still capable of absorbing all developments. And that's really a factor of the agility that we try to…",
+        "url": "https://www.ecb.europa.eu/press/press_conference/monetary-policy-statement/2026/html/ecb.is260723~b6fadd48f4.en.html",
+        "sentence_id": 188
+      }
+    ],
+    "respuesta_llm": "The ECB expects economic growth to remain modest in the near term, weighed down by the energy shock and related uncertainties [7]. \n\nThe ECB's wage tracker and surveys on wage expectations continue to indicate moderate wage growth over the coming quarters [10]. \n\nThe risks to the growth outlook are to the downside, with renewed disruption of energy supplies, a worsening of global financial market sentiment, or a tighter supply of credit potentially dampening demand [12]. \n\nThe risks to the inflation outlook are to the upside, with the energy shock potentially intensifying further and its effects on other prices and wages being stronger than currently expected [14]. \n\nThe ECB will balance the agility of the Central Bank with avoiding sudden shifts in direction, taking into account the uncertainty and volatility of the current situation [46].",
+    "texto_llm": "The ECB expects economic growth to remain modest in the near term, weighed down by the energy shock and related uncertainties [1]. The ECB's wage tracker and surveys on wage expectations continue to indicate moderate wage growth over the coming quarters [2]. The risks to the growth outlook are to the downside, with renewed disruption of energy supplies, a worsening of global financial market sentiment, or a tighter supply of credit potentially dampening demand [3].\n\nThe risks to the inflation outlook are to the upside, with the energy shock potentially intensifying further and its effects on other prices and wages being stronger than currently expected [4]. The ECB will balance the agility of the Central Bank with avoiding sudden shifts in direction, taking into account the uncertainty and volatility of the current situation [5].",
+    "n_frases": 5,
+    "frases_con_cita": 5,
+    "seconds": 60.17392291699798
+  },
+  {
+    "modelo": "mlx-community/Meta-Llama-3.1-8B-Instruct-4bit",
+    "fecha": "2026-09-10",
+    "briefing": "The ECB raised its key interest rates by 25 basis points. The Hawk & Dove stance index rates the press conference as slightly hawkish: it ranks at the 69th percentile of the 55 press conferences held since December 2019, up from the 56th percentile at the previous meeting on 23 July 2026. The monetary policy statement ranks at the 69th percentile and the answers in the Q&A at the 64th.\n\nThe ECB expects headline inflation to average 3.0 per cent in 2026, 2.5 per cent in 2027, and 2.1 per cent in 2028 [1]. The baseline projection for economic growth is 0.9 per cent for 2026, 1.4 per cent for 2027, and 1.5 per cent for 2028 [1]. The outlook remains highly uncertain, with risks to the upside for inflation and to the downside for economic growth [2].\n\nA resurgence of trade tensions between major economies could further disrupt supply chains, reduce exports, and weaken consumption and investment [3]. The energy shock could intensify further and its effects on other prices and wages could be stronger than currently expected, driving up broader inflation through indirect and second-round effects [4].",
+    "briefing_tts": "The ECB raised its key interest rates by 25 basis points. The Hawk & Dove stance index rates the press conference as slightly hawkish: it ranks at the 69th percentile of the 55 press conferences held since December 2019, up from the 56th percentile at the previous meeting on 23 July 2026. The monetary policy statement ranks at the 69th percentile and the answers in the Q and A at the 64th.\n\nThe ECB expects headline inflation to average 3.0 per cent in 2026, 2.5 per cent in 2027, and 2.1 per cent in 2028. The baseline projection for economic growth is 0.9 per cent for 2026, 1.4 per cent for 2027, and 1.5 per cent for 2028. The outlook remains highly uncertain, with risks to the upside for inflation and to the downside for economic growth.\n\nA resurgence of trade tensions between major economies could further disrupt supply chains, reduce exports, and weaken consumption and investment. The energy shock could intensify further and its effects on other prices and wages could be stronger than currently expected, driving up broader inflation through indirect and second-round effects.",
+    "citations": [
+      {
+        "date": "2026-09-10",
+        "source": "ECB press conference, 10 September 2026. Monetary policy statement",
+        "start": null,
+        "end": null,
+        "snippet": "The baseline of the new ECB staff projections sees headline inflation averaging 3.0 per cent in 2026, 2.5 per cent in 2027 and 2.1 per cent in 2028. For inflation excluding energy and food, the baseline foresees 2.5 per cent in 2026, 2.6 per cent in 2027 and 2.3 per cent in 2028. Compared with June, the baseline projection for inflation in 2026 is unchanged, while it has been revised up for 2027…",
+        "url": "https://www.ecb.europa.eu/press/press_conference/monetary-policy-statement/2026/html/ecb.is260910~6a45359cfc.en.html",
+        "sentence_id": 5
+      },
+      {
+        "date": "2026-09-10",
+        "source": "ECB press conference, 10 September 2026. Monetary policy statement",
+        "start": null,
+        "end": null,
+        "snippet": "The outlook remains highly uncertain, with risks to the upside for inflation and to the downside for economic growth. In relation to the energy shock, the updated scenarios put together by staff illustrate the broad range of outcomes for how growth and inflation would evolve under different assumptions about its intensity and duration, as well as its indirect and second-round effects.",
+        "url": "https://www.ecb.europa.eu/press/press_conference/monetary-policy-statement/2026/html/ecb.is260910~6a45359cfc.en.html",
+        "sentence_id": 10
+      },
+      {
+        "date": "2026-09-10",
+        "source": "ECB press conference, 10 September 2026. Monetary policy statement (Risk assessment)",
+        "start": null,
+        "end": null,
+        "snippet": "A resurgence of trade tensions between major economies could also further disrupt supply chains, reduce exports and weaken consumption and investment. By contrast, growth could turn out to be higher if the economy and energy markets were to adapt more quickly than expected to the disruption caused by the ongoing conflicts or if these were resolved sustainably. Moreover, the adoption of new…",
+        "url": "https://www.ecb.europa.eu/press/press_conference/monetary-policy-statement/2026/html/ecb.is260910~6a45359cfc.en.html",
+        "sentence_id": 58
+      },
+      {
+        "date": "2026-09-10",
+        "source": "ECB press conference, 10 September 2026. Monetary policy statement (Risk assessment)",
+        "start": null,
+        "end": null,
+        "snippet": "The risks to the inflation outlook are to the upside. This is due, in particular, to the Middle East conflict and developments in Russia’s unjustified war against Ukraine. The energy shock could intensify further and its effects on other prices and wages could be stronger than currently expected. Gas prices, in particular, could increase in the event of further supply disruptions or an unusually…",
+        "url": "https://www.ecb.europa.eu/press/press_conference/monetary-policy-statement/2026/html/ecb.is260910~6a45359cfc.en.html",
+        "sentence_id": 61
+      }
+    ],
+    "respuesta_llm": "The ECB expects headline inflation to average 3.0 per cent in 2026, 2.5 per cent in 2027, and 2.1 per cent in 2028 [3].\n\nThe baseline projection for economic growth is 0.9 per cent for 2026, 1.4 per cent for 2027, and 1.5 per cent for 2028 [3].\n\nThe outlook remains highly uncertain, with risks to the upside for inflation and to the downside for economic growth [4].\n\nA resurgence of trade tensions between major economies could further disrupt supply chains, reduce exports, and weaken consumption and investment [17].\n\nThe energy shock could intensify further and its effects on other prices and wages could be stronger than currently expected, driving up broader inflation through indirect and second-round effects [18].",
+    "texto_llm": "The ECB expects headline inflation to average 3.0 per cent in 2026, 2.5 per cent in 2027, and 2.1 per cent in 2028 [1]. The baseline projection for economic growth is 0.9 per cent for 2026, 1.4 per cent for 2027, and 1.5 per cent for 2028 [1]. The outlook remains highly uncertain, with risks to the upside for inflation and to the downside for economic growth [2].\n\nA resurgence of trade tensions between major economies could further disrupt supply chains, reduce exports, and weaken consumption and investment [3]. The energy shock could intensify further and its effects on other prices and wages could be stronger than currently expected, driving up broader inflation through indirect and second-round effects [4].",
+    "n_frases": 5,
+    "frases_con_cita": 5,
+    "seconds": 70.93284595799923
+  }
+]
