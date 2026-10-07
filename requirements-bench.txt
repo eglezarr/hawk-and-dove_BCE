@@ -2,3 +2,13 @@
 -r requirements.txt
 ipykernel
 matplotlib
+psutil
+
+# Bloque 3 · candidato SigLIP zero-shot (benchmarks/b3_01_expresion_facial.ipynb)
+# En CPU basta con: pip install torch --index-url https://download.pytorch.org/whl/cpu
+torch
+transformers
+sentencepiece
+
+# Bloque 3 · candidato py-feat (emociones + Action Units)
+py-feat

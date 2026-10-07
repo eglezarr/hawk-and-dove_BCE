@@ -13,5 +13,10 @@ def get_face_backend(name: str):
     if name == "hsemotion":
         from src.vision.models.hsemotion import HSEmotionBackend
         return HSEmotionBackend()
-    # Pendientes del benchmark: "pyfeat", "siglip"
+    if name == "siglip":
+        from src.vision.models.siglip import SigLIPBackend
+        return SigLIPBackend()
+    if name == "pyfeat":
+        from src.vision.models.pyfeat import PyFeatBackend
+        return PyFeatBackend()
     raise ValueError(f"Backend de cara desconocido: {name!r}")
