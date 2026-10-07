@@ -1,0 +1,4 @@
+modelo,valence_media,arousal_media,emocion_mas_frecuente,pct_emocion_mas_frecuente,d_cohen_valence_decl_vs_preg,da_action_units,corr_valence_30s_spearman_hse_siglip,acuerdo_top1_hsemotion_siglip,acuerdo_top1_hsemotion_pyfeat,acuerdo_top1_siglip_pyfeat
+HSEmotion,-0.122,0.111,surprise,0.279,0.57,False,0.76,0.048,0.328,0.071
+SigLIP,0.509,0.336,contempt,0.917,0.48,False,0.76,0.048,0.328,0.071
+py-feat,,,neutral,0.787,,True,0.76,0.048,0.328,0.071

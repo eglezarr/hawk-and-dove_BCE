@@ -2,6 +2,8 @@
 -r requirements.txt
 ipykernel
 matplotlib
+
+# --- Bloque 2 ---
 datasets
 openpyxl
 torch
@@ -15,3 +17,10 @@ mlx-lm; sys_platform == "darwin"
 # --- Bloque 1: benchmarks ---
 jiwer
 yt-dlp
+
+# --- Bloque 3 ---
+psutil
+# SigLIP zero-shot (torch, transformers y sentencepiece ya están arriba).
+# En CPU basta con: pip install torch --index-url https://download.pytorch.org/whl/cpu
+# py-feat: emociones + Action Units
+py-feat

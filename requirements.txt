@@ -3,6 +3,8 @@ pandas
 numpy
 pyyaml
 python-dotenv
+
+# --- Bloque 2: Texto ---
 requests
 beautifulsoup4
 pysbd
@@ -19,3 +21,14 @@ pyannote.audio
 kokoro>=0.8
 soundfile
 ffmpeg-python
+
+# --- Bloque 3: app y procesado de vídeo ---
+streamlit>=1.45
+altair
+opencv-python  # versión completa: la exige hsemotion-onnx; no añadir también la headless, se pisan
+hsemotion-onnx
+onnxruntime
+
+# Descarga de vídeos (scripts/download_videos.py)
+yt-dlp
+imageio-ffmpeg

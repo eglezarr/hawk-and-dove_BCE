@@ -1,0 +1,10 @@
+variable,year,value,unit,source
+hicp,2026,3.0,pct,monetary_policy_statement
+hicp,2027,2.5,pct,monetary_policy_statement
+hicp,2028,2.1,pct,monetary_policy_statement
+hicp_ex_energy_food,2026,2.5,pct,monetary_policy_statement
+hicp_ex_energy_food,2027,2.6,pct,monetary_policy_statement
+hicp_ex_energy_food,2028,2.3,pct,monetary_policy_statement
+gdp,2026,0.9,pct,monetary_policy_statement
+gdp,2027,1.4,pct,monetary_policy_statement
+gdp,2028,1.5,pct,monetary_policy_statement
