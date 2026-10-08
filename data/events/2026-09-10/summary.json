@@ -14,43 +14,63 @@
     "previous_percentile": 56
   },
   "voice": null,
-  "face": null,
+  "face": {
+    "valence_mean": -0.122,
+    "arousal_mean": 0.111,
+    "label": null,
+    "frames": 2439,
+    "valence_z_vs_history": null
+  },
   "key_moments": [
     {
-      "start": null,
-      "end": null,
+      "start": 119.5,
+      "end": 126.5,
       "sentence_id": 2,
       "speaker": "presidenta",
       "text": "The Governing Council today decided to raise the three key ECB interest rates by 25 basis points.",
       "score": 1.0,
-      "reason": "Hawkish signal in the statement"
+      "reason": "Hawkish signal in the statement",
+      "signal": "stance"
     },
     {
-      "start": null,
-      "end": null,
+      "start": 400.0,
+      "end": 410.7,
       "sentence_id": 27,
       "speaker": "presidenta",
       "text": "Over the medium term, consumption should be supported by gradually falling energy prices and a strong labour market.",
       "score": -0.998,
-      "reason": "Dovish signal in the statement"
+      "reason": "Dovish signal in the statement",
+      "signal": "stance"
     },
     {
-      "start": null,
-      "end": null,
+      "start": 486.4,
+      "end": 494.1,
       "sentence_id": 34,
       "speaker": "presidenta",
       "text": "Inflation increased to 3.3 per cent in August, from 2.9 per cent in July.",
       "score": 1.0,
-      "reason": "Hawkish signal in the statement"
+      "reason": "Hawkish signal in the statement",
+      "signal": "stance"
     },
     {
-      "start": null,
-      "end": null,
+      "start": 1803.4,
+      "end": 1812.1,
       "sentence_id": 166,
       "speaker": "presidenta",
       "text": "And we've also been surprised on the inflation front, because we have seen inflation, in a way, lower than we had anticipated.",
       "score": -0.999,
-      "reason": "Dovish signal in the Q&A"
+      "reason": "Dovish signal in the Q&A",
+      "signal": "stance"
+    },
+    {
+      "start": 2336.4,
+      "end": 2344.1,
+      "sentence_id": 222,
+      "speaker": "presidenta",
+      "text": "You can argue ad infinitum about minuscule moves in one direction or the other.",
+      "score": 0.0,
+      "reason": "Facial expression shift: valence +2.5 SD from her average in this press conference",
+      "signal": "face"
     }
   ],
   "briefing": "The ECB raised its key interest rates by 25 basis points. The Hawk & Dove stance index rates the press conference as slightly hawkish: it ranks at the 69th percentile of the 55 press conferences held since December 2019, up from the 56th percentile at the previous meeting on 23 July 2026. The monetary policy statement ranks at the 69th percentile and the answers in the Q&A at the 64th.\n\nThe ECB expects headline inflation to average 3.0 per cent in 2026, 2.5 per cent in 2027, and 2.1 per cent in 2028 [1]. The baseline projection for economic growth is 0.9 per cent for 2026, 1.4 per cent for 2027, and 1.5 per cent for 2028 [1]. The outlook remains highly uncertain, with risks to the upside for inflation and to the downside for economic growth [2].\n\nA resurgence of trade tensions between major economies could further disrupt supply chains, reduce exports, and weaken consumption and investment [3]. The energy shock could intensify further and its effects on other prices and wages could be stronger than currently expected, driving up broader inflation through indirect and second-round effects [4].",
@@ -59,8 +79,8 @@
     {
       "date": "2026-09-10",
       "source": "ECB press conference, 10 September 2026. Monetary policy statement",
-      "start": null,
-      "end": null,
+      "start": 150.4,
+      "end": 163.8,
       "snippet": "The baseline of the new ECB staff projections sees headline inflation averaging 3.0 per cent in 2026, 2.5 per cent in 2027 and 2.1 per cent in 2028. For inflation excluding energy and food, the baseline foresees 2.5 per cent in 2026, 2.6 per cent in 2027 and 2.3 per cent in 2028. Compared with June, the baseline projection for inflation in 2026 is unchanged, while it has been revised up for 2027…",
       "url": "https://www.ecb.europa.eu/press/press_conference/monetary-policy-statement/2026/html/ecb.is260910~6a45359cfc.en.html",
       "sentence_id": 5
@@ -68,8 +88,8 @@
     {
       "date": "2026-09-10",
       "source": "ECB press conference, 10 September 2026. Monetary policy statement",
-      "start": null,
-      "end": null,
+      "start": 229.4,
+      "end": 237.5,
       "snippet": "The outlook remains highly uncertain, with risks to the upside for inflation and to the downside for economic growth. In relation to the energy shock, the updated scenarios put together by staff illustrate the broad range of outcomes for how growth and inflation would evolve under different assumptions about its intensity and duration, as well as its indirect and second-round effects.",
       "url": "https://www.ecb.europa.eu/press/press_conference/monetary-policy-statement/2026/html/ecb.is260910~6a45359cfc.en.html",
       "sentence_id": 10
@@ -77,8 +97,8 @@
     {
       "date": "2026-09-10",
       "source": "ECB press conference, 10 September 2026. Monetary policy statement (Risk assessment)",
-      "start": null,
-      "end": null,
+      "start": 760.3,
+      "end": 771.7,
       "snippet": "A resurgence of trade tensions between major economies could also further disrupt supply chains, reduce exports and weaken consumption and investment. By contrast, growth could turn out to be higher if the economy and energy markets were to adapt more quickly than expected to the disruption caused by the ongoing conflicts or if these were resolved sustainably. Moreover, the adoption of new…",
       "url": "https://www.ecb.europa.eu/press/press_conference/monetary-policy-statement/2026/html/ecb.is260910~6a45359cfc.en.html",
       "sentence_id": 58
@@ -86,8 +106,8 @@
     {
       "date": "2026-09-10",
       "source": "ECB press conference, 10 September 2026. Monetary policy statement (Risk assessment)",
-      "start": null,
-      "end": null,
+      "start": 812.9,
+      "end": 814.4,
       "snippet": "The risks to the inflation outlook are to the upside. This is due, in particular, to the Middle East conflict and developments in Russia’s unjustified war against Ukraine. The energy shock could intensify further and its effects on other prices and wages could be stronger than currently expected. Gas prices, in particular, could increase in the event of further supply disruptions or an unusually…",
       "url": "https://www.ecb.europa.eu/press/press_conference/monetary-policy-statement/2026/html/ecb.is260910~6a45359cfc.en.html",
       "sentence_id": 61
@@ -96,6 +116,7 @@
   "disclaimer": "For information purposes only. This is not investment advice.",
   "generated_with": {
     "stance_model": "mlx-community/Qwen3-8B-4bit",
-    "llm": "mlx-community/Meta-Llama-3.1-8B-Instruct-4bit"
+    "llm": "mlx-community/Meta-Llama-3.1-8B-Instruct-4bit",
+    "asr": "openai/whisper-large-v3-turbo"
   }
 }

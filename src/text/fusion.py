@@ -12,6 +12,7 @@ import pandas as pd
 from src.config import EVENTS_DIR
 
 UMBRAL_DESVIACION = 1.5   # desviaciones típicas para que la voz o la cara cuenten como momento clave
+DURACION_MINIMA = 3.0     # segundos: una frase más corta tiene 1-2 fotogramas y su media es poco fiable
 
 
 # ---------------------------------------------------------------------------
@@ -124,9 +125,14 @@ def resumen_cara(senales: pd.DataFrame, cara: pd.DataFrame | None, fecha: str) -
 
 def momentos_de_entrega(senales: pd.DataFrame, excluidas: set[int]) -> list[dict]:
     """Hasta dos momentos clave por cómo se dice: la frase relevante de la presidenta con la voz
-    más activada y la de expresión facial más alejada de su media, si superan el umbral."""
+    más activada y la de expresión facial más alejada de su media, si superan el umbral.
+
+    Solo compiten las frases de al menos DURACION_MINIMA segundos: la media de una frase muy
+    corta sale de uno o dos fotogramas, es más variable y ganaría por azar.
+    """
     candidatas = senales[senales["relevant"] & (senales["speaker"] == "presidenta")
-                         & ~senales["sentence_id"].isin(excluidas)]
+                         & ~senales["sentence_id"].isin(excluidas)
+                         & ((senales["end"] - senales["start"]) >= DURACION_MINIMA)]
     momentos = []
     for columna, absoluto, motivo in [
             ("voice_arousal_z", False, "Emphatic delivery: voice arousal {z:+.1f} SD from her average in this press conference"),

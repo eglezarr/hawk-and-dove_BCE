@@ -10,6 +10,16 @@ from difflib import SequenceMatcher
 import numpy as np
 import pandas as pd
 
+# Palabras seguidas iguales que debe tener un tramo para servir de ancla. Una coincidencia
+# suelta de una o dos palabras ("good afternoon", "thank you") puede ser casual: en la rueda
+# del 10/09/2026, el "good afternoon" del gobernador anfitrión llevaba al segundo 0 el inicio
+# de la primera frase de la presidenta, que empieza a los 90 s.
+MIN_BLOQUE = 3
+
+# Palabras por segundo por encima de las cuales la duración de un segmento es imposible
+# (el habla normal ronda 2-3; en la rueda del 10/09/2026, el 80 % de los segmentos está entre 1,5 y 3,9).
+VELOCIDAD_MAXIMA = 6.0
+
 
 def tokens(texto: str) -> list[str]:
     """Palabras normalizadas: minúsculas y sin puntuación; "%" y "per cent" se escriben igual."""
@@ -19,32 +29,68 @@ def tokens(texto: str) -> list[str]:
     return re.findall(r"[a-z0-9]+(?:'[a-z]+)?", t)
 
 
-def palabras_con_tiempo(transcripcion: pd.DataFrame) -> pd.DataFrame:
+def corregir_duraciones(segmentos: pd.DataFrame, columna: str = "text") -> pd.DataFrame:
+    """Corrige los segmentos del reconocedor con una duración imposible.
+
+    Whisper con marcas por segmento devuelve a veces segmentos que terminan antes de empezar o
+    que encajan veinte palabras en un segundo. El inicio de cada segmento es fiable; el fin no
+    siempre. Un segmento con una duración imposible (más de VELOCIDAD_MAXIMA palabras por
+    segundo, o duración nula o negativa) conserva su inicio y alarga su fin hasta lo que
+    tardaría al ritmo mediano de los segmentos plausibles de la misma rueda, sin pasar del
+    inicio del segmento siguiente. No se mueve ningún inicio: empujar los siguientes acumula
+    retrasos de decenas de segundos. Los segmentos sin texto se descartan.
+    """
+    t = segmentos[segmentos[columna].notna()].sort_values("start", kind="stable").reset_index(drop=True)
+    palabras = t[columna].map(lambda x: len(tokens(x))).to_numpy(dtype=float)
+    inicio, fin = t["start"].to_numpy(dtype=float), t["end"].to_numpy(dtype=float).copy()
+    duracion = fin - inicio
+    imposible = (duracion <= 0) | (palabras > VELOCIDAD_MAXIMA * duracion)
+    plausibles = ~imposible & (palabras > 0)
+    ritmo = float(np.median(palabras[plausibles] / duracion[plausibles])) if plausibles.any() else 2.3
+
+    for k in np.flatnonzero(imposible):
+        estimado = inicio[k] + palabras[k] / ritmo
+        siguiente = inicio[k + 1] if k + 1 < len(inicio) else np.inf
+        fin[k] = min(estimado, siguiente) if siguiente > inicio[k] else estimado
+    return t.assign(end=fin)
+
+
+def palabras_con_tiempo(transcripcion: pd.DataFrame, corregir_fines: bool = True) -> pd.DataFrame:
     """Una fila por palabra del audio, con su inicio y su fin en segundos.
 
     Admite transcript.csv por palabras o por segmentos: la duración de cada fila se reparte
     entre sus palabras en proporción a su longitud (con una palabra por fila, no cambia nada).
-    La columna de texto puede llamarse "text" o "word".
+    La columna de texto puede llamarse "text" o "word". Con segmentos, antes se corrigen las
+    duraciones imposibles (corregir_duraciones), salvo con corregir_fines=False; las filas sin
+    texto se ignoran.
     """
     columna = "text" if "text" in transcripcion else "word"
+    transcripcion = transcripcion[transcripcion[columna].notna()]
+    por_segmentos = transcripcion[columna].map(lambda x: len(tokens(x))).mean() > 1.5
+    if por_segmentos and corregir_fines:
+        transcripcion = corregir_duraciones(transcripcion, columna)
     filas = []
-    for fila in transcripcion.sort_values("start").itertuples():
+    for fila in transcripcion.sort_values("start", kind="stable").itertuples():
         palabras = tokens(getattr(fila, columna))
         if not palabras:
             continue
+        fin = max(fila.end, fila.start)
         longitudes = np.array([len(p) + 1 for p in palabras], dtype=float)
-        bordes = fila.start + (fila.end - fila.start) * np.concatenate([[0.0], np.cumsum(longitudes)]) / longitudes.sum()
+        bordes = fila.start + (fin - fila.start) * np.concatenate([[0.0], np.cumsum(longitudes)]) / longitudes.sum()
         filas += list(zip(palabras, bordes[:-1], bordes[1:]))
     return pd.DataFrame(filas, columns=["word", "start", "end"])
 
 
-def alinear(frases: pd.DataFrame, transcripcion: pd.DataFrame) -> pd.DataFrame:
+def alinear(frases: pd.DataFrame, transcripcion: pd.DataFrame, min_bloque: int = MIN_BLOQUE,
+            corregir_fines: bool = True) -> pd.DataFrame:
     """Inicio y fin en el vídeo de cada frase de la transcripción oficial.
 
     Args:
         frases: transcripción oficial completa de la rueda (sentence_id, text), con las
             preguntas de los periodistas incluidas: el audio también las contiene.
         transcripcion: transcript.csv del bloque 1 (start, end, text).
+        min_bloque: palabras seguidas iguales que necesita un tramo para servir de ancla.
+        corregir_fines: corregir los segmentos con una duración imposible (corregir_duraciones).
 
     Returns:
         sentence_id, start, end y cobertura (proporción de palabras de la frase que se han
@@ -57,14 +103,15 @@ def alinear(frases: pd.DataFrame, transcripcion: pd.DataFrame) -> pd.DataFrame:
         palabras = tokens(frase.text)
         oficiales += palabras
         ids += [frase.sentence_id] * len(palabras)
-    audio = palabras_con_tiempo(transcripcion)
+    audio = palabras_con_tiempo(transcripcion, corregir_fines)
 
-    # Bloques de palabras idénticas en el mismo orden en las dos transcripciones
+    # Tramos de palabras idénticas en el mismo orden en las dos transcripciones
     inicio = np.full(len(oficiales), np.nan)
     fin = np.full(len(oficiales), np.nan)
     inicio_audio, fin_audio = audio["start"].to_numpy(), audio["end"].to_numpy()
     for i, j, n in SequenceMatcher(None, oficiales, audio["word"].tolist(), autojunk=False).get_matching_blocks():
-        inicio[i:i + n], fin[i:i + n] = inicio_audio[j:j + n], fin_audio[j:j + n]
+        if n >= min_bloque:
+            inicio[i:i + n], fin[i:i + n] = inicio_audio[j:j + n], fin_audio[j:j + n]
 
     emparejada = ~np.isnan(inicio)
     if not emparejada.any():

@@ -17,40 +17,44 @@
   "face": null,
   "key_moments": [
     {
-      "start": null,
-      "end": null,
+      "start": 69.0,
+      "end": 81.0,
       "sentence_id": 4,
       "speaker": "presidenta",
       "text": "The war in the Middle East has led to a sharp increase in energy prices, pushing up inflation and weighing on economic sentiment.",
       "score": 1.0,
-      "reason": "Hawkish signal in the statement"
+      "reason": "Hawkish signal in the statement",
+      "signal": "stance"
     },
     {
-      "start": null,
-      "end": null,
+      "start": 397.2,
+      "end": 406.5,
       "sentence_id": 33,
       "speaker": "presidenta",
       "text": "Inflation rose to 3.0 per cent in April, from 2.6 per cent in March and 1.9 per cent in February.",
       "score": 1.0,
-      "reason": "Hawkish signal in the statement"
+      "reason": "Hawkish signal in the statement",
+      "signal": "stance"
     },
     {
-      "start": null,
-      "end": null,
+      "start": 546.5,
+      "end": 553.0,
       "sentence_id": 47,
       "speaker": "presidenta",
       "text": "The risks to the growth outlook are to the downside.",
       "score": -1.0,
-      "reason": "Dovish signal in the statement"
+      "reason": "Dovish signal in the statement",
+      "signal": "stance"
     },
     {
-      "start": null,
-      "end": null,
+      "start": 1754.9,
+      "end": 1756.8,
       "sentence_id": 146,
       "speaker": "presidenta",
       "text": "We still have abundance of liquidity.",
       "score": -0.998,
-      "reason": "Dovish signal in the Q&A"
+      "reason": "Dovish signal in the Q&A",
+      "signal": "stance"
     }
   ],
   "briefing": "The ECB kept its key interest rates unchanged. The Hawk & Dove stance index rates the press conference as slightly hawkish: it ranks at the 69th percentile of the 52 press conferences held since December 2019, up from the 67th percentile at the previous meeting on 19 March 2026. The monetary policy statement ranks at the 67th percentile and the answers in the Q&A at the 67th.\n\nThe ECB expects the euro area economy to show some momentum, but the economic outlook is highly uncertain and will depend on how long the war in the Middle East lasts [1]. The war in the Middle East has caused significant volatility in global financial markets, and overall financial conditions remain tighter than before the war [2]. The ECB highlights the urgent need to strengthen the euro area economy while maintaining sound public finances, and fiscal responses to the energy price shock should be temporary, targeted, and tailored [3].\n\nThe risks to the growth outlook are to the downside, and the war in the Middle East remains a downside risk to the euro area economy, adding to the volatile global policy environment [4]. The risks to the inflation outlook are to the upside, and if energy prices were to rise by more and for longer than currently expected, euro area inflation would increase further [5].",
@@ -59,8 +63,8 @@
     {
       "date": "2026-04-30",
       "source": "ECB press conference, 30 April 2026. Monetary policy statement (Economic activity)",
-      "start": null,
-      "end": null,
+      "start": 195.9,
+      "end": 204.0,
       "snippet": "The euro area economy was showing some momentum when the current turbulence started. Real GDP grew by 0.1 per cent in the first quarter of 2026, according to Eurostat’s preliminary flash estimate. Domestic demand remains the main driver of growth, supported by a resilient labour market. However, the economic outlook is highly uncertain and will depend on how long the war in the Middle East lasts…",
       "url": "https://www.ecb.europa.eu/press/press_conference/monetary-policy-statement/2026/html/ecb.is260430~f99cb123a8.en.html",
       "sentence_id": 15
@@ -68,8 +72,8 @@
     {
       "date": "2026-04-30",
       "source": "ECB press conference, 30 April 2026. Monetary policy statement (Financial and monetary conditions)",
-      "start": null,
-      "end": null,
+      "start": 749.3,
+      "end": 755.6,
       "snippet": "The war in the Middle East has caused significant volatility in global financial markets. Overall financial conditions remain tighter than before the war.",
       "url": "https://www.ecb.europa.eu/press/press_conference/monetary-policy-statement/2026/html/ecb.is260430~f99cb123a8.en.html",
       "sentence_id": 64
@@ -77,8 +81,8 @@
     {
       "date": "2026-04-30",
       "source": "ECB press conference, 30 April 2026. Monetary policy statement (Economic activity)",
-      "start": null,
-      "end": null,
+      "start": 322.6,
+      "end": 333.2,
       "snippet": "The Governing Council highlights the urgent need to strengthen the euro area economy while maintaining sound public finances. Fiscal responses to the energy price shock should be temporary, targeted and tailored. Reforms to enhance the euro area’s growth potential and accelerate the energy transition to reduce reliance on fossil fuels are more vital than ever. Completing the savings and…",
       "url": "https://www.ecb.europa.eu/press/press_conference/monetary-policy-statement/2026/html/ecb.is260430~f99cb123a8.en.html",
       "sentence_id": 26
@@ -86,8 +90,8 @@
     {
       "date": "2026-04-30",
       "source": "ECB press conference, 30 April 2026. Monetary policy statement (Risk assessment)",
-      "start": null,
-      "end": null,
+      "start": 546.5,
+      "end": 553.0,
       "snippet": "The risks to the growth outlook are to the downside. The war in the Middle East remains a downside risk to the euro area economy, adding to the volatile global policy environment. Prolonged disruption of the supply of energy could increase energy prices further and for longer than currently expected. These factors would erode incomes and make firms and households more reluctant to invest and…",
       "url": "https://www.ecb.europa.eu/press/press_conference/monetary-policy-statement/2026/html/ecb.is260430~f99cb123a8.en.html",
       "sentence_id": 47
@@ -95,8 +99,8 @@
     {
       "date": "2026-04-30",
       "source": "ECB press conference, 30 April 2026. Monetary policy statement (Risk assessment)",
-      "start": null,
-      "end": null,
+      "start": 669.8,
+      "end": 675.9,
       "snippet": "The risks to the inflation outlook are to the upside. If energy prices were to rise by more and for longer than currently expected, euro area inflation would increase further. This could be reinforced and become more persistent if higher energy prices were to spill over by more than expected to other prices and to wages, if longer-term inflation expectations were to rise in response, or if global…",
       "url": "https://www.ecb.europa.eu/press/press_conference/monetary-policy-statement/2026/html/ecb.is260430~f99cb123a8.en.html",
       "sentence_id": 58
@@ -105,6 +109,7 @@
   "disclaimer": "For information purposes only. This is not investment advice.",
   "generated_with": {
     "stance_model": "mlx-community/Qwen3-8B-4bit",
-    "llm": "mlx-community/Meta-Llama-3.1-8B-Instruct-4bit"
+    "llm": "mlx-community/Meta-Llama-3.1-8B-Instruct-4bit",
+    "asr": "openai/whisper-large-v3-turbo"
   }
 }

@@ -1,0 +1,4 @@
+variante,frases,cobertura_media,frases_cobertura_50,orden_correcto,inicio_primera_frase_s,frases_ritmo_imposible,periodista_en_declaracion,periodista_en_respuestas,periodista_en_preguntas
+Anclas de 1 palabra,308,0.97,0.994,True,0.0,23,0.01,0.054,0.975
+Anclas de 3 palabras,308,0.96,0.994,True,90.4,22,0.0,0.048,0.964
+Anclas de 3 palabras y fines corregidos,308,0.96,0.994,True,90.4,8,0.0,0.048,0.964
