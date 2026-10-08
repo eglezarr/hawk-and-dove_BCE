@@ -1,0 +1,610 @@
+start,end,speaker,section,text
+0.0,8.52,periodista,qa,Good afternoon and welcome to our press conference with President Lagarde and Vice President de Guindos.
+9.48,15.64,periodista,qa,"My name is Wolfgang Preussl. As always, we are also joined by journalists who are connected via video."
+16.48,20.76,periodista,qa,"When I give them the floor, they should please unmute and put on their camera."
+21.72,24.84,periodista,qa,"And with that, I hand over to you, President Lagarde, please."
+25.6,24.84,periodista,qa,
+32.48,36.36,presidenta,qa,"Thank you very much, Wolfgang, and good morning, afternoon, good day to all of you. The Vice President and I welcome you to our press conference."
+36.36,42.96,presidenta,qa,The Governing Council today decided to keep the three key ECB interest rates unchanged.
+42.96,49.08,presidenta,qa,While the incoming information has been broadly consistent with our previous assessment of
+49.08,56.1,presidenta,qa,"the inflation outlook, the upside risks to inflation and the downside risks to growth"
+56.1,65.5,presidenta,qa,have intensified. We are committed to setting monetary policy to ensure that inflation stabilizes
+65.5,72.76,presidenta,qa,at our 2 percent target in the medium term. The war in the Middle East has led to a sharp
+72.76,80.98,presidenta,qa,"increase in energy prices, pushing up inflation, and weighing on economic sentiment."
+80.98,87.02,presidenta,qa,The implications of the war for medium-term inflation and economic activity will depend
+87.02,94.06,presidenta,qa,"on the intensity, the duration of the energy price shock, and the scale of its indirect"
+94.06,97.16,presidenta,qa,and second-round effects.
+97.16,103.8,presidenta,qa,"The longer the war continues and the longer energy prices remain high, the stronger is"
+103.8,110.58,presidenta,qa,the likely impact on broader inflation and the economy.
+110.58,115.94,presidenta,qa,We remain well positioned to navigate the current uncertainty.
+115.94,121.88,presidenta,qa,The euro area entered this period of surging energy prices with inflation at around our
+121.88,129.84,presidenta,qa,2% target and the economy has shown resilience over recent quarters. Longer-term inflation
+129.84,138.16,presidenta,qa,"expectations remain well anchored, although inflation expectations over shorter horizons"
+138.16,146.2,presidenta,qa,have moved up significantly. We will closely monitor the situation and follow a data-dependent
+146.2,152.44,presidenta,qa,and meeting-by-meeting approach to determining the appropriate monetary policy stance.
+152.44,157.34,presidenta,qa,"In particular, our interest rate decisions will be based on our assessment of the inflation"
+157.34,164.04,presidenta,qa,"outlook and the risks surrounding it, in light of the incoming economic and financial data,"
+164.04,171.1,presidenta,qa,as well as the dynamics of underlying inflation and the strength of monetary policy transmission.
+171.1,175.54,presidenta,qa,We are not pre-committing to a particular rate path.
+175.54,183.26,presidenta,qa,The decisions taken today are set out in a press release that is available on our website.
+183.26,188.66,presidenta,qa,And I will now outline in more details how we see the economy and inflation developing
+188.66,195.94,presidenta,qa,and will then explain our assessment of financial and monetary conditions.
+195.94,203.98,presidenta,qa,The euro area economy was showing some momentum when the current turbulence started.
+203.98,210.74,presidenta,qa,"Real GDP grew by 0.1 percent in the first quarter of 26, according to Eurostat's preliminary"
+210.74,213.92,presidenta,qa,flash estimate.
+213.92,220.42,presidenta,qa,"Domestic demand remains the main driver of growth, supported by a resilient labor market."
+220.42,227.76,presidenta,qa,"However, the economic outlook is highly uncertain and will depend on how long the war in the"
+227.76,234.76,presidenta,qa,"Middle East lasts, and how strongly it affects energy and other commodity markets, as well"
+234.76,238.44,presidenta,qa,as global supply chains.
+238.44,245.64,presidenta,qa,The incoming information suggests that the conflict is weighing on economic activity.
+245.64,251.26,presidenta,qa,"Surveys point to slowing growth, and consumers and businesses have become less confident"
+251.26,255.46,presidenta,qa,about the future since the war began.
+255.46,265.4,presidenta,qa,delivery times and rising input prices suggest supply chains are coming under pressure.
+265.4,272.68,presidenta,qa,"Looking ahead, high energy costs are expected to continue to weigh on real incomes, making"
+272.68,279.82,presidenta,qa,households and firms more reluctant to consume and invest.
+279.82,289.58,presidenta,qa,"While unemployment remained close to historical lows in March at 6.2 percent, labour demand"
+289.58,292.6,presidenta,qa,has cooled further.
+292.6,300.48,presidenta,qa,"At the same time, households are still benefiting from a solid financial position, and investment"
+300.48,308.26,presidenta,qa,"should continue to be underpinned by governments spending more on defence and infrastructure,"
+308.26,314.68,presidenta,qa,and by firms increasingly investing in new digital technologies.
+314.68,322.58,presidenta,qa,This favorable starting point provides some cushioning against the fallout from the war.
+322.58,328.98,presidenta,qa,The Governing Council highlights the urgent need to strengthen the euro-area economy
+328.98,333.22,presidenta,qa,while maintaining sound public finances.
+333.22,340.1,presidenta,qa,"Responsorial responses to the energy price shock should be temporary, targeted and tailored."
+340.1,347.2,presidenta,qa,Reforms to enhance the euro area's growth potential and accelerate the energy transition
+347.2,353.18,presidenta,qa,to reduce reliance on fossil fuels are more vital than ever.
+353.18,358.12,presidenta,qa,"Completing the savings and investment union is key to funding innovation, supporting the"
+358.12,363.06,presidenta,qa,"green and digital transitions, and improving productivity."
+363.06,369.74,presidenta,qa,The digital euro and tokenized wholesale central bank money will enhance Europe's strategic
+369.74,377.16,presidenta,qa,"autonomy, competitiveness and financial integration, and will boost innovation in payments."
+377.16,383.14,presidenta,qa,It is thus essential to swiftly adopt the regulation on the establishment of the digital
+383.14,386.34,presidenta,qa,euro.
+386.34,392.32,presidenta,qa,Simplifying and harmonizing rules across the EU's single market will help European firms
+392.32,397.18,presidenta,qa,grow faster.
+397.18,406.5,presidenta,qa,"Inflation rose to 3% in April, from 2.6% in March and 1.9% in February."
+406.5,415.0,presidenta,qa,The rise has been driven by surging energy prices caused by the war in the Middle East.
+415.0,424.88,presidenta,qa,Energy price inflation jumped to 10.9% in April after 5.1% in March.
+424.88,431.34,presidenta,qa,Food price inflation edged up to 2.5% in April.
+431.34,441.34,presidenta,qa,"Inflation excluding energy and food decreased to 2.2% from 2.3% in March, reflecting a fall"
+441.34,444.78,presidenta,qa,in services.
+444.78,455.08,presidenta,qa,"which declined to 3%, services inflation, which declined to 3% from 3.2% in March."
+455.08,464.08,presidenta,qa,Goods inflation went up to 0.8% from 0.5% in March.
+464.08,469.26,presidenta,qa,Indicators of underlying inflation have changed little over recent months.
+469.26,475.64,presidenta,qa,"For now, the ECB's wage tracker and surveys on wage expectations continue to indicate"
+475.64,479.98,presidenta,qa,easing labour costs in the course of 26.
+479.98,487.04,presidenta,qa,"At the same time, surveys indicate an increase in other cost components and in selling price"
+487.04,490.72,presidenta,qa,expectations.
+490.72,497.8,presidenta,qa,Inflation expectations have moved up significantly over shorter horizons.
+497.8,504.96,presidenta,qa,"Most measures of longer-term inflation expectations stand at around 2%, supporting the stabilization"
+504.96,510.56,presidenta,qa,of inflation around target in the medium term.
+510.56,518.18,presidenta,qa,The increase in energy prices will keep inflation well above 2% in the near term.
+518.18,525.1,presidenta,qa,"As the period of high energy prices extends, the likely impact on broader inflation through"
+525.1,530.04,presidenta,qa,indirect and second-round effects intensifies.
+530.04,533.16,presidenta,qa,We will therefore closely monitor the size and persistence
+533.16,537.7,presidenta,qa,of the energy price surge and how it feeds through to price
+537.7,541.6,presidenta,qa,"and wage setting, inflation expectations,"
+541.6,543.14,presidenta,qa,and overall economic dynamics.
+546.5,553.0,presidenta,qa,The risks to the growth outlook are to the downside.
+553.0,556.62,presidenta,qa,The war in the Middle East remains a downside risk
+556.62,558.66,presidenta,qa,"to the euro-area economy,"
+558.66,562.0,presidenta,qa,adding to the volatile global policy environment.
+563.6,567.0,presidenta,qa,Prolonged disruption of the supply of energy
+567.0,569.5,presidenta,qa,could increase energy prices further
+569.5,571.7,presidenta,qa,and for longer than currently expected.
+573.2,576.12,presidenta,qa,These factors would erode incomes
+576.12,578.78,presidenta,qa,and make firms and households more reluctant
+578.78,580.24,presidenta,qa,to invest and spend.
+581.74,580.24,periodista,qa,
+589.04,597.8,presidenta,qa,The drag on growth would intensify if the closure of major shipping routes were to cause acute shortages of key inputs that forced euro area firms to curtail output.
+597.8,605.58,presidenta,qa,A worsening of global financial market sentiment could further dampen demand.
+605.58,612.14,presidenta,qa,"National frictions in international trade could exacerbate supply chain disruptions,"
+612.14,617.68,presidenta,qa,"reduce exports, and weaken consumption and investment."
+617.68,623.62,presidenta,qa,"Other geopolitical tensions, in particular Russia's unjustified war against Ukraine,"
+623.62,627.74,presidenta,qa,remain a major source of uncertainty.
+627.74,635.02,presidenta,qa,"By contrast, growth could turn out to be higher if the economy proved to be more adaptable"
+635.02,640.38,presidenta,qa,"to the disruption caused by the war in the Middle East, or if the conflict were resolved"
+640.38,647.6,presidenta,qa,"more quickly than currently expected. Moreover, planned defense and infrastructure"
+647.6,655.12,presidenta,qa,"spending reforms to enhance productivity, Euro-area firms adopting new technologies"
+655.12,662.48,presidenta,qa,may drive up growth by more than expected. New trade agreements and a deeper integration
+662.48,669.8,presidenta,qa,of the single market could also boost growth beyond current expectations.
+669.8,675.94,presidenta,qa,The risks to the inflation outlook are to the upside.
+675.94,682.76,presidenta,qa,"If energy prices were to rise by more and for longer than currently expected, euro area"
+682.76,686.34,presidenta,qa,inflation would increase further.
+686.34,693.06,presidenta,qa,This could be reinforced and become more persistent if higher energy prices were to spill over
+693.06,699.32,presidenta,qa,"by more than expected to other prices and to wages, if longer-term inflation expectations"
+699.32,706.98,presidenta,qa,"were to rise in response, or if global supply chains were disrupted more broadly."
+706.98,712.5,presidenta,qa,"Ongoing trade tensions could also give rise to more fragmented global supply chains, curtail"
+712.5,720.5,presidenta,qa,the supply of critical raw materials and worsen capacity constraints in the euro-area economy.
+720.5,726.94,presidenta,qa,"By contrast, inflation could turn out to be lower if the economic effects of the war in"
+726.94,734.26,presidenta,qa,"the Middle East proved to be more short-lived than currently expected, or if indirect and"
+734.26,738.98,presidenta,qa,second-round effects proved less pronounced.
+738.98,745.9,presidenta,qa,volatile and risk-averse financial markets could weigh on demand and thereby lower inflation
+745.9,749.3,presidenta,qa,as well.
+749.3,755.58,presidenta,qa,The war in the Middle East has caused significant volatility in global financial markets.
+755.58,762.26,presidenta,qa,"Overall, financial conditions remain tighter than before the war."
+762.26,771.8,presidenta,qa,"The cost of issuing market-based debt rose to 3.9% in March, from 3.5% in February."
+771.8,779.48,presidenta,qa,"Bank lending rates to firms, based on data recorded prior to the war, edged down to 3.5%"
+779.48,785.82,presidenta,qa,"in February, while mortgage rates remained at 3.4%."
+785.82,793.62,presidenta,qa,The annual growth rate of bank lending to firms increased to 3.2% in March from 3% in
+793.62,804.76,presidenta,qa,"February, while the growth rate of corporate bond issuance fell to 3.9% from 4.5% in February."
+804.76,810.66,presidenta,qa,"Credit standards for loans to firms tightened in the first quarter, as reported in our latest"
+810.66,814.3,presidenta,qa,bank lending survey for the euro area.
+814.3,819.84,presidenta,qa,This tightening was due to banks becoming more concerned about the economic risks faced
+819.84,822.7,presidenta,qa,by their customers.
+822.7,829.36,presidenta,qa,"Demand for loans to firms decreased slightly in the first quarter, especially for fixed"
+829.36,831.86,presidenta,qa,investment.
+831.86,839.82,presidenta,qa,"Mortgage lending grew by 3% in March, after 3.1% in February, amid a small tightening"
+839.82,844.86,presidenta,qa,in credit standards and unchanged demand.
+844.86,851.38,presidenta,qa,"So in conclusion, the Governing Council today decided to keep the three key ECB interest"
+851.38,854.54,presidenta,qa,rates unchanged.
+854.54,860.66,presidenta,qa,We are committed to setting monetary policy to ensure that inflation stabilizes at our
+860.66,863.9,presidenta,qa,2% target in the medium term.
+863.9,869.66,presidenta,qa,We will follow a data-dependent and meeting-by-meeting approach to determining the appropriate monetary
+869.66,875.9,presidenta,qa,policy stance. Our interest rate decisions will be based on our assessment of the inflation
+875.9,882.8,presidenta,qa,"outlook and the risks surrounding it, in light of the incoming economic and financial data,"
+882.8,889.18,presidenta,qa,as well as the dynamics of underlying inflation and the strength of monetary policy transmission.
+889.18,894.98,presidenta,qa,"We are not pre-committing to a particular rate path. In any case, we stand ready to"
+894.98,901.94,presidenta,qa,adjust all of our instruments within our mandate to ensure that inflation stabilizes sustainably
+901.94,908.74,presidenta,qa,at our medium-term target and to preserve the smooth functioning of monetary policy transmission.
+909.62,914.98,presidenta,qa,And we are now ready to take your questions. And the first question goes to Mark Schroes
+914.98,922.02,periodista,qa,"of Bloomberg. Mark, please. Yes, thank you. President Lagarde,"
+922.02,927.02,periodista,qa,The statement says that the upside risks to inflation and the downside risks to growth have intensified.
+927.72,935.48,periodista,qa,"Where does this leave the ECB, this new risk assessment, leave the ECB between its baseline, its adverse and the severe scenario?"
+935.54,937.4,periodista,qa,And what does it mean for monetary policy ahead?
+937.96,943.42,periodista,qa,"And related to that, would you say that a rate hike in June, as expected by markets and most economists,"
+943.92,950.02,periodista,qa,is indeed the most likely outcome unless there is a quick end to the wall and energy prices fall back quickly and significantly?
+950.02,951.0,periodista,qa,Thank you.
+952.02,958.26,presidenta,qa,I think we would all wish that there was a quick end to the war.
+958.26,968.88,presidenta,qa,"But looking at our monetary policy and the decision that we made today, we decided to"
+968.88,975.26,presidenta,qa,keep the three interest rates unchanged.
+975.26,983.76,presidenta,qa,"And to address your question, I'm not going to tell you whether we are closer to the baseline"
+983.76,989.78,presidenta,qa,"scenario one, scenario two, because I think that what we have debated over the course"
+989.78,999.82,presidenta,qa,of yesterday and today with the governing council is where are we relative to the baseline?
+999.82,1007.18,presidenta,qa,And the conclusion is that we are certainly moving away from the baseline.
+1007.18,1014.44,presidenta,qa,"Where to exactly, at what point in between baseline and other scenarios, is, I'm not"
+1014.44,1020.32,presidenta,qa,"sure, the most relevant assessment."
+1020.32,1022.9,presidenta,qa,We are moving away from the baseline.
+1022.9,1028.82,presidenta,qa,And what is critically important is the impact that energy prices will have.
+1028.82,1035.2,presidenta,qa,"I said last time in March that it would be a question of the duration, the depth, and"
+1035.2,1041.44,presidenta,qa,"the propagation, and this is clearly what we need to better assess."
+1041.44,1048.76,presidenta,qa,"If I was to summarize for you what we decided today, I would say that we made an informed"
+1048.76,1056.06,presidenta,qa,decision on the basis of yet insufficient information.
+1056.06,1060.34,presidenta,qa,So why do I say it's an informed decision?
+1060.34,1067.76,presidenta,qa,It's because we debated at length and in depth various options.
+1067.76,1077.18,presidenta,qa,"We debated the decision that we have unanimously taken today, but we also debated at length"
+1077.18,1082.52,presidenta,qa,and in depth a decision to possibly hike.
+1082.52,1088.74,presidenta,qa,"So that was debated amongst all governors, and I'm sure that you will meet some governors"
+1088.74,1095.64,presidenta,qa,"who will argue both sides, or maybe one side, of both proposals."
+1095.64,1106.7,presidenta,qa,"So it was really a deeply discussed monetary policy stance, of which the outcome was a"
+1106.7,1113.86,presidenta,qa,a unanimous decision to leave the three interest rates unchanged.
+1113.86,1122.42,presidenta,qa,And I'm saying that it's an informed decision based on insufficient information.
+1122.42,1130.42,presidenta,qa,It is caused by the fact that while the hard data is broadly in line with our projection
+1130.42,1134.14,presidenta,qa,and what we discussed here back in March.
+1134.14,1139.06,presidenta,qa,But there is such uncertainty that we
+1139.06,1144.82,presidenta,qa,need to understand and revisit all of that
+1144.82,1147.54,presidenta,qa,at our next monetary policy meeting.
+1147.54,1151.78,presidenta,qa,"And we believe that given the position we are in,"
+1151.78,1153.98,presidenta,qa,we are saying in the monetary policy statement
+1153.98,1156.92,presidenta,qa,that we started from a good position.
+1156.92,1159.18,presidenta,qa,We were well positioned to navigate.
+1159.18,1163.46,presidenta,qa,"So given that position, we believe that these six weeks"
+1163.46,1168.46,presidenta,qa,"will be the right time to assess the development,"
+1169.64,1173.5,presidenta,qa,"to understand in particular the outcome, possibly,"
+1173.5,1176.52,presidenta,qa,"of the conflict, or if there is no outcome,"
+1176.52,1179.3,presidenta,qa,"that in and of itself will be informative,"
+1179.3,1182.98,presidenta,qa,in order to make an informed decision
+1182.98,1186.94,presidenta,qa,on verified and revisited information
+1186.94,1189.3,presidenta,qa,that we will receive in the next six months.
+1189.3,1192.62,presidenta,qa,"That's the clearest way, I hope it was clear,"
+1192.62,1195.58,presidenta,qa,that I can describe for the really good discussions
+1195.58,1197.92,presidenta,qa,that we had both yesterday and today.
+1200.32,1202.52,periodista,qa,Next question to Annette Weisbach of CNBC.
+1202.52,1203.36,periodista,qa,"Annette, please."
+1205.92,1208.0,vicepresidente,qa,"President Lagarde, thank you for taking my questions."
+1208.0,1210.22,vicepresidente,qa,I have a question on whether you have also discussed
+1210.22,1214.26,vicepresidente,qa,that the risk of a stagflationary scenario
+1214.26,1217.76,vicepresidente,qa,on the euro area and how that discussion went.
+1217.76,1222.26,vicepresidente,qa,"And also, in the US, they are starting"
+1222.26,1224.8,vicepresidente,qa,to also think about shrinking the balance sheet
+1224.8,1230.28,vicepresidente,qa,instead of using interest rate as a monetary policy instrument.
+1230.28,1233.32,vicepresidente,qa,"Do you look into using other instruments as well,"
+1233.32,1237.38,vicepresidente,qa,"instead of just hiking, to alleviate the pressure"
+1237.38,1241.7,vicepresidente,qa,"from the price pressure and also help, perhaps, the economy?"
+1241.7,1243.7,vicepresidente,qa,Thank you.
+1243.7,1244.96,presidenta,qa,"Well, thank you for your two questions."
+1245.2,1246.3,presidenta,qa,"On the first one,"
+1250.26,1252.38,presidenta,qa,"you know, we take the view that the word,"
+1252.7,1259.06,presidenta,qa,"I mean, it's quite popular to talk about stagflation,"
+1259.06,1262.6,presidenta,qa,and it flags a lot of anxiety and all the rest of it.
+1263.52,1266.82,presidenta,qa,I think we have determined that stagflation
+1266.82,1270.64,presidenta,qa,is the right characterization of what happened in the 70s.
+1271.4,1271.62,periodista,qa,
+1277.28,1277.58,presidenta,qa,"But from our perspective, we think that it's better to park it in the 70s,"
+1279.78,1280.72,presidenta,qa,given the facts that we have at the moment.
+1282.88,1283.62,presidenta,qa,"You know, it's a completely different situation."
+1287.0,1287.56,presidenta,qa,"In the 70s, you had inflation continuing, continuing, continuing,"
+1290.98,1291.38,presidenta,qa,"at a, you know, sort of sustainable and solid pace."
+1292.82,1293.54,presidenta,qa,You had very high unemployment.
+1297.84,1305.12,presidenta,qa,"You had a monetary and fiscal framework that had nothing to do with what we have at the moment. So we don't apply stagflation, that flashy term, to the circumstances that we have"
+1305.12,1309.52,presidenta,qa,because we really think that it's associated with the 70s situation.
+1310.5,1319.7,presidenta,qa,"On the tools, we have a whole series of tools in our toolbox."
+1319.7,1327.42,presidenta,qa,"But certainly from our perspective, and given the data that we have and the kind of shock that we're facing,"
+1327.84,1334.14,presidenta,qa,We believe that the interest rates is still the best tool that we can use
+1334.14,1338.06,presidenta,qa,and that we have debated in the course of yesterday and today.
+1338.96,1339.38,presidenta,qa,Thank you.
+1340.76,1343.14,periodista,qa,"Francesco Canepa of Reuters. Francesco, please."
+1344.54,1345.72,periodista,qa,Thank you very much.
+1346.38,1349.48,periodista,qa,"So, first question about your reaction function."
+1349.72,1356.56,periodista,qa,Could you unpack a little the relative weight that you attach to growth and inflation in your reaction function?
+1357.22,1356.56,periodista,qa,
+1363.84,1369.88,periodista,qa,and second about the scenarios did you update them and if so what do they look like now and why if i may do you not think it relevant to to say where we are now compared to the
+1369.88,1372.72,periodista,qa,compared to the baseline and the two scenarios thanks
+1372.72,1384.74,presidenta,qa,i'm so pleased that you mentioned the reaction function
+1384.74,1391.24,presidenta,qa,"because it's, you know, we spend quite a lot of time working it out,"
+1391.94,1395.04,presidenta,qa,finding consensus around the reaction function.
+1395.68,1399.16,presidenta,qa,"And as you know, because you're a frequent reader and observers of what we do,"
+1399.16,1402.94,presidenta,qa,the reaction function has been very clearly spelt out
+1402.94,1406.72,presidenta,qa,in our strategy review that we published in 25
+1406.72,1410.48,presidenta,qa,and that I have tried to elaborate on
+1410.48,1413.4,presidenta,qa,and that I have tried to apply to the current circumstances
+1413.4,1416.6,presidenta,qa,in both my speech to the Watchers
+1416.6,1420.04,presidenta,qa,and my speech in Berlin last week.
+1420.8,1425.76,presidenta,qa,"So I think, for me, there are sort of three..."
+1425.76,1428.68,presidenta,qa,We love to work with three because it's pillars.
+1429.42,1432.12,presidenta,qa,But I have for myself three anchors
+1432.12,1433.76,presidenta,qa,of what our reaction function is.
+1434.14,1435.78,presidenta,qa,"So first of all, to remind you,"
+1437.88,1441.04,presidenta,qa,"target is 2% medium term, number one."
+1442.0,1442.02,periodista,qa,
+1444.6,1445.72,presidenta,qa,"Number two, symmetry."
+1448.6,1449.24,presidenta,qa,"We discussed that today, and we reaffirmed it."
+1459.24,1459.78,presidenta,qa,"Number three, our reaction will depend on the type of deviation from target that we observe."
+1462.72,1463.52,presidenta,qa,Is it large and sustainable?
+1467.96,1471.76,presidenta,qa,"In that case, obviously, we have calibrated in our strategy review and in those two speeches that I have committed in the last few days,"
+1472.08,1477.0,presidenta,qa,"in that case, we have a forceful or persistent reaction"
+1477.0,1481.26,presidenta,qa,to return inflation to our target of 2% medium term.
+1481.56,1482.92,presidenta,qa,That's our reaction function.
+1483.52,1486.26,presidenta,qa,And the data and the process that we use
+1486.26,1488.46,presidenta,qa,in order to deliver on that reaction function
+1488.46,1492.16,presidenta,qa,"is what you see, monetary policy statement"
+1492.16,1493.8,presidenta,qa,"after monetary policy statement,"
+1493.8,1497.6,presidenta,qa,which is the inflation outlook with the risks associated
+1497.6,1504.06,presidenta,qa,"to it. And as you will have seen in the MPS, we have a strong chapter on both risks to growth and"
+1504.06,1511.0,presidenta,qa,"risk to inflation. That's how we bring in the risk to growth, to your point. We also look at"
+1511.0,1518.04,presidenta,qa,"underlying inflation, and we look at the dynamics of monetary policy transmission. So the reaction"
+1518.04,1525.06,presidenta,qa,"function, the process and the tools that we use in order to apply that reaction function. And of"
+1525.06,1530.44,presidenta,qa,And of course we look at the specificity of what we are going through and that's where
+1530.44,1538.22,presidenta,qa,"you will find more details in both my speech to the watchers, you are one of them I'm sure,"
+1538.22,1542.62,presidenta,qa,and my speech in Berlin to the bankers.
+1542.62,1553.46,presidenta,qa,"And I think I tried in those two documents, particularly the latter, to really apply the"
+1553.46,1555.36,presidenta,qa,the reaction function and the tools
+1555.36,1557.58,presidenta,qa,"to the circumstances through which we're going,"
+1557.58,1561.48,presidenta,qa,"in particular, a supply shock, a strong supply shock,"
+1561.48,1563.04,presidenta,qa,"negative one, of course,"
+1563.04,1568.04,presidenta,qa,and to see whether we are going to use one or the other
+1568.04,1572.04,presidenta,qa,"or the other approaches, approach,"
+1572.04,1577.04,presidenta,qa,in order to deliver on our target of 2% medium term.
+1578.08,1579.76,presidenta,qa,And one is see-through.
+1579.76,1582.5,presidenta,qa,"Anyway, I don't need to repeat my Berlin speech."
+1582.5,1585.0,presidenta,qa,"It's, some of you have read it."
+1587.64,1589.58,presidenta,qa,"Oh yeah, you asked me about the scenarios."
+1589.58,1590.42,presidenta,qa,"So,"
+1594.2,1596.06,presidenta,qa,we constantly monitor.
+1596.06,1600.6,presidenta,qa,"We constantly take in new data, hard data, soft data,"
+1600.6,1605.6,presidenta,qa,survey results from all sorts of perspectives
+1605.82,1610.62,presidenta,qa,and we verify and we adjust
+1610.62,1613.22,presidenta,qa,And we take stock of all that.
+1613.22,1616.52,presidenta,qa,"In June, six weeks from now, you will be receiving"
+1616.52,1621.52,presidenta,qa,"not only the projections that our staff will produce,"
+1621.8,1625.96,presidenta,qa,but you will also see the scenarios as revised
+1625.96,1630.96,presidenta,qa,and as updated as a result of the circumstances.
+1635.12,1637.8,periodista,qa,"Turning now to the participants via video link,"
+1637.8,1639.9,periodista,qa,I'd like to give the floor to Isabella Bouffaki
+1639.9,1648.52,periodista,qa,"of 24, no, il solo 24 ore. Isabella, please. Thank you for the opportunity. I have two"
+1648.52,1656.02,,qa,"questions on liquidity, which is key to the implementation of monetary policy, but also"
+1656.02,1663.56,,qa,"crucial for financial stability in times of crisis like we have now. So, President Lagarde,"
+1663.56,1672.68,,qa,euro area central bank reserves have almost halved from the peak in 2022 to 2.6 trillion
+1672.68,1681.58,,qa,"in early 2026. And in the last bank lending survey, we found out that the bank access to"
+1681.58,1690.48,,qa,money market funding has deteriorated. So has the governing council been looking at the design of
+1690.48,1698.2,,qa,"new liquidity tools, as you had a question before on your toolbox, new liquidity tools in the"
+1698.2,1705.74,,qa,"operational framework, for example, new structural longer-term credit operations or structural"
+1705.74,1714.7,,qa,portfolio of securities. And my second question is for Vice President Luis de Guindos. At the end
+1714.7,1722.94,,qa,"of your eight-year mandate and eight years of multiple crises, what is your assessment of the"
+1722.94,1730.22,,qa,resilience of the banking systems in terms of liquidity? And what about private credit players
+1730.22,1736.36,,qa,that do not have access to the ECB liquidity? Is all this enough? Thank you.
+1737.74,1743.8,presidenta,qa,"Well, thank you so much. We miss you here, but it's nice to see you."
+1744.48,1744.34,periodista,qa,
+1749.52,1752.08,presidenta,qa,"So I'll take the first question, and then I'll give the floor to the vice president."
+1754.88,1755.6,presidenta,qa,We still have abundance of liquidity.
+1756.8,1764.74,presidenta,qa,"You mentioned 2.6. I think it's a little down from that number, but it's a significant amount of excess liquidity in the system."
+1764.86,1766.56,presidenta,qa,So there is no shortage of liquidity.
+1767.36,1772.4,presidenta,qa,"And as you know, we have a mechanism that works on the basis of access to liquidity."
+1773.2,1772.4,periodista,qa,
+1780.64,1781.32,presidenta,qa,"You know, it's a fixed interest rate, full allotment, good collaterals."
+1785.6,1789.56,presidenta,qa,"It's working well, and we're not seeing any tension in that respect."
+1791.66,1792.8,presidenta,qa,Did we discuss new tools?
+1797.34,1826.18,presidenta,qa,"The answer is no, because what we discussed, and it was on the agenda yesterday, We discussed the timetable and the methodology that will be adopted in-house by staff as well as within the euro system, bringing all the committees in the loop to calibrate our operational framework to make sure that it is fit for purpose and that it is good from a financial stability point of view as well as from a proper functioning of the providing of liquidity,"
+1826.18,1828.84,presidenta,qa,which is obviously one of the missions that we have.
+1829.3,1831.44,presidenta,qa,"With that, I'll turn the floor over to you, my dear Luis."
+1831.76,1832.94,,qa,"Thank you very much, President."
+1833.48,1834.5,,qa,Good afternoon to everyone.
+1835.18,1838.58,,qa,"Well, we have no doubts about the liquidity position"
+1838.58,1841.04,,qa,and the capital position of the European banks.
+1841.24,1843.54,,qa,"The European banks are resilient,"
+1843.82,1845.96,,qa,and we do not believe that liquidity or capital
+1845.96,1850.16,,qa,is any sort of limitation for lending.
+1850.94,1856.06,,qa,And this is something that we have analysed quite in detail.
+1856.18,1881.74,,qa,"So, I would say that we are confident that they have enough liquidity, that they have enough capital, and that they are meeting the purpose that we want to deliver, that is, that banks meet the needs and the financial needs of families, households and corporates."
+1881.74,1882.5,,qa,
+1884.56,1885.06,,qa,You referred to private credit.
+1890.72,1896.66,,qa,"Well, we are going to dedicate a full chapter of our financial stability review to private credit. It's something that is catching the eye of markets because of some liquidity issues."
+1897.34,1903.14,,qa,"Private credit is a totally different animal in comparison with the banks in terms of oversight,"
+1903.88,1907.04,,qa,in terms of the way that they function.
+1908.16,1907.04,periodista,qa,
+1915.46,1916.32,,qa,"and we are going to analyse interlinkages between private credit and other players as insurance companies,"
+1920.72,1924.76,,qa,"as the banks, and with private equity. And I think that you will have a full explanation of our approach"
+1924.76,1931.56,,qa,and our assessment of the potential financial stability risks posed by the private credit
+1931.56,1936.1,,qa,in our financial stability review that is going to be published in three weeks.
+1937.04,1942.34,periodista,qa,Next question goes to Olaf Steuberg with the Financial Times.
+1942.44,1942.9,periodista,qa,"Olaf, please."
+1945.28,1946.96,,qa,Thanks for taking my questions.
+1947.76,1953.1,,qa,"My first question is on a scenario that some economists discuss at the moment,"
+1953.2,1957.0,,qa,"which is basically a return to the 2011 scenario,"
+1957.0,1959.58,,qa,"where the ECB hiked relatively early on,"
+1960.08,1964.78,,qa,then had to reverse after finding out that it basically pushed the economy
+1964.78,1966.6,,qa,into further stagnation.
+1967.04,1971.06,,qa,Is this a scenario which is on the top of the governing council's mind
+1971.06,1972.18,,qa,and has it been discussed?
+1972.3,1974.36,,qa,What are your thoughts on that?
+1975.36,1977.78,,qa,And my second question is also to the vice president
+1977.78,1983.06,,qa,"on cross-border banking mergers in the euro area,"
+1983.06,1988.14,,qa,"which has been, I think, kind of a favorite topic of the ECB in recent years."
+1988.52,1990.96,,qa,We now have a situation where the German government
+1990.96,1994.78,,qa,is quite openly opposing a potential merger.
+1995.58,1994.78,periodista,qa,
+2001.58,2002.1,,qa,"Do you have any views on those kind of actions of the German government, or what, at least, the position?"
+2002.26,2004.38,,qa,Thanks.
+2006.34,2008.24,presidenta,qa,"Well, thank you for your first question."
+2011.9,2012.42,presidenta,qa,"You know, we, around the table of the governing council,"
+2017.6,2017.82,presidenta,qa,and the staff of the ECB and the euro system is very attentive to our history.
+2022.98,2023.88,presidenta,qa,"We don't have a long history, but we are paying attention to what has been done in the past."
+2022.98,2034.82,presidenta,qa,"And you might argue that we, learning from history, will want to stay away from the risk of being too early."
+2035.74,2037.46,presidenta,qa,That's your reference to 2011.
+2038.3,2040.88,presidenta,qa,And the risk of being a little bit too late.
+2041.34,2044.46,presidenta,qa,And that's what some of you would characterize for 2022.
+2044.86,2049.06,presidenta,qa,"I would like to debate that forever, of course, but that's where we are."
+2049.06,2058.06,presidenta,qa,"And we are going to be very attentive to the data, very attentive to the inflation expectations,"
+2058.5,2065.4,presidenta,qa,"very attentive to the supply chain disruptions, very looking into the depth of the wage agreements"
+2065.4,2071.02,presidenta,qa,"and the collective agreements that will be negotiated in the near future, attentive to selling prices."
+2071.56,2076.7,presidenta,qa,"I mean, there is a whole range of data that we will be paying attention to in the next few weeks."
+2076.7,2079.66,presidenta,qa,and there will be plenty of it coming in the next few weeks
+2079.66,2083.08,presidenta,qa,to be certain that from the good position we are in
+2083.08,2084.94,presidenta,qa,we make the right decision
+2084.94,2089.54,presidenta,qa,because our determination is to bring inflation to 2% medium term
+2089.54,2094.5,presidenta,qa,"and that, you know, there is an ocean of uncertainty"
+2094.5,2098.0,presidenta,qa,things might change for the good or for the bad
+2098.0,2100.42,presidenta,qa,but one thing is certain
+2100.42,2105.5,presidenta,qa,we are determined to return inflation to 2% medium term
+2105.5,2113.48,,qa,my dear vice president thank you thank you president if you look at our reply the reply
+2113.48,2119.78,,qa,of the euro system to the consultation process that was launched by european commission a couple
+2119.78,2126.36,,qa,of weeks ago that we published a couple of couple of weeks ago you will realize that the main message
+2126.36,2134.26,,qa,that is embedded in that report is that we are in favor of a single jurisdiction for the european
+2134.26,2137.62,,qa,the European banks with free flow of capital and liquidity.
+2138.72,2146.32,,qa,"And I think that, well, you know, referring to the deal that you have indicated,"
+2146.54,2149.06,,qa,"that you have alluded, well, I think that, you know,"
+2149.1,2151.16,,qa,this principle applies very clearly.
+2153.32,2157.46,periodista,qa,Next question now goes to Jean-Philippe Lacour of Agence France-Presse AFP.
+2157.66,2158.26,periodista,qa,"Jean-Philippe, please."
+2158.38,2159.38,,qa,"Thank you, Wolfgang."
+2159.68,2160.84,,qa,"Bonjour, Madame la Présidente."
+2161.28,2161.56,,qa,Bonjour.
+2162.56,2161.56,periodista,qa,
+2171.72,2172.12,,qa,"I'm wondering why in the statement there is this sentence, the Governing Council will closely monitor the situation."
+2174.22,2174.64,,qa,We were speaking about history.
+2181.48,2182.04,,qa,I remember the Trichet times when he said we are looking very closely at the situation.
+2187.56,2192.48,,qa,"It was a press signal for a soon rate step. So I'm wondering why the need to add this in the communique,"
+2192.48,2195.24,,qa,what was the rationale behind this today?
+2195.24,2198.88,,qa,"And on the other side, on my second question,"
+2198.88,2201.96,,qa,"there is a stagnation in the economy,"
+2201.96,2205.92,,qa,or quite the stagnation of the eurozone economy.
+2205.92,2211.32,,qa,"If the ECB were to raise its rate again,"
+2211.32,2215.28,,qa,are you not in a dilemma then to change the situation
+2215.28,2217.08,,qa,from stagnation maybe to a recession?
+2217.08,2222.88,,qa,because an aggressive rate hike could hamper the economy.
+2222.96,2226.56,,qa,So is it here the dilemma you have to solve?
+2226.64,2227.84,,qa,Thank you.
+2230.04,2233.52,presidenta,qa,"Well, thank you very much for your two questions."
+2236.28,2238.96,presidenta,qa,"I think with all due respect to my predecessors,"
+2239.04,2241.12,presidenta,qa,"including my dear friend, Jean-Claude,"
+2242.4,2245.48,presidenta,qa,I try not to be exceedingly coded.
+2245.56,2245.48,periodista,qa,
+2248.76,2251.44,presidenta,qa,So it's not because I add one adverb or one adjective here or there that is going to mean necessarily this or that.
+2253.1,2257.42,presidenta,qa,"But, you know, on the basis of, number one, the hard data that we're getting,"
+2257.96,2264.36,presidenta,qa,"on the basis of the worsening of our risk assessment,"
+2264.64,2269.64,presidenta,qa,you will have noted that the nice word tilted has been removed
+2269.64,2275.1,presidenta,qa,and that we are not saying long-term versus short-term.
+2275.48,2284.74,presidenta,qa,We are looking throughout the period and consider that risk is to the downside for growth and to the upside for inflation.
+2284.74,2289.76,presidenta,qa,"So on the basis of that, and in view of the uncertainty that we have around,"
+2290.66,2304.34,presidenta,qa,"we are bound to revisit the situation on the basis of the data, the projection, the sensitivity analysis,"
+2305.06,2304.34,periodista,qa,
+2308.2,2310.12,presidenta,qa,"the updated scenarios, and then we will take a decision."
+2312.6,2313.66,presidenta,qa,"I think, directionally, I know where we're heading."
+2313.74,2314.54,presidenta,qa,Okay?
+2317.52,2318.68,presidenta,qa,But we shall see.
+2322.12,2322.3,presidenta,qa,There might be massive changes taking place.
+2325.44,2326.06,presidenta,qa,"There's one element that is going to have a real impact,"
+2328.8,2329.38,presidenta,qa,and that is the duration of the conflict.
+2333.68,2334.32,presidenta,qa,"So I'm not suggesting that because the conflict stops tomorrow,"
+2333.68,2338.68,presidenta,qa,there will be no negative supply shock and consequences.
+2338.68,2342.68,presidenta,qa,"There will be, we know that, because of the infrastructure,"
+2342.68,2345.68,presidenta,qa,"because of the logistics, because of the time lag and all that."
+2345.68,2348.68,presidenta,qa,"But it would certainly have a significant impact,"
+2348.68,2352.68,presidenta,qa,"in particular, on the oil futures, for instance."
+2352.68,2357.68,presidenta,qa,"So, we are watching, okay?"
+2357.68,2362.68,presidenta,qa,And we are watching out the development on our economy
+2365.48,2369.06,presidenta,qa,and the impact that this negative supply shock has
+2369.06,2371.88,presidenta,qa,on inflation and on the activity.
+2371.88,2373.56,presidenta,qa,We will be looking at both.
+2377.88,2380.7,presidenta,qa,I think I dealt with the stagflation
+2380.7,2384.5,presidenta,qa,because that's really something that I park in the 70s.
+2384.5,2388.16,presidenta,qa,"And given the projection that we have for March,"
+2388.16,2392.8,presidenta,qa,"zero, 8% growth, followed by 1.2, followed by 1.3."
+2392.8,2394.94,presidenta,qa,"I wouldn't call that stagnation, sorry."
+2396.6,2401.14,presidenta,qa,"It's lower growth, granted, in 26."
+2401.14,2403.7,presidenta,qa,"But we're not in stagnation, let alone recession."
+2403.7,2406.14,presidenta,qa,"Now, you can imagine scenarios"
+2406.14,2409.74,presidenta,qa,where we are heading towards those situations.
+2409.74,2413.1,presidenta,qa,But this is not what we are seeing for the moment.
+2413.1,2414.16,presidenta,qa,Thank you.
+2414.16,2416.82,periodista,qa,"And now Andres Stumpf of L'Expansion. Andres, please."
+2418.18,2418.86,,qa,Thank you.
+2419.28,2422.58,,qa,"Madame Lagarde, with the risk of boring you again..."
+2422.58,2423.38,,qa,You never bore me.
+2425.0,2427.66,,qa,"I'll have to ask again of today's decision,"
+2427.78,2433.58,,qa,because I don't really get if the decision is taken...
+2433.58,2437.58,,qa,We are just waiting to see whether we are in the bad scenario
+2437.58,2441.26,,qa,or in the worst scenario.
+2441.96,2441.26,periodista,qa,
+2450.06,2451.06,,qa,And even the baseline one that is bad by itself contemplates or has embedded two interest rate hikes.
+2455.88,2457.36,,qa,I don't really get what could the ECB be waiting for.
+2459.7,2460.54,,qa,And a second question.
+2466.94,2470.14,,qa,Some leaders advocated last week in Cyprus for activating the escape clause in the fiscal rules. And I would like to know the ECB's opinion on this.
+2471.14,2470.14,periodista,qa,
+2472.14,2474.14,presidenta,qa,"Thank you. Sorry, can you repeat the second question?"
+2474.14,2476.14,,qa,The fiscal escape clause.
+2476.14,2480.14,,qa,Some leaders in Cyprus last week advocated for activating it.
+2480.14,2486.14,,qa,And I would like to know whether the ECB would push for that or against that.
+2486.14,2488.14,,qa,Thank you.
+2488.14,2490.14,presidenta,qa,Thank you for your first question.
+2490.14,2500.14,presidenta,qa,"And thank you for reminding everyone that in the design of our baseline,"
+2500.14,2504.94,presidenta,qa,"And of our two scenarios, one adverse, one severe,"
+2504.94,2511.18,presidenta,qa,"we had in those situations two rate hikes,"
+2511.18,2515.82,presidenta,qa,"which were embedded in both baseline and scenario,"
+2515.82,2518.3,presidenta,qa,given the cutoff date that we took.
+2518.3,2520.46,presidenta,qa,"And as you know, this has changed over the course of time."
+2520.46,2524.94,presidenta,qa,"It goes from two to one to three, but two was certainly the one."
+2528.14,2524.94,periodista,qa,
+2537.18,2545.46,presidenta,qa,and that means that our reaction function is well understood right second I would observe that there has been recently some financial tightening which is also you know doing part of the work
+2545.46,2553.14,presidenta,qa,but the reason we are not and we've debated that yesterday and this morning the reason we are not
+2553.14,2563.46,presidenta,qa,implementing what is embedded today is that number one we start from this good
+2563.46,2571.08,presidenta,qa,position that gives us time to actually revisit all these hard data the soft
+2571.08,2574.32,presidenta,qa,data coming in and that will be confirmed by multiple additional
+2574.32,2580.24,presidenta,qa,information that's point number one point number two we are not seeing
+2580.24,2589.06,presidenta,qa,"second-round effects, okay, so we are seeing direct effects, granted, we're seeing some"
+2589.06,2593.76,presidenta,qa,"indirect effects, but we're certainly not seeing second-round effects."
+2593.76,2597.14,presidenta,qa,And that is something that we need to be very attentive to.
+2597.14,2605.48,presidenta,qa,"We are receiving, not contrarian, but inconsistent information."
+2605.48,2612.7,presidenta,qa,"When I read the results of the corporate telephone survey, for instance, there is no intention"
+2612.7,2619.24,presidenta,qa,on the part of the corporate leaders to significantly increase wages.
+2620.54,2626.04,presidenta,qa,There is a labor market that is more fluid than it was.
+2627.0,2632.86,presidenta,qa,"And as I said, the financial tightening is happening."
+2633.64,2632.86,periodista,qa,
+2641.56,2647.58,presidenta,qa,"So, for all those reasons, we want to give ourselves the time, the depth, and the necessary analysis to determine, in June, what is necessary in order to reach our 2% target."
+2650.08,2653.66,periodista,qa,"And now, our fiscal rules."
+2655.1,2660.36,presidenta,qa,"You know, we had the pleasure of welcoming Valdis Dombrowski for part of our meeting"
+2660.36,2663.0,presidenta,qa,"yesterday afternoon and today, and we discussed that,"
+2663.0,2666.36,presidenta,qa,and we understand that effectively the escape clause
+2666.36,2668.56,presidenta,qa,"has been mentioned by several countries,"
+2668.56,2671.24,presidenta,qa,and that this is under review by the Commission.
+2671.24,2674.44,presidenta,qa,This is not an area over which we have
+2674.44,2677.08,presidenta,qa,any kind of jurisdiction or authority.
+2677.08,2680.12,presidenta,qa,"What we can say, because it has an impact on inflation,"
+2680.12,2683.48,presidenta,qa,"is that whatever fiscal support is granted,"
+2683.48,2686.52,presidenta,qa,whether it's in the form of additional income
+2686.52,2694.52,presidenta,qa,"or tax exemption has to be temporary, targeted and tailored."
+2694.52,2698.52,presidenta,qa,And we think that the price signal in particular should not be eliminated
+2698.52,2704.52,presidenta,qa,by the measures that are temporarily and in a targeted way offered to the citizens.
+2704.52,2709.52,periodista,qa,"Stefan Reikius of Handelsblatt. Stefan, please."
+2709.52,2711.52,,qa,"Thank you, Madam President."
+2711.52,2715.52,,qa,"I have a question, a follow-up on the term stagflation once more,"
+2715.52,2723.68,,qa,"more, which you called fleshy I believe. That's how you come back to it. Yes and I'm asking that because"
+2724.56,2729.76,,qa,quite some analysts and economists are using that term right now to describe the situation that we
+2729.76,2738.24,,qa,are in now. Is there a fundamental misunderstanding in some way of the the economic situation by
+2738.24,2744.48,,qa,economists using this term or is this just mincing words? And my second question is on what you just
+2744.48,2750.8,,qa,"repeated the three T's targeted, temporary and tailored. Do you have a sense that governments"
+2750.8,2757.84,,qa,are adhering to these principles or do you see signs or actions that vary? Thank you.
+2759.68,2764.64,presidenta,qa,"So on your first question, I will not repeat what I said, although I will actually."
+2764.64,2771.76,presidenta,qa,"So stagflation, a characterisation which in our view is associated with the 70s,"
+2771.76,2779.92,presidenta,qa,entirely different situation and we contend that our monetary policy framework is strong enough
+2780.56,2788.72,presidenta,qa,and our determination is solid enough that we will bring inflation back to two percent what happened
+2788.72,2794.48,presidenta,qa,in those days is that inflation was was on this running course and continuously without being
+2794.48,2800.56,presidenta,qa,being you know brought back and tamed we will tame inflation so we will not find ourselves in that
+2800.56,2807.64,presidenta,qa,situation added to which you know as I said 0.8 followed by 1.2 followed by 1.3
+2807.64,2811.94,presidenta,qa,is not what I would call stagnation it's lower growth than what we had
+2811.94,2823.0,presidenta,qa,anticipated before the war unfortunately but so your second question are the
+2823.0,2824.72,presidenta,qa,"The three Ts, yes."
+2824.72,2829.04,presidenta,qa,"So targeted, temporary, tailored."
+2829.04,2834.96,presidenta,qa,"Some people add a fourth T, by the way, which is transformational, so that the measures"
+2834.96,2843.58,presidenta,qa,that are taken actually take us in the direction of some structural reform element about it.
+2843.58,2849.4,presidenta,qa,Our great staff has done a calculation of how much GDP has already been committed in
+2849.4,2851.8,presidenta,qa,in terms of TTT.
+2851.8,2854.02,presidenta,qa,"And what we have at this point in time,"
+2854.02,2857.82,presidenta,qa,"and that was, I think, as at April 21st,"
+2857.82,2860.48,presidenta,qa,but I stand to be corrected on that one.
+2860.48,2863.36,presidenta,qa,"But based on what had been committed by then,"
+2863.36,2868.36,presidenta,qa,it equaled 0.1% of euro area GDP by the various governments.
+2869.24,2873.86,presidenta,qa,"Now, some governments had more fiscal space than others."
+2874.78,2878.02,presidenta,qa,Certain governments did not pay attention
+2878.02,2886.6,presidenta,qa,"one of the T's. I think that the temporary one, I think, is holding, but we keep repeating,"
+2886.6,2893.54,presidenta,qa,"and I hope it sinks in, that temporary targeted tailored are all necessary in order to navigate"
+2893.54,2896.46,presidenta,qa,through this period. Thank you.
+2896.46,2901.08,periodista,qa,"For our last question, we turn back to video participants, and it's for Chelsea Dahlony"
+2901.08,2903.48,periodista,qa,"of the Wall Street Journal, Chelsea, please."
+2909.04,2910.48,presidenta,qa,Don't go. It's not over.
+2913.5,2914.78,,qa,"Yeah, thanks for taking my question."
+2916.18,2918.36,,qa,So you spoke a bit about propagation.
+2919.02,2921.26,,qa,I was hoping you could just give a little more clarity
+2921.26,2924.38,,qa,on the timeline for when we might expect
+2924.38,2927.7,,qa,to see some of these second round effects.
+2927.7,2929.86,,qa,Like we're two months into this now.
+2931.08,2937.84,,qa,"is June or is it sometime later? Like, yeah, what is the timeline for we might expect to see"
+2937.84,2944.82,,qa,"second round effects? And then just to clarify this point, is there any scenario in which the"
+2944.82,2951.62,,qa,"ECB doesn't react to these higher energy prices? Like looking at the baseline, what's already in"
+2951.62,2958.54,,qa,"the pipeline, the likelihood that, you know, getting energy flows restarted takes months."
+2958.54,2967.6,,qa,Is there any situation in which there's no need to react at all?
+2970.6,2976.92,presidenta,qa,"First of all, the ECB will always react because we will take inflation back to 2%."
+2976.92,2979.82,presidenta,qa,"So whatever the reaction, but we will react."
+2981.62,2982.96,presidenta,qa,Time for propagation.
+2983.76,2982.96,periodista,qa,
+2997.62,3015.98,presidenta,qa,"We believe that by June we will have a lot more information that will help us revisit, ascertain, verify to see whether or not we have second round effects. And as I said, the number of indicators will include many, many elements from the wage setting, the hiring, the selling price revisions, the commodity prices."
+3015.98,3019.98,presidenta,qa,"I should have mentioned that one first, commodities prices,"
+3019.98,3023.46,presidenta,qa,"because it's both oil and gas, but also all the derivative"
+3023.46,3027.02,presidenta,qa,and everything that is actually channeled
+3027.02,3029.7,presidenta,qa,through the Strait of Hormuz in particular.
+3029.7,3034.14,presidenta,qa,And we will take all that into account.
+3034.14,3036.7,presidenta,qa,And we will continuously do that.
+3036.7,3040.14,presidenta,qa,"So before you all go, I would like to take advantage"
+3040.14,3043.54,presidenta,qa,of my position to actually turn the floor over
+3043.54,3052.26,presidenta,qa,"to my dear Vice President, my friend and colleague Luis de Guindos and ask him his take from eight"
+3052.26,3059.46,presidenta,qa,"years at the helm of the ECB together with a President. Well, thank you. Thank you very much,"
+3059.46,3068.5,,qa,President. Let me say first that it has been a real honor to accompany you and Wolkwan for more
+3068.5,3078.18,,qa,than six years to this press conference i think that is really enlightening and perhaps to say
+3078.18,3086.1,,qa,in my view that this press conference you know from my standpoint is one of the most useful
+3086.1,3094.42,,qa,relevant instruments that we have to communicate our views our policy decisions our you know the
+3095.62,3094.42,periodista,qa,
+3100.14,3100.84,,qa,our approach with respect to the assessment of financial stability situations.
+3105.62,3108.48,,qa,"And I think that the dialogue that normally, you know, you respond and you ask questions is something that I think that is very, very, very useful."
+3109.24,3110.9,,qa,So you play a role here.
+3111.1,3114.18,,qa,"You play a very important role, you know, in this press conference."
+3114.8,3120.3,,qa,"Very often I have found that your questions were the correct ones,"
+3121.12,3122.54,,qa,"that were smart, intelligent."
+3123.74,3122.54,periodista,qa,
+3124.98,3126.9,,qa,and sometimes a little bit uncomfortable. But I think that
+3126.9,3129.1,,qa,"you know, to ask"
+3129.1,3130.7,,qa,complicated
+3130.7,3133.14,,qa,questions is part
+3133.14,3134.92,,qa,of the job of a good
+3134.92,3137.22,,qa,"journalist. You know, sometimes"
+3137.22,3138.82,,qa,"you know, on the other side, well,"
+3138.92,3140.9,,qa,"you can say, well, why they are asking"
+3140.9,3143.06,,qa,me about that? But I think that
+3143.06,3144.92,,qa,is your real obligation
+3144.92,3146.42,,qa,and it's your mission. And you have
+3146.42,3148.86,,qa,accomplished that over
+3148.86,3151.24,,qa,the last eight years.
+3151.4,3151.24,periodista,qa,
+3154.78,3156.04,,qa,over the last eight years that I have been coming to this press conference.
+3157.7,3158.92,presidenta,qa,"Thank you very much, Vice President."
+3162.0,3162.06,periodista,qa,"And we'll see each other on 11 June, if you so want,"
+3163.82,3164.06,periodista,qa,the next governing council and press conference.
+3164.4,3164.4,periodista,qa,Thank you.
