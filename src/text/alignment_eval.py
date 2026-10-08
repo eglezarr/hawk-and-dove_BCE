@@ -7,6 +7,7 @@ tiempos reales se conocen, se puede medir el error de la alineación.
 """
 import random
 
+import numpy as np
 import pandas as pd
 
 from src.text.alignment import alinear
@@ -65,3 +66,40 @@ def validar(corpus_evento: pd.DataFrame, niveles: list[float], semillas: int = 5
         filas.append({"error_palabras": nivel, **errores(unidas),
                       "cobertura_media": round(float(unidas["cobertura"].mean()), 3)})
     return pd.DataFrame(filas)
+
+
+# ---------------------------------------------------------------------------
+# Comprobaciones con datos reales
+# ---------------------------------------------------------------------------
+def ritmo_anomalo(tiempos: pd.DataFrame, frases: pd.DataFrame, minimo: int = 8,
+                  rango: tuple[float, float] = (0.2, 1.2)) -> int:
+    """Frases de al menos `minimo` palabras con un ritmo imposible (segundos por palabra fuera de `rango`).
+
+    El habla normal ronda 0,4-0,5 s por palabra; menos de 0,2 (cinco palabras por segundo) o más
+    de 1,2 indican un inicio o un fin mal situados.
+    """
+    unidas = tiempos.merge(frases[["sentence_id", "text"]], on="sentence_id")
+    palabras = unidas["text"].str.split().str.len()
+    ritmo = (unidas["end"] - unidas["start"]) / palabras
+    return int(((palabras >= minimo) & ((ritmo < rango[0]) | (ritmo > rango[1]))).sum())
+
+
+def periodista_en_pantalla(tiempos: pd.DataFrame, frases: pd.DataFrame, cara: pd.DataFrame) -> pd.Series:
+    """Proporción media de primeros planos de otra persona durante las frases de cada parte de la rueda.
+
+    Comprobación independiente de la alineación con face.csv (bloque 3): durante las preguntas,
+    la realización enfoca a los periodistas (person = "otro"); durante la declaración y las
+    respuestas, a la presidenta. Con tiempos correctos, la proporción es alta en las preguntas
+    y casi nula en el resto. Solo cuentan los segundos con una cara en primer plano.
+    """
+    con_cara = cara[cara["face_detected"].astype(bool)]
+    otro = set(con_cara.loc[con_cara["person"] == "otro", "start"].astype(int))
+    validos = set(con_cara["start"].astype(int))
+    unidas = tiempos.merge(frases[["sentence_id", "role"]], on="sentence_id")
+
+    def proporcion(inicio: float, fin: float) -> float:
+        segundos = set(range(int(np.floor(inicio)), int(np.ceil(fin)))) & validos
+        return len(segundos & otro) / len(segundos) if segundos else np.nan
+
+    unidas["periodista"] = [proporcion(a, b) for a, b in zip(unidas["start"], unidas["end"])]
+    return unidas.groupby("role")["periodista"].mean()
